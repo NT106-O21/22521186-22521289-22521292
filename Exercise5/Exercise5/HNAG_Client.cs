@@ -22,7 +22,7 @@ namespace Exercise5
             InitializeComponent();
 
             CheckForIllegalCrossThreadCalls = false;
-            textBox3.Visible = false;
+            foodImage2.Visible = false;
 
             Connect();
         }
@@ -33,7 +33,7 @@ namespace Exercise5
         void Connect()
         {
             IP = new IPEndPoint(IPAddress.Parse("127.0.0.1"), 8080);
-            client = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.IP);
+            client = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
 
             try
             {
@@ -61,9 +61,9 @@ namespace Exercise5
             {
                 while (true)
                 {
-                    byte[] data = new byte[1024 * 5000];
+                    byte[] data = new byte[1024 * 8192];
                     client.Receive(data);
-                    textBox1.Text = Encoding.UTF8.GetString(data);
+                    userName.Text = Encoding.UTF8.GetString(data);
                 }
             }
             catch
@@ -95,12 +95,19 @@ namespace Exercise5
             client.Close();
         }
 
-        private void btnBrowse_Click(object sender, EventArgs e)
+        private void btnBrowse2_Click(object sender, EventArgs e)
         {
             OpenFileDialog ofd = new OpenFileDialog();
             ofd.ShowDialog();
-            textBox3.Text = Path.GetFileName(ofd.FileName);
-            textBox3.Visible = true;
+            if (Path.GetExtension(ofd.FileName) == ".png")
+            {
+                foodImage2.Text = Path.GetFileName(ofd.FileName);
+                foodImage2.Visible = true;
+            }
+            else
+            {
+                MessageBox.Show("Vui lòng chọn file ảnh .png !!!", "Báo lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
     }
 }

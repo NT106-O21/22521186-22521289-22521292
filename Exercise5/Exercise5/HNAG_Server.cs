@@ -21,6 +21,7 @@ namespace Exercise5
             InitializeComponent();
 
             CheckForIllegalCrossThreadCalls = false;
+            SetDefaultFoodList();
 
             Connect();
         }
@@ -28,11 +29,12 @@ namespace Exercise5
         IPEndPoint IP;
         Socket server;
         List<Socket> clientList = new List<Socket>();
+        List<CommunityFood> foodList = new List<CommunityFood>();
 
         void Connect()
         {
             IP = new IPEndPoint(IPAddress.Any, 8080);
-            server = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.IP);
+            server = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
 
             server.Bind(IP);
 
@@ -111,12 +113,21 @@ namespace Exercise5
             server.Close();
         }
 
-        private void btnAdd_Click(object sender, EventArgs e)
+        void SetDefaultFoodList()
         {
-            foreach (Socket item in clientList)
+            string workingDirectory = Environment.CurrentDirectory;
+            string projectDirectory = Directory.GetParent(workingDirectory).Parent.Parent.FullName;
+            for (int i = 0; i < listView1.Items.Count; i++)
             {
-                Send(item);
+                string path = Path.Combine(projectDirectory, listView1.Items[i].ImageKey);
+                CommunityFood food = new CommunityFood(listView1.Items[i].Text, "Server", Image.FromFile(path));
+                foodList.Add(food);
             }
+        }
+
+        private void btnUpdate_Click(object sender, EventArgs e)
+        {
+            reportBox.Items.Add(foodList.Count);
         }
     }
 }

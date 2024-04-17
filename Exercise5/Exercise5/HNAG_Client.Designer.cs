@@ -32,19 +32,28 @@
             imageList1 = new ImageList(components);
             tabControl1 = new TabControl();
             tabPage1 = new TabPage();
+            btnBrowse1 = new Button();
+            label7 = new Label();
+            label6 = new Label();
+            foodImage1 = new TextBox();
+            label5 = new Label();
+            listView2 = new ListView();
             tabPage2 = new TabPage();
-            btnAdd = new Button();
+            foodImage2 = new TextBox();
+            btnAdd2 = new Button();
             tenanh = new Label();
-            btnBrowse = new Button();
+            btnBrowse2 = new Button();
             label4 = new Label();
             label3 = new Label();
-            textBox2 = new TextBox();
+            foodName2 = new TextBox();
             label2 = new Label();
-            textBox1 = new TextBox();
+            userName = new TextBox();
             label1 = new Label();
             listView1 = new ListView();
-            textBox3 = new TextBox();
+            foodName1 = new TextBox();
+            btnAdd1 = new Button();
             tabControl1.SuspendLayout();
+            tabPage1.SuspendLayout();
             tabPage2.SuspendLayout();
             SuspendLayout();
             // 
@@ -68,6 +77,14 @@
             // 
             tabPage1.BackColor = SystemColors.ButtonShadow;
             tabPage1.BackgroundImageLayout = ImageLayout.Stretch;
+            tabPage1.Controls.Add(btnAdd1);
+            tabPage1.Controls.Add(foodName1);
+            tabPage1.Controls.Add(btnBrowse1);
+            tabPage1.Controls.Add(label7);
+            tabPage1.Controls.Add(label6);
+            tabPage1.Controls.Add(foodImage1);
+            tabPage1.Controls.Add(label5);
+            tabPage1.Controls.Add(listView2);
             tabPage1.Location = new Point(4, 29);
             tabPage1.Name = "tabPage1";
             tabPage1.Padding = new Padding(3);
@@ -75,19 +92,74 @@
             tabPage1.TabIndex = 0;
             tabPage1.Text = "Cá nhân";
             // 
+            // btnBrowse1
+            // 
+            btnBrowse1.BackColor = SystemColors.ActiveCaption;
+            btnBrowse1.Location = new Point(247, 89);
+            btnBrowse1.Name = "btnBrowse1";
+            btnBrowse1.Size = new Size(94, 29);
+            btnBrowse1.TabIndex = 5;
+            btnBrowse1.Text = "Duyệt ...";
+            btnBrowse1.UseVisualStyleBackColor = false;
+            // 
+            // label7
+            // 
+            label7.AutoSize = true;
+            label7.Font = new Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label7.Location = new Point(6, 89);
+            label7.Name = "label7";
+            label7.Size = new Size(83, 25);
+            label7.TabIndex = 4;
+            label7.Text = "Hình ảnh";
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Font = new Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label6.Location = new Point(6, 48);
+            label6.Name = "label6";
+            label6.Size = new Size(38, 25);
+            label6.TabIndex = 3;
+            label6.Text = "Tên";
+            // 
+            // foodImage1
+            // 
+            foodImage1.Location = new Point(95, 89);
+            foodImage1.Name = "foodImage1";
+            foodImage1.Size = new Size(146, 27);
+            foodImage1.TabIndex = 2;
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Font = new Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label5.Location = new Point(6, 6);
+            label5.Name = "label5";
+            label5.Size = new Size(154, 25);
+            label5.TabIndex = 1;
+            label5.Text = "Thông tin món ăn";
+            // 
+            // listView2
+            // 
+            listView2.Location = new Point(347, 6);
+            listView2.Name = "listView2";
+            listView2.Size = new Size(489, 501);
+            listView2.TabIndex = 0;
+            listView2.UseCompatibleStateImageBehavior = false;
+            // 
             // tabPage2
             // 
             tabPage2.BackColor = SystemColors.ButtonShadow;
             tabPage2.BackgroundImageLayout = ImageLayout.Stretch;
-            tabPage2.Controls.Add(textBox3);
-            tabPage2.Controls.Add(btnAdd);
+            tabPage2.Controls.Add(foodImage2);
+            tabPage2.Controls.Add(btnAdd2);
             tabPage2.Controls.Add(tenanh);
-            tabPage2.Controls.Add(btnBrowse);
+            tabPage2.Controls.Add(btnBrowse2);
             tabPage2.Controls.Add(label4);
             tabPage2.Controls.Add(label3);
-            tabPage2.Controls.Add(textBox2);
+            tabPage2.Controls.Add(foodName2);
             tabPage2.Controls.Add(label2);
-            tabPage2.Controls.Add(textBox1);
+            tabPage2.Controls.Add(userName);
             tabPage2.Controls.Add(label1);
             tabPage2.Controls.Add(listView1);
             tabPage2.Location = new Point(4, 29);
@@ -97,15 +169,23 @@
             tabPage2.TabIndex = 1;
             tabPage2.Text = "Cộng đồng";
             // 
-            // btnAdd
+            // foodImage2
             // 
-            btnAdd.BackColor = Color.Lime;
-            btnAdd.Location = new Point(89, 195);
-            btnAdd.Name = "btnAdd";
-            btnAdd.Size = new Size(161, 50);
-            btnAdd.TabIndex = 9;
-            btnAdd.Text = "Thêm món ăn";
-            btnAdd.UseVisualStyleBackColor = false;
+            foodImage2.Location = new Point(89, 146);
+            foodImage2.Multiline = true;
+            foodImage2.Name = "foodImage2";
+            foodImage2.Size = new Size(152, 27);
+            foodImage2.TabIndex = 10;
+            // 
+            // btnAdd2
+            // 
+            btnAdd2.BackColor = Color.Lime;
+            btnAdd2.Location = new Point(89, 181);
+            btnAdd2.Name = "btnAdd2";
+            btnAdd2.Size = new Size(161, 50);
+            btnAdd2.TabIndex = 9;
+            btnAdd2.Text = "Thêm món ăn";
+            btnAdd2.UseVisualStyleBackColor = false;
             // 
             // tenanh
             // 
@@ -115,16 +195,16 @@
             tenanh.Size = new Size(0, 20);
             tenanh.TabIndex = 7;
             // 
-            // btnBrowse
+            // btnBrowse2
             // 
-            btnBrowse.BackColor = SystemColors.ActiveCaption;
-            btnBrowse.Location = new Point(247, 146);
-            btnBrowse.Name = "btnBrowse";
-            btnBrowse.Size = new Size(94, 29);
-            btnBrowse.TabIndex = 4;
-            btnBrowse.Text = "Duyệt ...";
-            btnBrowse.UseVisualStyleBackColor = false;
-            btnBrowse.Click += btnBrowse_Click;
+            btnBrowse2.BackColor = SystemColors.ActiveCaption;
+            btnBrowse2.Location = new Point(247, 146);
+            btnBrowse2.Name = "btnBrowse2";
+            btnBrowse2.Size = new Size(94, 29);
+            btnBrowse2.TabIndex = 4;
+            btnBrowse2.Text = "Duyệt ...";
+            btnBrowse2.UseVisualStyleBackColor = false;
+            btnBrowse2.Click += btnBrowse2_Click;
             // 
             // label4
             // 
@@ -146,14 +226,14 @@
             label3.TabIndex = 5;
             label3.Text = "Tên";
             // 
-            // textBox2
+            // foodName2
             // 
-            textBox2.Font = new Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox2.Location = new Point(89, 99);
-            textBox2.Multiline = true;
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(252, 34);
-            textBox2.TabIndex = 4;
+            foodName2.Font = new Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            foodName2.Location = new Point(89, 99);
+            foodName2.Multiline = true;
+            foodName2.Name = "foodName2";
+            foodName2.Size = new Size(252, 34);
+            foodName2.TabIndex = 4;
             // 
             // label2
             // 
@@ -165,14 +245,14 @@
             label2.TabIndex = 3;
             label2.Text = "Thông tin món ăn";
             // 
-            // textBox1
+            // userName
             // 
-            textBox1.Font = new Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox1.Location = new Point(6, 34);
-            textBox1.Multiline = true;
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(335, 34);
-            textBox1.TabIndex = 2;
+            userName.Font = new Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            userName.Location = new Point(6, 34);
+            userName.Multiline = true;
+            userName.Name = "userName";
+            userName.Size = new Size(335, 34);
+            userName.TabIndex = 2;
             // 
             // label1
             // 
@@ -192,12 +272,22 @@
             listView1.TabIndex = 0;
             listView1.UseCompatibleStateImageBehavior = false;
             // 
-            // textBox3
+            // foodName1
             // 
-            textBox3.Location = new Point(89, 146);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(152, 27);
-            textBox3.TabIndex = 10;
+            foodName1.Location = new Point(95, 49);
+            foodName1.Name = "foodName1";
+            foodName1.Size = new Size(246, 27);
+            foodName1.TabIndex = 6;
+            // 
+            // btnAdd1
+            // 
+            btnAdd1.BackColor = Color.Lime;
+            btnAdd1.Location = new Point(95, 124);
+            btnAdd1.Name = "btnAdd1";
+            btnAdd1.Size = new Size(161, 50);
+            btnAdd1.TabIndex = 7;
+            btnAdd1.Text = "Thêm món ăn";
+            btnAdd1.UseVisualStyleBackColor = false;
             // 
             // HNAG_Client
             // 
@@ -213,6 +303,8 @@
             Text = "HNAG_Client";
             FormClosed += HNAG_Client_FormClosed;
             tabControl1.ResumeLayout(false);
+            tabPage1.ResumeLayout(false);
+            tabPage1.PerformLayout();
             tabPage2.ResumeLayout(false);
             tabPage2.PerformLayout();
             ResumeLayout(false);
@@ -224,15 +316,23 @@
         private TabPage tabPage1;
         private TabPage tabPage2;
         private ListView listView1;
-        private TextBox textBox1;
+        private TextBox userName;
         private Label label1;
         private Label label3;
-        private TextBox textBox2;
+        private TextBox foodName2;
         private Label label2;
         private Label tenanh;
-        private Button btnBrowse;
+        private Button btnBrowse2;
         private Label label4;
-        private Button btnAdd;
-        private TextBox textBox3;
+        private Button btnAdd2;
+        private TextBox foodImage2;
+        private ListView listView2;
+        private Button btnBrowse1;
+        private Label label7;
+        private Label label6;
+        private TextBox foodImage1;
+        private Label label5;
+        private TextBox foodName1;
+        private Button btnAdd1;
     }
 }
