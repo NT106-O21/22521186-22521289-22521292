@@ -34,10 +34,10 @@
             // 
             // btnClient
             // 
-            btnClient.BackColor = SystemColors.ActiveCaption;
-            btnClient.Location = new Point(194, 147);
+            btnClient.BackColor = Color.FromArgb(255, 128, 255);
+            btnClient.Location = new Point(50, 62);
             btnClient.Name = "btnClient";
-            btnClient.Size = new Size(94, 29);
+            btnClient.Size = new Size(197, 97);
             btnClient.TabIndex = 0;
             btnClient.Text = "Client";
             btnClient.UseVisualStyleBackColor = false;
@@ -45,10 +45,10 @@
             // 
             // btnServer
             // 
-            btnServer.BackColor = SystemColors.ActiveCaption;
-            btnServer.Location = new Point(475, 147);
+            btnServer.BackColor = Color.Lime;
+            btnServer.Location = new Point(347, 62);
             btnServer.Name = "btnServer";
-            btnServer.Size = new Size(94, 29);
+            btnServer.Size = new Size(197, 97);
             btnServer.TabIndex = 1;
             btnServer.Text = "Server";
             btnServer.UseVisualStyleBackColor = false;
@@ -59,7 +59,9 @@
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ButtonShadow;
-            ClientSize = new Size(800, 450);
+            BackgroundImage = Properties.Resources.background;
+            BackgroundImageLayout = ImageLayout.Stretch;
+            ClientSize = new Size(609, 226);
             Controls.Add(btnServer);
             Controls.Add(btnClient);
             Name = "FormDangNhap";

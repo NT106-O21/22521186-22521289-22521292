@@ -10,12 +10,12 @@ namespace Exercise5
     {
         public string FoodName { get; set; }
         public string UserName { get; set; }
-        public Image FoodImage { get; set; }
-        public CommunityFood(string name, string username, Image image)
+        //public Image FoodImage { get; set; }
+        public CommunityFood(string name, string username/*, Image image*/)
         {
             FoodName = name;
             UserName = username;
-            FoodImage = image;
+            //FoodImage = image;
         }
     }
 }
