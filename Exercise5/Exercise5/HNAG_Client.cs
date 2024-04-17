@@ -63,8 +63,7 @@ namespace Exercise5
                 {
                     byte[] data = new byte[1024 * 5000];
                     client.Receive(data);
-
-
+                    textBox1.Text = Encoding.UTF8.GetString(data);
                 }
             }
             catch

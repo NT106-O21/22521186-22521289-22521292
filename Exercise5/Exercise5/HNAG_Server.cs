@@ -65,6 +65,8 @@ namespace Exercise5
 
         void Send(Socket client)
         {
+            byte[] data = Encoding.UTF8.GetBytes("hello");
+            client.Send(data);
         }
 
         void Receive(object obj)

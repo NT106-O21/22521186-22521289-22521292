@@ -30,6 +30,7 @@
         {
             components = new System.ComponentModel.Container();
             imageList1 = new ImageList(components);
+            btnAdd = new Button();
             SuspendLayout();
             // 
             // imageList1
@@ -37,6 +38,16 @@
             imageList1.ColorDepth = ColorDepth.Depth32Bit;
             imageList1.ImageSize = new Size(16, 16);
             imageList1.TransparentColor = Color.Transparent;
+            // 
+            // btnAdd
+            // 
+            btnAdd.Location = new Point(380, 228);
+            btnAdd.Name = "btnAdd";
+            btnAdd.Size = new Size(94, 29);
+            btnAdd.TabIndex = 0;
+            btnAdd.Text = "button1";
+            btnAdd.UseVisualStyleBackColor = true;
+            btnAdd.Click += btnAdd_Click;
             // 
             // HNAG_Server
             // 
@@ -46,6 +57,7 @@
             BackgroundImage = Properties.Resources.background1;
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(896, 605);
+            Controls.Add(btnAdd);
             DoubleBuffered = true;
             Name = "HNAG_Server";
             Text = "HNAG_Server";
@@ -54,5 +66,6 @@
 
         #endregion
         private ImageList imageList1;
+        private Button btnAdd;
     }
 }
