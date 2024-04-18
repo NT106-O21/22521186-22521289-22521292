@@ -30,6 +30,7 @@ namespace Exercise5
         IPEndPoint IP;
         Socket server;
         List<Socket> clientList = new List<Socket>();
+
         List<CommunityFood> foodList = new List<CommunityFood>();
         int bytelength = 0;
         byte[] storagedata = new byte[1024 * 5000];
@@ -49,15 +50,16 @@ namespace Exercise5
                     while (true)
                     {
                         server.Listen(1000);
-                        Socket client = server.Accept();
+                        Socket client = server.Accept();    
 
                         clientList.Add(client);
                         count++;
-                        AddMessage("Client" + count.ToString() + " đã tham gia kênh");
+                        AddMessage("Client_" + count.ToString() + " đã tham gia kênh");
 
                         Thread receive = new Thread(Receive);
                         receive.IsBackground = true;
                         receive.Start(client);
+
                         SendFoodList();
                     }
                 }
@@ -86,7 +88,6 @@ namespace Exercise5
             }
             catch
             {
-                //MessageBox.Show("Error");
                 clientList.Remove(c);
                 c.Close();
             }
@@ -133,7 +134,7 @@ namespace Exercise5
             string jsonstring = JsonSerializer.Serialize(foodList, jsonSetting);
 
             byte[] bytes = Encoding.UTF8.GetBytes(jsonstring);
-
+            
             foreach (Socket item in clientList)
             {
                 item.Send(bytes);

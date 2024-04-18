@@ -26,6 +26,7 @@ namespace Exercise5
             CheckForIllegalCrossThreadCalls = false;
             foodImage2.Visible = false;
 
+            SetPersonalFoodList();
             Connect();
         }
 
@@ -34,6 +35,18 @@ namespace Exercise5
         List<CommunityFood> foodList = new List<CommunityFood>();
         int bytelength = 0;
         byte[] storagedata = new byte[1024 * 5000];
+
+        public class PersonalFood
+        {
+            public string FoodName { get; set; }
+            public string FoodImage { get; set; }
+            public PersonalFood(string foodName, string foodImage)
+            {
+                FoodName = foodName;
+                FoodImage = foodImage;
+            }
+        }
+        List<PersonalFood> pfoodList = new List<PersonalFood>();
 
         void Connect()
         {
@@ -96,14 +109,13 @@ namespace Exercise5
 
         private void btnAdd2_Click(object sender, EventArgs e)
         {
-
             string workingDirectory = Environment.CurrentDirectory;
             string projectDirectory = Directory.GetParent(workingDirectory).Parent.Parent.FullName;
 
-            if (userName.Text.Trim() != "" && foodName2.Text.Trim() != "" && foodImage2.Text.Trim() != "")
+            if (userName.Text.Trim() != "" && foodName21.Text.Trim() != "" && foodImage2.Text.Trim() != "")
             {
                 string path = Path.Combine(projectDirectory, foodImage2.Text.Trim());
-                CommunityFood food = new CommunityFood(foodName2.Text.Trim(), userName.Text.Trim(), path);
+                CommunityFood food = new CommunityFood(foodName21.Text.Trim(), userName.Text.Trim(), path);
                 foodList.Add(food);
 
                 var jsonSetting = new JsonSerializerOptions
@@ -121,12 +133,35 @@ namespace Exercise5
 
         private void btnBrowse1_Click(object sender, EventArgs e)
         {
-
+            OpenFileDialog ofd = new OpenFileDialog();
+            ofd.ShowDialog();
+            if (Path.GetExtension(ofd.FileName) == ".png")
+            {
+                foodImage1.Text = Path.GetFileName(ofd.FileName);
+                foodImage1.Visible = true;
+            }
+            else
+            {
+                MessageBox.Show("Vui lòng chọn file ảnh .png !!!", "Báo lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private void btnAdd1_Click(object sender, EventArgs e)
         {
+            string workingDirectory = Environment.CurrentDirectory;
+            string projectDirectory = Directory.GetParent(workingDirectory).Parent.Parent.FullName;
 
+            if (foodName11.Text.Trim() != "" && foodImage1.Text.Trim() != "")
+            {
+                string path = Path.Combine(projectDirectory, foodImage1.Text.Trim());
+                PersonalFood food = new PersonalFood(foodName11.Text.Trim(),path);
+                pfoodList.Add(food);
+
+                listView1.Items.Add(food.FoodName);
+                imageList1.Images.Add(Image.FromFile(food.FoodImage));
+                listView1.Items[listView1.Items.Count - 1].ImageIndex = imageList1.Images.Count - 1;
+            }
+            else MessageBox.Show("Vui lòng không để ô trống !!!", "Báo lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
 
         void SetFoodList()
@@ -163,6 +198,51 @@ namespace Exercise5
                 imageList2.Images.Add(Image.FromFile(foodList.ElementAt(i).FoodImage));
                 listView2.Items[i].ImageIndex = i;
             }
+        }
+
+        void SetPersonalFoodList()
+        {
+            string workingDirectory = Environment.CurrentDirectory;
+            string projectDirectory = Directory.GetParent(workingDirectory).Parent.Parent.FullName;
+
+            for (int i = 0; i < listView1.Items.Count; i++)
+            {
+                string path = Path.Combine(projectDirectory, listView1.Items[i].ImageKey);
+                PersonalFood newfood = new PersonalFood(listView1.Items[i].Text, path);
+                pfoodList.Add(newfood);
+            }
+        }
+
+        private void btnChoose1_Click(object sender, EventArgs e)
+        {
+            Random rd = new Random();
+            foodName12.Visible = true;
+
+            if (pfoodList.Count != 0)
+            {
+                int index = rd.Next(pfoodList.Count);
+                foodName12.Text = pfoodList.ElementAt(index).FoodName;
+                pictureBox1.Image = Image.FromFile(pfoodList.ElementAt(index).FoodImage);
+            }
+            else MessageBox.Show("Vui lòng không để danh sách trống !!!", "Báo lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+        }
+
+        private void btnChoose2_Click(object sender, EventArgs e)
+        {
+            Random rd = new Random();
+            foodName22.Visible = true;
+            userName2.Visible = true;
+            label8.Visible = true;
+            label9.Visible = true;
+
+            if (foodList.Count != 0)
+            {
+                int index = rd.Next(foodList.Count);
+                foodName22.Text = foodList.ElementAt(index).FoodName;
+                pictureBox2.Image = Image.FromFile(foodList.ElementAt(index).FoodImage);
+                userName2.Text = foodList.ElementAt(index).UserName;
+            }
+            else MessageBox.Show("Vui lòng không để danh sách trống !!!", "Báo lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
     }
 }
