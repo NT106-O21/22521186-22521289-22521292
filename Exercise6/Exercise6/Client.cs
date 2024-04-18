@@ -19,7 +19,7 @@ namespace Exercise6
             InitializeComponent();
         }
         private TcpClient tcpClient;
-        IPEndPoint server_endpoint = new IPEndPoint(IPAddress.Parse("192.168.1.4"), 8080);
+        IPEndPoint server_endpoint = new IPEndPoint(IPAddress.Parse("192.168.56.1"), 8080);
         private delegate void MessageDelegate(string message);
         private delegate void ParticipantsDelegate(string username);
         private delegate void OnConnectEventHandler(bool is_connected);
@@ -119,7 +119,32 @@ namespace Exercise6
             }
         }
 
-        private void button1_Click(object sender, EventArgs e)
+
+
+        private void lstParticipants_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            int index = lstParticipants.SelectedIndex;
+            if (index != -1)
+            {
+                Sender sender1 = new Sender()
+                {
+                    Text = lstParticipants.Items[index].ToString()
+                };
+                sender1.Show();
+
+                Receiver receiver = new Receiver()
+                {
+                    Text = txtUserName.Text.Trim()
+                };
+                receiver.Show();
+            }
+            else
+            {
+                MessageBox.Show("There is not any participants!");
+            }
+        }
+
+        private void btnSend_Click(object sender, EventArgs e)
         {
             try
             {
@@ -153,7 +178,7 @@ namespace Exercise6
             }
         }
 
-        private void Client_FormClosing(object sender, FormClosingEventArgs e)
+        private void Client_FormClosed(object sender, FormClosedEventArgs e)
         {
             Packet sendData = new Packet()
             {
@@ -170,25 +195,5 @@ namespace Exercise6
                 tcpClient.Client.Shutdown(SocketShutdown.Send);
             }
         }
-
-        private void lstParticipants_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            int index = lstParticipants.SelectedIndex;
-            if (index != -1)
-            {
-                Receiver receiver = new Receiver()
-                {
-                    Text = lstParticipants.Items[index].ToString()
-                };
-                receiver.Show();
-            }
-            else
-            {
-                MessageBox.Show("There is not any participants!");
-            }
-        }
     }
-
-
-
 }

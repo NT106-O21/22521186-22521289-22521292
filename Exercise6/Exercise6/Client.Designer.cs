@@ -34,7 +34,7 @@
             txtUserName = new TextBox();
             txtMessage = new TextBox();
             btnConnect = new Button();
-            button1 = new Button();
+            btnSend = new Button();
             grpUser = new GroupBox();
             grpMessage = new GroupBox();
             grpParticipants.SuspendLayout();
@@ -94,15 +94,15 @@
             btnConnect.UseVisualStyleBackColor = true;
             btnConnect.Click += btnConnect_Click;
             // 
-            // button1
+            // btnSend
             // 
-            button1.Location = new Point(590, 49);
-            button1.Name = "button1";
-            button1.Size = new Size(94, 29);
-            button1.TabIndex = 5;
-            button1.Text = "Send";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
+            btnSend.Location = new Point(590, 49);
+            btnSend.Name = "btnSend";
+            btnSend.Size = new Size(94, 29);
+            btnSend.TabIndex = 5;
+            btnSend.Text = "Send";
+            btnSend.UseVisualStyleBackColor = true;
+            btnSend.Click += btnSend_Click;
             // 
             // grpUser
             // 
@@ -118,7 +118,7 @@
             // grpMessage
             // 
             grpMessage.Controls.Add(txtMessage);
-            grpMessage.Controls.Add(button1);
+            grpMessage.Controls.Add(btnSend);
             grpMessage.Location = new Point(12, 477);
             grpMessage.Name = "grpMessage";
             grpMessage.Size = new Size(690, 115);
@@ -137,7 +137,7 @@
             Controls.Add(lstChatBox);
             Name = "Client";
             Text = "Client";
-            FormClosing += Client_FormClosing;
+            FormClosed += Client_FormClosed;
             grpParticipants.ResumeLayout(false);
             grpUser.ResumeLayout(false);
             grpUser.PerformLayout();
@@ -153,7 +153,7 @@
         private TextBox txtUserName;
         private TextBox txtMessage;
         private Button btnConnect;
-        private Button button1;
+        private Button btnSend;
         private ListBox lstParticipants;
         private GroupBox grpUser;
         private GroupBox grpMessage;
