@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Exercise1\\Exercise1\\Exercise1.csproj": {}
+    "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Lab03\\Exercise1\\Exercise1\\Exercise1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Exercise1\\Exercise1\\Exercise1.csproj": {
+    "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Lab03\\Exercise1\\Exercise1\\Exercise1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Exercise1\\Exercise1\\Exercise1.csproj",
+        "projectUniqueName": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Lab03\\Exercise1\\Exercise1\\Exercise1.csproj",
         "projectName": "Exercise1",
-        "projectPath": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Exercise1\\Exercise1\\Exercise1.csproj",
+        "projectPath": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Lab03\\Exercise1\\Exercise1\\Exercise1.csproj",
         "packagesPath": "C:\\Users\\quanp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Exercise1\\Exercise1\\obj\\",
+        "outputPath": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Lab03\\Exercise1\\Exercise1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
