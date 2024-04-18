@@ -105,7 +105,7 @@ namespace Exercise6
 
         private void ListenConecction()
         {
-            tcpServer = new TcpListener(IPAddress.Any, 10000);
+            tcpServer = new TcpListener(IPAddress.Any, 8080);
             tcpServer.Start();
             try
             {
@@ -121,7 +121,7 @@ namespace Exercise6
             }
             catch
             {
-                tcpServer = new TcpListener(IPAddress.Any, 10000);
+                tcpServer = new TcpListener(IPAddress.Any, 8080);
             }
         }
 

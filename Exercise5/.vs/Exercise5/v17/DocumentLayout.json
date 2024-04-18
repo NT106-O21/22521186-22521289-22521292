@@ -1,5 +1,68 @@
 {
   "Version": 1,
+<<<<<<< HEAD
+  "WorkspaceRootPath": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Exercise5\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F238CA07-51F6-46FD-82AE-0C65B32810C0}|Exercise5\\Exercise5.csproj|c:\\users\\quanp\\source\\repos\\22521186-22521289-22521292\\exercise5\\exercise5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F238CA07-51F6-46FD-82AE-0C65B32810C0}|Exercise5\\Exercise5.csproj|solutionrelative:exercise5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F238CA07-51F6-46FD-82AE-0C65B32810C0}|Exercise5\\Exercise5.csproj|C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Exercise5\\exercise5\\hnag_server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F238CA07-51F6-46FD-82AE-0C65B32810C0}|Exercise5\\Exercise5.csproj|solutionrelative:exercise5\\hnag_server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F238CA07-51F6-46FD-82AE-0C65B32810C0}|Exercise5\\Exercise5.csproj|C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Exercise5\\exercise5\\hnag_client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F238CA07-51F6-46FD-82AE-0C65B32810C0}|Exercise5\\Exercise5.csproj|solutionrelative:exercise5\\hnag_client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F238CA07-51F6-46FD-82AE-0C65B32810C0}|Exercise5\\Exercise5.csproj|C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Exercise5\\exercise5\\formdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F238CA07-51F6-46FD-82AE-0C65B32810C0}|Exercise5\\Exercise5.csproj|solutionrelative:exercise5\\formdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F238CA07-51F6-46FD-82AE-0C65B32810C0}|Exercise5\\Exercise5.csproj|C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Exercise5\\exercise5\\formdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F238CA07-51F6-46FD-82AE-0C65B32810C0}|Exercise5\\Exercise5.csproj|solutionrelative:exercise5\\formdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F238CA07-51F6-46FD-82AE-0C65B32810C0}|Exercise5\\Exercise5.csproj|C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Exercise5\\exercise5\\hnag_client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F238CA07-51F6-46FD-82AE-0C65B32810C0}|Exercise5\\Exercise5.csproj|solutionrelative:exercise5\\hnag_client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F238CA07-51F6-46FD-82AE-0C65B32810C0}|Exercise5\\Exercise5.csproj|C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Exercise5\\exercise5\\hnag_server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F238CA07-51F6-46FD-82AE-0C65B32810C0}|Exercise5\\Exercise5.csproj|solutionrelative:exercise5\\hnag_server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F238CA07-51F6-46FD-82AE-0C65B32810C0}|Exercise5\\Exercise5.csproj|C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Exercise5\\exercise5\\comsuon.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{F238CA07-51F6-46FD-82AE-0C65B32810C0}|Exercise5\\Exercise5.csproj|solutionrelative:exercise5\\comsuon.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F238CA07-51F6-46FD-82AE-0C65B32810C0}|Exercise5\\Exercise5.csproj|C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Exercise5\\exercise5\\communityfood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F238CA07-51F6-46FD-82AE-0C65B32810C0}|Exercise5\\Exercise5.csproj|solutionrelative:exercise5\\communityfood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F238CA07-51F6-46FD-82AE-0C65B32810C0}|Exercise5\\Exercise5.csproj|C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Exercise5\\exercise5\\comga.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{F238CA07-51F6-46FD-82AE-0C65B32810C0}|Exercise5\\Exercise5.csproj|solutionrelative:exercise5\\comga.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F238CA07-51F6-46FD-82AE-0C65B32810C0}|Exercise5\\Exercise5.csproj|C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Exercise5\\exercise5\\bunthitnuong.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{F238CA07-51F6-46FD-82AE-0C65B32810C0}|Exercise5\\Exercise5.csproj|solutionrelative:exercise5\\bunthitnuong.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F238CA07-51F6-46FD-82AE-0C65B32810C0}|Exercise5\\Exercise5.csproj|C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Exercise5\\exercise5\\bundaumamtom.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{F238CA07-51F6-46FD-82AE-0C65B32810C0}|Exercise5\\Exercise5.csproj|solutionrelative:exercise5\\bundaumamtom.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F238CA07-51F6-46FD-82AE-0C65B32810C0}|Exercise5\\Exercise5.csproj|C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Exercise5\\exercise5\\banhhoiheoquay.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{F238CA07-51F6-46FD-82AE-0C65B32810C0}|Exercise5\\Exercise5.csproj|solutionrelative:exercise5\\banhhoiheoquay.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F238CA07-51F6-46FD-82AE-0C65B32810C0}|Exercise5\\Exercise5.csproj|C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Exercise5\\exercise5\\background.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{F238CA07-51F6-46FD-82AE-0C65B32810C0}|Exercise5\\Exercise5.csproj|solutionrelative:exercise5\\background.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F238CA07-51F6-46FD-82AE-0C65B32810C0}|Exercise5\\Exercise5.csproj|C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Exercise5\\exercise5\\banhcanhcua.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{F238CA07-51F6-46FD-82AE-0C65B32810C0}|Exercise5\\Exercise5.csproj|solutionrelative:exercise5\\banhcanhcua.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+=======
   "WorkspaceRootPath": "C:\\LTMCB\\GitHub\\22521186-22521289-22521292\\Exercise5\\",
   "Documents": [
     {
@@ -23,8 +86,18 @@
       "RelativeMoniker": "D:0:0:{F238CA07-51F6-46FD-82AE-0C65B32810C0}|Exercise5\\Exercise5.csproj|solutionrelative:exercise5\\communityfood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{F238CA07-51F6-46FD-82AE-0C65B32810C0}|Exercise5\\Exercise5.csproj|C:\\LTMCB\\GitHub\\22521186-22521289-22521292\\Exercise5\\exercise5\\formdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F238CA07-51F6-46FD-82AE-0C65B32810C0}|Exercise5\\Exercise5.csproj|solutionrelative:exercise5\\formdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+=======
+      "AbsoluteMoniker": "D:0:0:{F238CA07-51F6-46FD-82AE-0C65B32810C0}|Exercise5\\Exercise5.csproj|C:\\LTMCB\\GitHub\\22521186-22521289-22521292\\Exercise5\\exercise5\\hnag_client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F238CA07-51F6-46FD-82AE-0C65B32810C0}|Exercise5\\Exercise5.csproj|solutionrelative:exercise5\\hnag_client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F238CA07-51F6-46FD-82AE-0C65B32810C0}|Exercise5\\Exercise5.csproj|c:\\ltmcb\\github\\22521186-22521289-22521292\\exercise5\\exercise5\\hnag_server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F238CA07-51F6-46FD-82AE-0C65B32810C0}|Exercise5\\Exercise5.csproj|solutionrelative:exercise5\\hnag_server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> d99e98509419a1ab719ce8858f09ff0332129345
+>>>>>>> 954d69598a8f5e74aa3f785a7a2a4c7cd85b856a
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +107,189 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD
           "SelectedChildIndex": 10,
+=======
+<<<<<<< HEAD
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Exercise5\\Exercise5\\Program.cs",
+              "RelativeDocumentMoniker": "Exercise5\\Program.cs",
+              "ToolTip": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Exercise5\\Exercise5\\Program.cs",
+              "RelativeToolTip": "Exercise5\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T03:52:03.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormDangNhap.cs",
+              "DocumentMoniker": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Exercise5\\Exercise5\\FormDangNhap.cs",
+              "RelativeDocumentMoniker": "Exercise5\\FormDangNhap.cs",
+              "ToolTip": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Exercise5\\Exercise5\\FormDangNhap.cs",
+              "RelativeToolTip": "Exercise5\\FormDangNhap.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T03:51:37.421Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HNAG_Server.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Exercise5\\Exercise5\\HNAG_Server.cs",
+              "RelativeDocumentMoniker": "Exercise5\\HNAG_Server.cs",
+              "ToolTip": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Exercise5\\Exercise5\\HNAG_Server.cs [Design]",
+              "RelativeToolTip": "Exercise5\\HNAG_Server.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T03:51:28.8Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HNAG_Client.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Exercise5\\Exercise5\\HNAG_Client.cs",
+              "RelativeDocumentMoniker": "Exercise5\\HNAG_Client.cs",
+              "ToolTip": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Exercise5\\Exercise5\\HNAG_Client.cs [Design]",
+              "RelativeToolTip": "Exercise5\\HNAG_Client.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T03:51:27.548Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FormDangNhap.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Exercise5\\Exercise5\\FormDangNhap.cs",
+              "RelativeDocumentMoniker": "Exercise5\\FormDangNhap.cs",
+              "ToolTip": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Exercise5\\Exercise5\\FormDangNhap.cs [Design]",
+              "RelativeToolTip": "Exercise5\\FormDangNhap.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T03:51:25.238Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "comsuon.png",
+              "DocumentMoniker": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Exercise5\\Exercise5\\comsuon.png",
+              "RelativeDocumentMoniker": "Exercise5\\comsuon.png",
+              "ToolTip": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Exercise5\\Exercise5\\comsuon.png",
+              "RelativeToolTip": "Exercise5\\comsuon.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-04-18T03:51:23.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CommunityFood.cs",
+              "DocumentMoniker": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Exercise5\\Exercise5\\CommunityFood.cs",
+              "RelativeDocumentMoniker": "Exercise5\\CommunityFood.cs",
+              "ToolTip": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Exercise5\\Exercise5\\CommunityFood.cs",
+              "RelativeToolTip": "Exercise5\\CommunityFood.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T03:51:18.723Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "comga.png",
+              "DocumentMoniker": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Exercise5\\Exercise5\\comga.png",
+              "RelativeDocumentMoniker": "Exercise5\\comga.png",
+              "ToolTip": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Exercise5\\Exercise5\\comga.png",
+              "RelativeToolTip": "Exercise5\\comga.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-04-18T03:51:17.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "bunthitnuong.png",
+              "DocumentMoniker": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Exercise5\\Exercise5\\bunthitnuong.png",
+              "RelativeDocumentMoniker": "Exercise5\\bunthitnuong.png",
+              "ToolTip": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Exercise5\\Exercise5\\bunthitnuong.png",
+              "RelativeToolTip": "Exercise5\\bunthitnuong.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-04-18T03:51:17.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "bundaumamtom.png",
+              "DocumentMoniker": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Exercise5\\Exercise5\\bundaumamtom.png",
+              "RelativeDocumentMoniker": "Exercise5\\bundaumamtom.png",
+              "ToolTip": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Exercise5\\Exercise5\\bundaumamtom.png",
+              "RelativeToolTip": "Exercise5\\bundaumamtom.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-04-18T03:51:16.445Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "banhhoiheoquay.png",
+              "DocumentMoniker": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Exercise5\\Exercise5\\banhhoiheoquay.png",
+              "RelativeDocumentMoniker": "Exercise5\\banhhoiheoquay.png",
+              "ToolTip": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Exercise5\\Exercise5\\banhhoiheoquay.png",
+              "RelativeToolTip": "Exercise5\\banhhoiheoquay.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-04-18T03:51:15.598Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "banhcanhcua.png",
+              "DocumentMoniker": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Exercise5\\Exercise5\\banhcanhcua.png",
+              "RelativeDocumentMoniker": "Exercise5\\banhcanhcua.png",
+              "ToolTip": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Exercise5\\Exercise5\\banhcanhcua.png",
+              "RelativeToolTip": "Exercise5\\banhcanhcua.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-04-18T03:51:13.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "background.png",
+              "DocumentMoniker": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Exercise5\\Exercise5\\background.png",
+              "RelativeDocumentMoniker": "Exercise5\\background.png",
+              "ToolTip": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Exercise5\\Exercise5\\background.png",
+              "RelativeToolTip": "Exercise5\\background.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-04-18T03:51:11.406Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HNAG_Server.cs",
+              "DocumentMoniker": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Exercise5\\Exercise5\\HNAG_Server.cs",
+              "RelativeDocumentMoniker": "Exercise5\\HNAG_Server.cs",
+              "ToolTip": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Exercise5\\Exercise5\\HNAG_Server.cs",
+              "RelativeToolTip": "Exercise5\\HNAG_Server.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T12:31:18.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HNAG_Client.cs",
+              "DocumentMoniker": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Exercise5\\Exercise5\\HNAG_Client.cs",
+              "RelativeDocumentMoniker": "Exercise5\\HNAG_Client.cs",
+              "ToolTip": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Exercise5\\Exercise5\\HNAG_Client.cs",
+              "RelativeToolTip": "Exercise5\\HNAG_Client.cs",
+              "ViewState": "AQIAAGYAAAAAAAAAAAAIwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T12:27:24.265Z"
+=======
+          "SelectedChildIndex": 7,
+>>>>>>> 954d69598a8f5e74aa3f785a7a2a4c7cd85b856a
           "Children": [
             {
               "$type": "Bookmark",
@@ -151,6 +406,7 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+>>>>>>> d99e98509419a1ab719ce8858f09ff0332129345
             }
           ]
         }

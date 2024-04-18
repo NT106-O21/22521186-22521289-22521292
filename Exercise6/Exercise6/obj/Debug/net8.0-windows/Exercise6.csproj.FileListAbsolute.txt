@@ -17,3 +17,4 @@ C:\Users\quanp\source\repos\22521186-22521289-22521292\Exercise6\Exercise6\obj\D
 C:\Users\quanp\source\repos\22521186-22521289-22521292\Exercise6\Exercise6\obj\Debug\net8.0-windows\Exercise6.pdb
 C:\Users\quanp\source\repos\22521186-22521289-22521292\Exercise6\Exercise6\obj\Debug\net8.0-windows\Exercise6.genruntimeconfig.cache
 C:\Users\quanp\source\repos\22521186-22521289-22521292\Exercise6\Exercise6\obj\Debug\net8.0-windows\ref\Exercise6.dll
+C:\Users\quanp\source\repos\22521186-22521289-22521292\Exercise6\Exercise6\obj\Debug\net8.0-windows\Exercise6.Receiver.resources
