@@ -19,7 +19,7 @@ namespace Exercise6
             InitializeComponent();
         }
         private TcpClient tcpClient;
-        IPEndPoint server_endpoint = new IPEndPoint(IPAddress.Parse("172.20.10.5"), 8080);
+        IPEndPoint server_endpoint = new IPEndPoint(IPAddress.Parse("192.168.1.4"), 8080);
         private delegate void MessageDelegate(string message);
         private delegate void ParticipantsDelegate(string username);
         private delegate void OnConnectEventHandler(bool is_connected);
@@ -168,6 +168,23 @@ namespace Exercise6
                 net_stream.Write(logout_message, 0, logout_message.Length);
                 net_stream.Flush();
                 tcpClient.Client.Shutdown(SocketShutdown.Send);
+            }
+        }
+
+        private void lstParticipants_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            int index = lstParticipants.SelectedIndex;
+            if (index != -1)
+            {
+                Receiver receiver = new Receiver()
+                {
+                    Text = lstParticipants.Items[index].ToString()
+                };
+                receiver.Show();
+            }
+            else
+            {
+                MessageBox.Show("There is not any participants!");
             }
         }
     }

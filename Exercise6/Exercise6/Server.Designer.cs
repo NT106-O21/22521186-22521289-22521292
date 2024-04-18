@@ -35,7 +35,6 @@
             // lstChatBox
             // 
             lstChatBox.FormattingEnabled = true;
-            lstChatBox.Items.AddRange(new object[] { "  " });
             lstChatBox.Location = new Point(12, 77);
             lstChatBox.Name = "lstChatBox";
             lstChatBox.Size = new Size(776, 344);

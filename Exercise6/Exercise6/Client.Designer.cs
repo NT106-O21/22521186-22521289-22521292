@@ -45,7 +45,6 @@
             // lstChatBox
             // 
             lstChatBox.FormattingEnabled = true;
-            lstChatBox.Items.AddRange(new object[] { " " });
             lstChatBox.Location = new Point(12, 12);
             lstChatBox.Name = "lstChatBox";
             lstChatBox.Size = new Size(690, 384);
@@ -64,11 +63,11 @@
             // lstParticipants
             // 
             lstParticipants.FormattingEnabled = true;
-            lstParticipants.Items.AddRange(new object[] { " ", " " });
             lstParticipants.Location = new Point(6, 26);
             lstParticipants.Name = "lstParticipants";
             lstParticipants.Size = new Size(228, 544);
             lstParticipants.TabIndex = 0;
+            lstParticipants.SelectedIndexChanged += lstParticipants_SelectedIndexChanged;
             // 
             // txtUserName
             // 

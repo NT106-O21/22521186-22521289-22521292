@@ -3,28 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Exercise6\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9E60ED17-5826-4298-AC31-95A76AB8EF35}|Exercise6\\Exercise6.csproj|c:\\users\\quanp\\source\\repos\\22521186-22521289-22521292\\exercise6\\exercise6\\receiver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E60ED17-5826-4298-AC31-95A76AB8EF35}|Exercise6\\Exercise6.csproj|solutionrelative:exercise6\\receiver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E60ED17-5826-4298-AC31-95A76AB8EF35}|Exercise6\\Exercise6.csproj|C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Exercise6\\exercise6\\receiver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9E60ED17-5826-4298-AC31-95A76AB8EF35}|Exercise6\\Exercise6.csproj|solutionrelative:exercise6\\receiver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E60ED17-5826-4298-AC31-95A76AB8EF35}|Exercise6\\Exercise6.csproj|C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Exercise6\\exercise6\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E60ED17-5826-4298-AC31-95A76AB8EF35}|Exercise6\\Exercise6.csproj|solutionrelative:exercise6\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E60ED17-5826-4298-AC31-95A76AB8EF35}|Exercise6\\Exercise6.csproj|C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Exercise6\\exercise6\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9E60ED17-5826-4298-AC31-95A76AB8EF35}|Exercise6\\Exercise6.csproj|solutionrelative:exercise6\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9E60ED17-5826-4298-AC31-95A76AB8EF35}|Exercise6\\Exercise6.csproj|C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Exercise6\\exercise6\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9E60ED17-5826-4298-AC31-95A76AB8EF35}|Exercise6\\Exercise6.csproj|solutionrelative:exercise6\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E60ED17-5826-4298-AC31-95A76AB8EF35}|Exercise6\\Exercise6.csproj|C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Exercise6\\exercise6\\server.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E60ED17-5826-4298-AC31-95A76AB8EF35}|Exercise6\\Exercise6.csproj|solutionrelative:exercise6\\server.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9E60ED17-5826-4298-AC31-95A76AB8EF35}|Exercise6\\Exercise6.csproj|C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Exercise6\\exercise6\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{9E60ED17-5826-4298-AC31-95A76AB8EF35}|Exercise6\\Exercise6.csproj|solutionrelative:exercise6\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9E60ED17-5826-4298-AC31-95A76AB8EF35}|Exercise6\\Exercise6.csproj|c:\\users\\quanp\\source\\repos\\22521186-22521289-22521292\\exercise6\\exercise6\\client.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9E60ED17-5826-4298-AC31-95A76AB8EF35}|Exercise6\\Exercise6.csproj|C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Exercise6\\exercise6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E60ED17-5826-4298-AC31-95A76AB8EF35}|Exercise6\\Exercise6.csproj|solutionrelative:exercise6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E60ED17-5826-4298-AC31-95A76AB8EF35}|Exercise6\\Exercise6.csproj|C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Exercise6\\exercise6\\client.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9E60ED17-5826-4298-AC31-95A76AB8EF35}|Exercise6\\Exercise6.csproj|solutionrelative:exercise6\\client.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E60ED17-5826-4298-AC31-95A76AB8EF35}|Exercise6\\Exercise6.csproj|c:\\users\\quanp\\source\\repos\\22521186-22521289-22521292\\exercise6\\exercise6\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9E60ED17-5826-4298-AC31-95A76AB8EF35}|Exercise6\\Exercise6.csproj|solutionrelative:exercise6\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E60ED17-5826-4298-AC31-95A76AB8EF35}|Exercise6\\Exercise6.csproj|c:\\users\\quanp\\source\\repos\\22521186-22521289-22521292\\exercise6\\exercise6\\server.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E60ED17-5826-4298-AC31-95A76AB8EF35}|Exercise6\\Exercise6.csproj|solutionrelative:exercise6\\server.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E60ED17-5826-4298-AC31-95A76AB8EF35}|Exercise6\\Exercise6.csproj|c:\\users\\quanp\\source\\repos\\22521186-22521289-22521292\\exercise6\\exercise6\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E60ED17-5826-4298-AC31-95A76AB8EF35}|Exercise6\\Exercise6.csproj|solutionrelative:exercise6\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9E60ED17-5826-4298-AC31-95A76AB8EF35}|Exercise6\\Exercise6.csproj|C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Exercise6\\exercise6\\packet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,11 +50,35 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Receiver.cs",
+              "DocumentMoniker": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Exercise6\\Exercise6\\Receiver.cs",
+              "RelativeDocumentMoniker": "Exercise6\\Receiver.cs",
+              "ToolTip": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Exercise6\\Exercise6\\Receiver.cs",
+              "RelativeToolTip": "Exercise6\\Receiver.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAYwJUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T15:10:11.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Receiver.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Exercise6\\Exercise6\\Receiver.cs",
+              "RelativeDocumentMoniker": "Exercise6\\Receiver.cs",
+              "ToolTip": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Exercise6\\Exercise6\\Receiver.cs [Design]",
+              "RelativeToolTip": "Exercise6\\Receiver.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T14:50:54.969Z"
             },
             {
               "$type": "Document",
@@ -53,51 +89,59 @@
               "ToolTip": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Exercise6\\Exercise6\\Client.cs [Design]",
               "RelativeToolTip": "Exercise6\\Client.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T09:41:39.903Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-04-17T09:41:39.903Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Server.Designer.cs",
               "DocumentMoniker": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Exercise6\\Exercise6\\Server.Designer.cs",
               "RelativeDocumentMoniker": "Exercise6\\Server.Designer.cs",
               "ToolTip": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Exercise6\\Exercise6\\Server.Designer.cs",
               "RelativeToolTip": "Exercise6\\Server.Designer.cs",
-              "ViewState": "AQIAADQAAAAAAAAAAAAowEUAAAAXAAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAYwEQAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T09:39:07.884Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-17T09:39:07.884Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "Client.cs",
               "DocumentMoniker": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Exercise6\\Exercise6\\Client.cs",
               "RelativeDocumentMoniker": "Exercise6\\Client.cs",
               "ToolTip": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Exercise6\\Exercise6\\Client.cs",
               "RelativeToolTip": "Exercise6\\Client.cs",
-              "ViewState": "AQIAAEsAAAAAAAAAAADwvxwAAAAqAAAA",
+              "ViewState": "AQIAAJcAAAAAAAAAAAAvwLcAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T06:30:18.298Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-17T06:30:18.298Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Exercise6\\Exercise6\\Program.cs",
+              "RelativeDocumentMoniker": "Exercise6\\Program.cs",
+              "ToolTip": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Exercise6\\Exercise6\\Program.cs",
+              "RelativeToolTip": "Exercise6\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T13:59:20.316Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Server.cs",
               "DocumentMoniker": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Exercise6\\Exercise6\\Server.cs",
               "RelativeDocumentMoniker": "Exercise6\\Server.cs",
               "ToolTip": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Exercise6\\Exercise6\\Server.cs",
               "RelativeToolTip": "Exercise6\\Server.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAQwIsAAAAFAAAA",
+              "ViewState": "AQIAAGQAAAAAAAAAAAAkwHcAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T06:35:23.173Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-17T06:35:23.173Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "Client.Designer.cs",
               "DocumentMoniker": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Exercise6\\Exercise6\\Client.Designer.cs",
               "RelativeDocumentMoniker": "Exercise6\\Client.Designer.cs",
@@ -105,24 +149,22 @@
               "RelativeToolTip": "Exercise6\\Client.Designer.cs",
               "ViewState": "AQIAAHsAAAAAAAAAAAAowIsAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T09:37:35.112Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-17T09:37:35.112Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "Server.cs [Design]",
               "DocumentMoniker": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Exercise6\\Exercise6\\Server.cs",
               "RelativeDocumentMoniker": "Exercise6\\Server.cs",
               "ToolTip": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Exercise6\\Exercise6\\Server.cs [Design]",
               "RelativeToolTip": "Exercise6\\Server.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T09:17:29.902Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-04-17T09:17:29.902Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "Packet.cs",
               "DocumentMoniker": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Exercise6\\Exercise6\\Packet.cs",
               "RelativeDocumentMoniker": "Exercise6\\Packet.cs",
@@ -130,8 +172,7 @@
               "RelativeToolTip": "Exercise6\\Packet.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T06:46:54.326Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-17T06:46:54.326Z"
             }
           ]
         }
