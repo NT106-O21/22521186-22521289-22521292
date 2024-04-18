@@ -63,13 +63,6 @@ namespace Exercise3
             client.Close();
         }
 
-        private void btnDisconnect_Click(object sender, EventArgs e)
-        {
-            client.Send(Encoding.UTF8.GetBytes(IP.ToString() + " has disconnected"));
-            client.Close();
-            btnConnect.Enabled = false;
-        }
-
         private void btnConnect_Click(object sender, EventArgs e)
         {
             Connect();
@@ -81,6 +74,13 @@ namespace Exercise3
         {
             client.Send(Encoding.UTF8.GetBytes(textBox1.Text));
             textBox1.Clear();
+        }
+
+        private void btnDisconnect_Click(object sender, EventArgs e)
+        {
+            client.Send(Encoding.UTF8.GetBytes(IP.ToString() + " has disconnected"));
+            client.Close();
+            btnConnect.Enabled = false;
         }
     }
 }
