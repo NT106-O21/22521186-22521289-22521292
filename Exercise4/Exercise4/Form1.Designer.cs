@@ -46,7 +46,7 @@
             // btnServer
             // 
             btnServer.Font = new Font("Segoe UI", 13.2000008F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnServer.Location = new Point(262, 12);
+            btnServer.Location = new Point(197, 12);
             btnServer.Name = "btnServer";
             btnServer.Size = new Size(116, 40);
             btnServer.TabIndex = 3;
@@ -58,11 +58,11 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(390, 76);
+            ClientSize = new Size(325, 76);
             Controls.Add(btnServer);
             Controls.Add(btnReceiption1);
             Name = "Form1";
-            Text = "Danh sách quầy vé";
+            Text = "Lab3_Bai4";
             ResumeLayout(false);
         }
 
