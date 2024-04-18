@@ -28,46 +28,46 @@
         /// </summary>
         private void InitializeComponent()
         {
-            ChatBox = new RichTextBox();
-            txtSendBox = new TextBox();
-            btnSend = new Button();
             btnSendFile = new Button();
+            btnSend = new Button();
+            txtSendBox = new TextBox();
+            ChatBox = new RichTextBox();
             SuspendLayout();
             // 
-            // ChatBox
+            // btnSendFile
             // 
-            ChatBox.Location = new Point(12, 12);
-            ChatBox.Name = "ChatBox";
-            ChatBox.Size = new Size(776, 393);
-            ChatBox.TabIndex = 0;
-            ChatBox.Text = "";
-            // 
-            // txtSendBox
-            // 
-            txtSendBox.Location = new Point(12, 411);
-            txtSendBox.Name = "txtSendBox";
-            txtSendBox.Size = new Size(627, 27);
-            txtSendBox.TabIndex = 1;
+            btnSendFile.Location = new Point(645, 410);
+            btnSendFile.Name = "btnSendFile";
+            btnSendFile.Size = new Size(43, 29);
+            btnSendFile.TabIndex = 7;
+            btnSendFile.Text = "...";
+            btnSendFile.UseVisualStyleBackColor = true;
+            btnSendFile.Click += btnSendFile_Click;
             // 
             // btnSend
             // 
-            btnSend.Location = new Point(694, 411);
+            btnSend.Location = new Point(694, 410);
             btnSend.Name = "btnSend";
             btnSend.Size = new Size(94, 29);
-            btnSend.TabIndex = 2;
+            btnSend.TabIndex = 6;
             btnSend.Text = "Send";
             btnSend.UseVisualStyleBackColor = true;
             btnSend.Click += btnSend_Click;
             // 
-            // btnSendFile
+            // txtSendBox
             // 
-            btnSendFile.Location = new Point(645, 411);
-            btnSendFile.Name = "btnSendFile";
-            btnSendFile.Size = new Size(43, 29);
-            btnSendFile.TabIndex = 3;
-            btnSendFile.Text = "...";
-            btnSendFile.UseVisualStyleBackColor = true;
-            btnSendFile.Click += btnSendFile_Click;
+            txtSendBox.Location = new Point(12, 410);
+            txtSendBox.Name = "txtSendBox";
+            txtSendBox.Size = new Size(627, 27);
+            txtSendBox.TabIndex = 5;
+            // 
+            // ChatBox
+            // 
+            ChatBox.Location = new Point(12, 11);
+            ChatBox.Name = "ChatBox";
+            ChatBox.Size = new Size(776, 393);
+            ChatBox.TabIndex = 4;
+            ChatBox.Text = "";
             // 
             // Receiver
             // 
@@ -80,6 +80,7 @@
             Controls.Add(ChatBox);
             Name = "Receiver";
             Text = "Receiver";
+            FormClosed += Receiver_FormClosed;
             Load += Receiver_Load;
             ResumeLayout(false);
             PerformLayout();
@@ -87,9 +88,9 @@
 
         #endregion
 
-        private RichTextBox ChatBox;
-        private TextBox txtSendBox;
-        private Button btnSend;
         private Button btnSendFile;
+        private Button btnSend;
+        private TextBox txtSendBox;
+        private RichTextBox ChatBox;
     }
 }

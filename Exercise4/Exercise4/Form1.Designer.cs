@@ -28,12 +28,47 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            btnReceiption1 = new Button();
+            btnServer = new Button();
+            SuspendLayout();
+            // 
+            // btnReceiption1
+            // 
+            btnReceiption1.Font = new Font("Segoe UI", 13.2000008F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnReceiption1.Location = new Point(12, 12);
+            btnReceiption1.Name = "btnReceiption1";
+            btnReceiption1.Size = new Size(116, 40);
+            btnReceiption1.TabIndex = 0;
+            btnReceiption1.Text = "Quầy";
+            btnReceiption1.UseVisualStyleBackColor = true;
+            btnReceiption1.Click += btnReceiption1_Click;
+            // 
+            // btnServer
+            // 
+            btnServer.Font = new Font("Segoe UI", 13.2000008F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnServer.Location = new Point(197, 12);
+            btnServer.Name = "btnServer";
+            btnServer.Size = new Size(116, 40);
+            btnServer.TabIndex = 3;
+            btnServer.Text = "Server";
+            btnServer.UseVisualStyleBackColor = true;
+            btnServer.Click += btnServer_Click;
+            // 
+            // Form1
+            // 
+            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(325, 76);
+            Controls.Add(btnServer);
+            Controls.Add(btnReceiption1);
+            Name = "Form1";
+            Text = "Lab3_Bai4";
+            ResumeLayout(false);
         }
 
         #endregion
+
+        private Button btnReceiption1;
+        private Button btnServer;
     }
 }
