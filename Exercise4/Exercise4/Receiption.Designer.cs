@@ -1,6 +1,6 @@
 ﻿namespace Exercise4
 {
-    partial class Receiption1
+    partial class Receiption
     {
         /// <summary>
         /// Required designer variable.
@@ -37,6 +37,8 @@
             cbbFilmName = new ComboBox();
             cbbRoom = new ComboBox();
             label4 = new Label();
+            txtPrice = new TextBox();
+            label5 = new Label();
             SuspendLayout();
             // 
             // textBox1
@@ -85,13 +87,14 @@
             txtCheckedBox.Font = new Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             txtCheckedBox.Location = new Point(12, 216);
             txtCheckedBox.Name = "txtCheckedBox";
+            txtCheckedBox.ReadOnly = true;
             txtCheckedBox.Size = new Size(333, 31);
             txtCheckedBox.TabIndex = 7;
             // 
             // btnBuy
             // 
             btnBuy.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnBuy.Location = new Point(12, 287);
+            btnBuy.Location = new Point(12, 324);
             btnBuy.Name = "btnBuy";
             btnBuy.Size = new Size(333, 39);
             btnBuy.TabIndex = 8;
@@ -115,6 +118,7 @@
             cbbRoom.Name = "cbbRoom";
             cbbRoom.Size = new Size(169, 28);
             cbbRoom.TabIndex = 10;
+            cbbRoom.SelectedValueChanged += cbbRoom_SelectedValueChanged;
             // 
             // label4
             // 
@@ -126,11 +130,32 @@
             label4.TabIndex = 11;
             label4.Text = "Số ghế đã chọn";
             // 
-            // Receiption1
+            // txtPrice
+            // 
+            txtPrice.Font = new Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            txtPrice.Location = new Point(101, 287);
+            txtPrice.Name = "txtPrice";
+            txtPrice.ReadOnly = true;
+            txtPrice.Size = new Size(242, 31);
+            txtPrice.TabIndex = 12;
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label5.Location = new Point(12, 290);
+            label5.Name = "label5";
+            label5.Size = new Size(83, 28);
+            label5.TabIndex = 13;
+            label5.Text = "Giá tiền:";
+            // 
+            // Receiption
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(355, 341);
+            ClientSize = new Size(355, 406);
+            Controls.Add(label5);
+            Controls.Add(txtPrice);
             Controls.Add(label4);
             Controls.Add(cbbRoom);
             Controls.Add(cbbFilmName);
@@ -140,9 +165,9 @@
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(textBox1);
-            Name = "Receiption1";
-            Text = "Quầy 1";
-            FormClosed += Client_FormClosed;
+            Name = "Receiption";
+            Text = "Quầy";
+            FormClosing += Receiption1_FormClosing;
             Load += Rct_Load;
             ResumeLayout(false);
             PerformLayout();
@@ -162,5 +187,7 @@
         private ComboBox cbbFilmName;
         private ComboBox cbbRoom;
         private Label label4;
+        private TextBox txtPrice;
+        private Label label5;
     }
 }

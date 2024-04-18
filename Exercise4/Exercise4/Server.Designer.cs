@@ -37,16 +37,17 @@
             // 
             rtbLog.Location = new Point(12, 52);
             rtbLog.Name = "rtbLog";
-            rtbLog.Size = new Size(343, 466);
+            rtbLog.ReadOnly = true;
+            rtbLog.Size = new Size(480, 466);
             rtbLog.TabIndex = 0;
             rtbLog.Text = "";
-            rtbLog.TextChanged += rtbLog_TextChanged;
             // 
             // rtbInput
             // 
-            rtbInput.Location = new Point(361, 52);
+            rtbInput.Location = new Point(498, 52);
             rtbInput.Name = "rtbInput";
-            rtbInput.Size = new Size(542, 466);
+            rtbInput.ReadOnly = true;
+            rtbInput.Size = new Size(405, 466);
             rtbInput.TabIndex = 1;
             rtbInput.Text = "";
             // 
@@ -71,6 +72,7 @@
             Controls.Add(rtbLog);
             Name = "Server";
             Text = "Server";
+            FormClosed += Server_FormClosed;
             ResumeLayout(false);
         }
 

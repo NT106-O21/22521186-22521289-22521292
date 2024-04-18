@@ -7,16 +7,12 @@
       "RelativeMoniker": "D:0:0:{566FC931-CE6D-4B2F-866C-58948D583708}|Exercise4\\Exercise4.csproj|solutionrelative:exercise4\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{566FC931-CE6D-4B2F-866C-58948D583708}|Exercise4\\Exercise4.csproj|E:\\GitHub\\UIT_VuBaTai\\NT106.O21_Lab3\\22521186-22521289-22521292\\Exercise4\\exercise4\\receiption1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{566FC931-CE6D-4B2F-866C-58948D583708}|Exercise4\\Exercise4.csproj|solutionrelative:exercise4\\receiption1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{566FC931-CE6D-4B2F-866C-58948D583708}|Exercise4\\Exercise4.csproj|E:\\GitHub\\UIT_VuBaTai\\NT106.O21_Lab3\\22521186-22521289-22521292\\Exercise4\\exercise4\\receiption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{566FC931-CE6D-4B2F-866C-58948D583708}|Exercise4\\Exercise4.csproj|solutionrelative:exercise4\\receiption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{566FC931-CE6D-4B2F-866C-58948D583708}|Exercise4\\Exercise4.csproj|E:\\GitHub\\UIT_VuBaTai\\NT106.O21_Lab3\\22521186-22521289-22521292\\Exercise4\\exercise4\\receiption1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{566FC931-CE6D-4B2F-866C-58948D583708}|Exercise4\\Exercise4.csproj|solutionrelative:exercise4\\receiption1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{566FC931-CE6D-4B2F-866C-58948D583708}|Exercise4\\Exercise4.csproj|E:\\GitHub\\UIT_VuBaTai\\NT106.O21_Lab3\\22521186-22521289-22521292\\Exercise4\\exercise4\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{566FC931-CE6D-4B2F-866C-58948D583708}|Exercise4\\Exercise4.csproj|solutionrelative:exercise4\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{566FC931-CE6D-4B2F-866C-58948D583708}|Exercise4\\Exercise4.csproj|E:\\GitHub\\UIT_VuBaTai\\NT106.O21_Lab3\\22521186-22521289-22521292\\Exercise4\\exercise4\\receiption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{566FC931-CE6D-4B2F-866C-58948D583708}|Exercise4\\Exercise4.csproj|solutionrelative:exercise4\\receiption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 221,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,40 +30,14 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Server.cs [Design]",
-              "DocumentMoniker": "E:\\GitHub\\UIT_VuBaTai\\NT106.O21_Lab3\\22521186-22521289-22521292\\Exercise4\\Exercise4\\Server.cs",
-              "RelativeDocumentMoniker": "Exercise4\\Server.cs",
-              "ToolTip": "E:\\GitHub\\UIT_VuBaTai\\NT106.O21_Lab3\\22521186-22521289-22521292\\Exercise4\\Exercise4\\Server.cs [Design]",
-              "RelativeToolTip": "Exercise4\\Server.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-13T13:23:26.687Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Receiption1.cs [Design]",
-              "DocumentMoniker": "E:\\GitHub\\UIT_VuBaTai\\NT106.O21_Lab3\\22521186-22521289-22521292\\Exercise4\\Exercise4\\Receiption1.cs",
-              "RelativeDocumentMoniker": "Exercise4\\Receiption1.cs",
-              "ToolTip": "E:\\GitHub\\UIT_VuBaTai\\NT106.O21_Lab3\\22521186-22521289-22521292\\Exercise4\\Exercise4\\Receiption1.cs [Design]",
-              "RelativeToolTip": "Exercise4\\Receiption1.cs [Design]",
+              "Title": "Receiption.cs [Design]",
+              "DocumentMoniker": "E:\\GitHub\\UIT_VuBaTai\\NT106.O21_Lab3\\22521186-22521289-22521292\\Exercise4\\Exercise4\\Receiption.cs",
+              "RelativeDocumentMoniker": "Exercise4\\Receiption.cs",
+              "ToolTip": "E:\\GitHub\\UIT_VuBaTai\\NT106.O21_Lab3\\22521186-22521289-22521292\\Exercise4\\Exercise4\\Receiption.cs [Design]",
+              "RelativeToolTip": "Exercise4\\Receiption.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-13T11:15:03.255Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Receiption1.cs",
-              "DocumentMoniker": "E:\\GitHub\\UIT_VuBaTai\\NT106.O21_Lab3\\22521186-22521289-22521292\\Exercise4\\Exercise4\\Receiption1.cs",
-              "RelativeDocumentMoniker": "Exercise4\\Receiption1.cs",
-              "ToolTip": "E:\\GitHub\\UIT_VuBaTai\\NT106.O21_Lab3\\22521186-22521289-22521292\\Exercise4\\Exercise4\\Receiption1.cs",
-              "RelativeToolTip": "Exercise4\\Receiption1.cs",
-              "ViewState": "AQIAAFkAAAAAAAAAAAAkwGcAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-13T08:00:38.493Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-18T07:24:52.99Z"
             },
             {
               "$type": "Document",
@@ -77,10 +47,22 @@
               "RelativeDocumentMoniker": "Exercise4\\Server.cs",
               "ToolTip": "E:\\GitHub\\UIT_VuBaTai\\NT106.O21_Lab3\\22521186-22521289-22521292\\Exercise4\\Exercise4\\Server.cs",
               "RelativeToolTip": "Exercise4\\Server.cs",
-              "ViewState": "AQIAAHsAAAAAAAAAAAAcwI0AAAAxAAAA",
+              "ViewState": "AQIAADcBAAAAAAAAAAAMwEoBAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T13:40:01.526Z",
+              "WhenOpened": "2024-04-18T06:40:32.713Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Receiption.cs",
+              "DocumentMoniker": "E:\\GitHub\\UIT_VuBaTai\\NT106.O21_Lab3\\22521186-22521289-22521292\\Exercise4\\Exercise4\\Receiption.cs",
+              "RelativeDocumentMoniker": "Exercise4\\Receiption.cs",
+              "ToolTip": "E:\\GitHub\\UIT_VuBaTai\\NT106.O21_Lab3\\22521186-22521289-22521292\\Exercise4\\Exercise4\\Receiption.cs",
+              "RelativeToolTip": "Exercise4\\Receiption.cs",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAYwFYAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T08:00:38.493Z"
             }
           ]
         }

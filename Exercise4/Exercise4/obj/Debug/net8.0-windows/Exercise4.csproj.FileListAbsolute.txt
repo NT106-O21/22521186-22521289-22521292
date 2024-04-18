@@ -4,9 +4,6 @@ E:\GitHub\UIT_VuBaTai\NT106.O21_Lab3\22521186-22521289-22521292\Exercise4\Exerci
 E:\GitHub\UIT_VuBaTai\NT106.O21_Lab3\22521186-22521289-22521292\Exercise4\Exercise4\bin\Debug\net8.0-windows\Exercise4.dll
 E:\GitHub\UIT_VuBaTai\NT106.O21_Lab3\22521186-22521289-22521292\Exercise4\Exercise4\bin\Debug\net8.0-windows\Exercise4.pdb
 E:\GitHub\UIT_VuBaTai\NT106.O21_Lab3\22521186-22521289-22521292\Exercise4\Exercise4\obj\Debug\net8.0-windows\Exercise4.Form1.resources
-E:\GitHub\UIT_VuBaTai\NT106.O21_Lab3\22521186-22521289-22521292\Exercise4\Exercise4\obj\Debug\net8.0-windows\Exercise4.Receiption1.resources
-E:\GitHub\UIT_VuBaTai\NT106.O21_Lab3\22521186-22521289-22521292\Exercise4\Exercise4\obj\Debug\net8.0-windows\Exercise4.Receiption2.resources
-E:\GitHub\UIT_VuBaTai\NT106.O21_Lab3\22521186-22521289-22521292\Exercise4\Exercise4\obj\Debug\net8.0-windows\Exercise4.Receiption3.resources
 E:\GitHub\UIT_VuBaTai\NT106.O21_Lab3\22521186-22521289-22521292\Exercise4\Exercise4\obj\Debug\net8.0-windows\Exercise4.csproj.GenerateResource.cache
 E:\GitHub\UIT_VuBaTai\NT106.O21_Lab3\22521186-22521289-22521292\Exercise4\Exercise4\obj\Debug\net8.0-windows\Exercise4.GeneratedMSBuildEditorConfig.editorconfig
 E:\GitHub\UIT_VuBaTai\NT106.O21_Lab3\22521186-22521289-22521292\Exercise4\Exercise4\obj\Debug\net8.0-windows\Exercise4.AssemblyInfoInputs.cache
@@ -19,3 +16,4 @@ E:\GitHub\UIT_VuBaTai\NT106.O21_Lab3\22521186-22521289-22521292\Exercise4\Exerci
 E:\GitHub\UIT_VuBaTai\NT106.O21_Lab3\22521186-22521289-22521292\Exercise4\Exercise4\obj\Debug\net8.0-windows\Exercise4.genruntimeconfig.cache
 E:\GitHub\UIT_VuBaTai\NT106.O21_Lab3\22521186-22521289-22521292\Exercise4\Exercise4\obj\Debug\net8.0-windows\ref\Exercise4.dll
 E:\GitHub\UIT_VuBaTai\NT106.O21_Lab3\22521186-22521289-22521292\Exercise4\Exercise4\obj\Debug\net8.0-windows\Exercise4.Server.resources
+E:\GitHub\UIT_VuBaTai\NT106.O21_Lab3\22521186-22521289-22521292\Exercise4\Exercise4\obj\Debug\net8.0-windows\Exercise4.Receiption.resources
