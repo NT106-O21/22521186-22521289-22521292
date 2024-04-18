@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Exercise1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{123CE59A-B80A-44E8-8D2B-41D6005142AC}|Exercise1\\Exercise1.csproj|c:\\users\\quanp\\source\\repos\\22521186-22521289-22521292\\exercise1\\exercise1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{123CE59A-B80A-44E8-8D2B-41D6005142AC}|Exercise1\\Exercise1.csproj|solutionrelative:exercise1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{123CE59A-B80A-44E8-8D2B-41D6005142AC}|Exercise1\\Exercise1.csproj|C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Exercise1\\exercise1\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{123CE59A-B80A-44E8-8D2B-41D6005142AC}|Exercise1\\Exercise1.csproj|solutionrelative:exercise1\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{123CE59A-B80A-44E8-8D2B-41D6005142AC}|Exercise1\\Exercise1.csproj|C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Exercise1\\exercise1\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{123CE59A-B80A-44E8-8D2B-41D6005142AC}|Exercise1\\Exercise1.csproj|solutionrelative:exercise1\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{123CE59A-B80A-44E8-8D2B-41D6005142AC}|Exercise1\\Exercise1.csproj|c:\\users\\quanp\\source\\repos\\22521186-22521289-22521292\\exercise1\\exercise1\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{123CE59A-B80A-44E8-8D2B-41D6005142AC}|Exercise1\\Exercise1.csproj|solutionrelative:exercise1\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{123CE59A-B80A-44E8-8D2B-41D6005142AC}|Exercise1\\Exercise1.csproj|C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Exercise1\\exercise1\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{123CE59A-B80A-44E8-8D2B-41D6005142AC}|Exercise1\\Exercise1.csproj|solutionrelative:exercise1\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,22 +26,64 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Server.cs",
+              "DocumentMoniker": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Exercise1\\Exercise1\\Server.cs",
+              "RelativeDocumentMoniker": "Exercise1\\Server.cs",
+              "ToolTip": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Exercise1\\Exercise1\\Server.cs",
+              "RelativeToolTip": "Exercise1\\Server.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAnwA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T13:39:08.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Client.cs",
+              "DocumentMoniker": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Exercise1\\Exercise1\\Client.cs",
+              "RelativeDocumentMoniker": "Exercise1\\Client.cs",
+              "ToolTip": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Exercise1\\Exercise1\\Client.cs",
+              "RelativeToolTip": "Exercise1\\Client.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAnwBsAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T13:29:20.139Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Exercise1\\Exercise1\\Form1.cs",
-              "RelativeDocumentMoniker": "Exercise1\\Form1.cs",
-              "ToolTip": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Exercise1\\Exercise1\\Form1.cs [Design]",
-              "RelativeToolTip": "Exercise1\\Form1.cs [Design]",
+              "Title": "Client.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Exercise1\\Exercise1\\Client.cs",
+              "RelativeDocumentMoniker": "Exercise1\\Client.cs",
+              "ToolTip": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Exercise1\\Exercise1\\Client.cs [Design]",
+              "RelativeToolTip": "Exercise1\\Client.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-07T03:18:42.278Z",
+              "WhenOpened": "2024-04-18T13:18:34.431Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Server.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Exercise1\\Exercise1\\Server.cs",
+              "RelativeDocumentMoniker": "Exercise1\\Server.cs",
+              "ToolTip": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Exercise1\\Exercise1\\Server.cs [Design]",
+              "RelativeToolTip": "Exercise1\\Server.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T13:18:24.843Z",
               "EditorCaption": " [Design]"
             }
           ]
