@@ -35,7 +35,7 @@
             // btnServer
             // 
             btnServer.Font = new Font("Segoe UI Variable Small", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnServer.Location = new Point(207, 144);
+            btnServer.Location = new Point(12, 39);
             btnServer.Name = "btnServer";
             btnServer.Size = new Size(138, 73);
             btnServer.TabIndex = 0;
@@ -46,7 +46,7 @@
             // btnClient
             // 
             btnClient.Font = new Font("Segoe UI Variable Small", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnClient.Location = new Point(440, 144);
+            btnClient.Location = new Point(174, 39);
             btnClient.Name = "btnClient";
             btnClient.Size = new Size(138, 73);
             btnClient.TabIndex = 1;
@@ -58,7 +58,7 @@
             // 
             AutoScaleDimensions = new SizeF(9F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(324, 161);
             Controls.Add(btnClient);
             Controls.Add(btnServer);
             Name = "Menu";
