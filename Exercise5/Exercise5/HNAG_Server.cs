@@ -21,6 +21,7 @@ namespace Exercise5
             InitializeComponent();
 
             CheckForIllegalCrossThreadCalls = false;
+            SetDefaultFoodList();
 
             Connect();
         }
@@ -28,11 +29,13 @@ namespace Exercise5
         IPEndPoint IP;
         Socket server;
         List<Socket> clientList = new List<Socket>();
+        List<CommunityFood> foodList = new List<CommunityFood>();
 
         void Connect()
         {
             IP = new IPEndPoint(IPAddress.Any, 8080);
-            server = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.IP);
+            server = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
+            int count = 0;
 
             server.Bind(IP);
 
@@ -46,7 +49,8 @@ namespace Exercise5
                         Socket client = server.Accept();
 
                         clientList.Add(client);
-                        AddMessage("Client mới đã tham gia kênh");
+                        count++;
+                        AddMessage("Client" + count.ToString() + " đã tham gia kênh");
 
                         Thread receive = new Thread(Receive);
                         receive.IsBackground = true;
@@ -62,11 +66,6 @@ namespace Exercise5
             listen.IsBackground = true;
             listen.Start();
         }
-
-        void Send(Socket client)
-        {
-        }
-
         void Receive(object obj)
         {
             Socket client = obj as Socket;
@@ -76,10 +75,6 @@ namespace Exercise5
                 {
                     byte[] data = new byte[1024 * 5000];
                     client.Receive(data);
-
-                    string message = (string)Deserialize(data);
-
-                    AddMessage(message);
                 }
             }
             catch
@@ -92,29 +87,26 @@ namespace Exercise5
         void AddMessage(string str)
         {
         }
-
-        byte[] Serialize(object obj)
-        {
-            return (byte[])obj;
-        }
-
-        object Deserialize(byte[] data)
-        {
-            string text = Encoding.ASCII.GetString(data);
-            return text;
-        }
-
         private void HNAG_Server_FormClosed(object sender, FormClosedEventArgs e)
         {
             server.Close();
         }
 
-        private void btnAdd_Click(object sender, EventArgs e)
+        void SetDefaultFoodList()
         {
-            foreach (Socket item in clientList)
+            string workingDirectory = Environment.CurrentDirectory;
+            string projectDirectory = Directory.GetParent(workingDirectory).Parent.Parent.FullName;
+            for (int i = 0; i < listView1.Items.Count; i++)
             {
-                Send(item);
+                string path = Path.Combine(projectDirectory, listView1.Items[i].ImageKey);
+                CommunityFood food = new CommunityFood(listView1.Items[i].Text, "Server"/*, Image.FromFile(path)*/);
+                foodList.Add(food);
             }
+        }
+
+        private void btnUpdate_Click(object sender, EventArgs e)
+        {
+            reportBox.Items.Add(foodList.Count);
         }
     }
 }
