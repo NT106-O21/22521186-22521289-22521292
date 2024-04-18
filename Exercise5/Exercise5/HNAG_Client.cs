@@ -12,6 +12,8 @@ using System.Windows.Forms;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.Text.Json.Serialization;
 using System.Text.Json;
+using System.Xml.Linq;
+using System.Text.Encodings.Web;
 
 namespace Exercise5
 {
@@ -29,6 +31,9 @@ namespace Exercise5
 
         IPEndPoint IP;
         Socket client;
+        List<CommunityFood> foodList = new List<CommunityFood>();
+        int bytelength = 0;
+        byte[] storagedata = new byte[1024 * 5000];
 
         void Connect()
         {
@@ -50,44 +55,23 @@ namespace Exercise5
             listen.Start();
         }
 
-        void Send()
-        {
-
-        }
-
         void Receive()
         {
             try
             {
                 while (true)
                 {
-                    byte[] data = new byte[1024 * 8192];
-                    client.Receive(data);
-                    userName.Text = Encoding.UTF8.GetString(data);
+                    byte[] data = new byte[1024 * 5000];
+                    bytelength = client.Receive(data);
+                    storagedata = data;
+
+                    SetFoodList();
                 }
             }
             catch
             {
                 Close();
             }
-        }
-
-        void AddMessage(string str)
-        {
-
-        }
-
-        byte[] Serialize(object obj)
-        {
-            byte[] data = Encoding.ASCII.GetBytes((string)obj);
-            return data;
-        }
-
-        object Deserialize(byte[] data)
-        {
-            string base64ImageRepresentation = Convert.ToBase64String(data);
-            Image img = Image.FromStream(new MemoryStream(Convert.FromBase64String(base64ImageRepresentation)));
-            return img;
         }
 
         private void HNAG_Client_FormClosed(object sender, FormClosedEventArgs e)
@@ -107,6 +91,77 @@ namespace Exercise5
             else
             {
                 MessageBox.Show("Vui lòng chọn file ảnh .png !!!", "Báo lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void btnAdd2_Click(object sender, EventArgs e)
+        {
+
+            string workingDirectory = Environment.CurrentDirectory;
+            string projectDirectory = Directory.GetParent(workingDirectory).Parent.Parent.FullName;
+
+            if (userName.Text != "" && foodName2.Text != "" && foodImage2.Text != "")
+            {
+                string path = Path.Combine(projectDirectory, foodImage2.Text);
+                CommunityFood food = new CommunityFood(foodName2.Text, userName.Text, path);
+                foodList.Add(food);
+
+                var jsonSetting = new JsonSerializerOptions
+                {
+                    Encoder = JavaScriptEncoder.UnsafeRelaxedJsonEscaping
+                };
+                string jsonstring = JsonSerializer.Serialize(food, jsonSetting);
+
+                byte[] bytes = Encoding.UTF8.GetBytes(jsonstring);
+
+                client.Send(bytes);
+            }
+            else MessageBox.Show("Vui lòng không để ô trống !!!", "Báo lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+        }
+
+        private void btnBrowse1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnAdd1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        void SetFoodList()
+        {
+            foodList.Clear();
+            listView2.Clear();
+            imageList2.Images.Clear();
+
+            byte[] bytes = storagedata;
+            List<byte> newBytes = new List<byte>();
+
+            for (int i = 0; i < bytelength; i++)
+            {
+                newBytes.Add(bytes[i]);
+            }
+            byte[] newBytesArray = newBytes.ToArray();
+
+            string a = Encoding.UTF8.GetString(newBytesArray);
+
+            var jsonSetting = new JsonSerializerOptions
+            {
+                Encoder = JavaScriptEncoder.UnsafeRelaxedJsonEscaping
+            };
+            foodList = JsonSerializer.Deserialize<List<CommunityFood>>(a, jsonSetting);
+
+            AddListView();
+        }
+
+        void AddListView()
+        {
+            for (int i = 0; i < foodList.Count; i++)
+            {
+                listView2.Items.Add(foodList.ElementAt(i).FoodName);
+                imageList2.Images.Add(Image.FromFile(foodList.ElementAt(i).FoodImage));
+                listView2.Items[i].ImageIndex = i;
             }
         }
     }

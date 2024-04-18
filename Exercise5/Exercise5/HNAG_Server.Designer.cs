@@ -30,12 +30,12 @@
         {
             components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(HNAG_Server));
-            ListViewItem listViewItem7 = new ListViewItem("Bánh canh cua", "banhcanhcua.png");
-            ListViewItem listViewItem8 = new ListViewItem("Bánh hỏi heo quay", "banhhoiheoquay.png");
-            ListViewItem listViewItem9 = new ListViewItem("Bún đậu mắm tôm", "bundaumamtom.png");
-            ListViewItem listViewItem10 = new ListViewItem("Bún thịt nướng", "bunthitnuong.png");
-            ListViewItem listViewItem11 = new ListViewItem("Cơm gà", "comga.png");
-            ListViewItem listViewItem12 = new ListViewItem("Cơm sườn", "comsuon.png");
+            ListViewItem listViewItem1 = new ListViewItem("Bánh canh cua", "banhcanhcua.png");
+            ListViewItem listViewItem2 = new ListViewItem("Bánh hỏi heo quay", "banhhoiheoquay.png");
+            ListViewItem listViewItem3 = new ListViewItem("Bún đậu mắm tôm", "bundaumamtom.png");
+            ListViewItem listViewItem4 = new ListViewItem("Bún thịt nướng", "bunthitnuong.png");
+            ListViewItem listViewItem5 = new ListViewItem("Cơm gà", "comga.png");
+            ListViewItem listViewItem6 = new ListViewItem("Cơm sườn", "comsuon.png");
             imageList1 = new ImageList(components);
             listView1 = new ListView();
             reportBox = new ListBox();
@@ -57,7 +57,7 @@
             // 
             // listView1
             // 
-            listView1.Items.AddRange(new ListViewItem[] { listViewItem7, listViewItem8, listViewItem9, listViewItem10, listViewItem11, listViewItem12 });
+            listView1.Items.AddRange(new ListViewItem[] { listViewItem1, listViewItem2, listViewItem3, listViewItem4, listViewItem5, listViewItem6 });
             listView1.LargeImageList = imageList1;
             listView1.Location = new Point(12, 12);
             listView1.Name = "listView1";
@@ -70,7 +70,7 @@
             reportBox.FormattingEnabled = true;
             reportBox.Location = new Point(482, 12);
             reportBox.Name = "reportBox";
-            reportBox.Size = new Size(402, 584);
+            reportBox.Size = new Size(485, 584);
             reportBox.TabIndex = 1;
             // 
             // btnUpdate
@@ -83,7 +83,6 @@
             btnUpdate.TabIndex = 2;
             btnUpdate.Text = "Cập nhật \r\ndanh sách món ăn";
             btnUpdate.UseVisualStyleBackColor = false;
-            btnUpdate.Click += btnUpdate_Click;
             // 
             // btnDelete
             // 
@@ -94,6 +93,7 @@
             btnDelete.TabIndex = 3;
             btnDelete.Text = "Xoá món ăn";
             btnDelete.UseVisualStyleBackColor = false;
+            btnDelete.Click += btnDelete_Click;
             // 
             // HNAG_Server
             // 
@@ -102,7 +102,7 @@
             BackColor = SystemColors.ButtonShadow;
             BackgroundImage = Properties.Resources.background1;
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(896, 605);
+            ClientSize = new Size(979, 605);
             Controls.Add(btnDelete);
             Controls.Add(btnUpdate);
             Controls.Add(reportBox);
