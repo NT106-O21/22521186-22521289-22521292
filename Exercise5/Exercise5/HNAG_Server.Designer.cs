@@ -39,7 +39,6 @@
             imageList1 = new ImageList(components);
             listView1 = new ListView();
             reportBox = new ListBox();
-            btnUpdate = new Button();
             btnDelete = new Button();
             SuspendLayout();
             // 
@@ -73,17 +72,6 @@
             reportBox.Size = new Size(485, 584);
             reportBox.TabIndex = 1;
             // 
-            // btnUpdate
-            // 
-            btnUpdate.BackColor = Color.FromArgb(255, 128, 255);
-            btnUpdate.ForeColor = SystemColors.ControlText;
-            btnUpdate.Location = new Point(12, 536);
-            btnUpdate.Name = "btnUpdate";
-            btnUpdate.Size = new Size(237, 57);
-            btnUpdate.TabIndex = 2;
-            btnUpdate.Text = "Cập nhật \r\ndanh sách món ăn";
-            btnUpdate.UseVisualStyleBackColor = false;
-            // 
             // btnDelete
             // 
             btnDelete.BackColor = Color.Lime;
@@ -104,7 +92,6 @@
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(979, 605);
             Controls.Add(btnDelete);
-            Controls.Add(btnUpdate);
             Controls.Add(reportBox);
             Controls.Add(listView1);
             DoubleBuffered = true;
@@ -117,7 +104,6 @@
         private ImageList imageList1;
         private ListView listView1;
         private ListBox reportBox;
-        private Button btnUpdate;
         private Button btnDelete;
     }
 }

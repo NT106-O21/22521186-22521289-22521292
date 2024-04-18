@@ -100,10 +100,10 @@ namespace Exercise5
             string workingDirectory = Environment.CurrentDirectory;
             string projectDirectory = Directory.GetParent(workingDirectory).Parent.Parent.FullName;
 
-            if (userName.Text != "" && foodName2.Text != "" && foodImage2.Text != "")
+            if (userName.Text.Trim() != "" && foodName2.Text.Trim() != "" && foodImage2.Text.Trim() != "")
             {
-                string path = Path.Combine(projectDirectory, foodImage2.Text);
-                CommunityFood food = new CommunityFood(foodName2.Text, userName.Text, path);
+                string path = Path.Combine(projectDirectory, foodImage2.Text.Trim());
+                CommunityFood food = new CommunityFood(foodName2.Text.Trim(), userName.Text.Trim(), path);
                 foodList.Add(food);
 
                 var jsonSetting = new JsonSerializerOptions
