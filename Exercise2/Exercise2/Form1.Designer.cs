@@ -28,12 +28,44 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            btnListen = new Button();
+            listViewCommand = new ListView();
+            SuspendLayout();
+            // 
+            // btnListen
+            // 
+            btnListen.Location = new Point(694, 25);
+            btnListen.Name = "btnListen";
+            btnListen.Size = new Size(94, 29);
+            btnListen.TabIndex = 0;
+            btnListen.Text = "Listen";
+            btnListen.UseVisualStyleBackColor = true;
+            btnListen.Click += btnListen_Click;
+            // 
+            // listViewCommand
+            // 
+            listViewCommand.Location = new Point(12, 69);
+            listViewCommand.Name = "listViewCommand";
+            listViewCommand.Size = new Size(776, 369);
+            listViewCommand.TabIndex = 1;
+            listViewCommand.UseCompatibleStateImageBehavior = false;
+            listViewCommand.View = View.List;
+            // 
+            // Form1
+            // 
+            AutoScaleDimensions = new SizeF(9F, 20F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(800, 450);
+            Controls.Add(listViewCommand);
+            Controls.Add(btnListen);
+            Name = "Form1";
+            Text = "Form1";
+            ResumeLayout(false);
         }
 
         #endregion
+
+        private Button btnListen;
+        private ListView listViewCommand;
     }
 }
