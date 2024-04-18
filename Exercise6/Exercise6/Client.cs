@@ -131,7 +131,6 @@ namespace Exercise6
                     Text = lstParticipants.Items[index].ToString()
                 };
                 sender1.Show();
-
                 Receiver receiver = new Receiver()
                 {
                     Text = txtUserName.Text.Trim()
