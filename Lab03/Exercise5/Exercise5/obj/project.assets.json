@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\LTMCB\\GitHub\\22521186-22521289-22521292\\Exercise5\\Exercise5\\Exercise5.csproj",
+      "projectUniqueName": "C:\\LTMCB\\GitHub\\22521186-22521289-22521292\\Lab03\\Exercise5\\Exercise5\\Exercise5.csproj",
       "projectName": "Exercise5",
-      "projectPath": "C:\\LTMCB\\GitHub\\22521186-22521289-22521292\\Exercise5\\Exercise5\\Exercise5.csproj",
+      "projectPath": "C:\\LTMCB\\GitHub\\22521186-22521289-22521292\\Lab03\\Exercise5\\Exercise5\\Exercise5.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\LTMCB\\GitHub\\22521186-22521289-22521292\\Exercise5\\Exercise5\\obj\\",
+      "outputPath": "C:\\LTMCB\\GitHub\\22521186-22521289-22521292\\Lab03\\Exercise5\\Exercise5\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
