@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Lab04\\Exercise1\\Exercise1\\Exercise1.csproj",
-      "projectName": "Exercise1",
-      "projectPath": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Lab04\\Exercise1\\Exercise1\\Exercise1.csproj",
+      "projectUniqueName": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Lab04\\Exercise1\\Exercise1\\Lab04.csproj",
+      "projectName": "Lab04",
+      "projectPath": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Lab04\\Exercise1\\Exercise1\\Lab04.csproj",
       "packagesPath": "C:\\Users\\quanp\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Lab04\\Exercise1\\Exercise1\\obj\\",
       "projectStyle": "PackageReference",
