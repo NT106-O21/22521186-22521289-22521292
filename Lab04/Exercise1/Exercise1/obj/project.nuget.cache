@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "wsV3vYt9eHGxZouxUkH3pTsRILjqAQY1jTRBGL5fdhbBhadX1brygtIz7keApCY9RjOEqoW6GjB7Lycy91fZBw==",
+  "dgSpecHash": "PmNXtiPkEDHZ4ZbbexdZPJogNlMxM6tf7OY6Jlt/emIUvnHnbcGoKQr+yFvoRIookXVde8EKkULRwKGL/pK0bw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Lab04\\Exercise1\\Exercise1\\Lab04.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "E:\\GitHub\\UIT_VuBaTai\\NT106.O21\\22521186-22521289-22521292\\Lab04\\Exercise1\\Exercise1\\Lab04.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.web.webview2\\1.0.2478.35\\microsoft.web.webview2.1.0.2478.35.nupkg.sha512"
+  ],
   "logs": []
 }
