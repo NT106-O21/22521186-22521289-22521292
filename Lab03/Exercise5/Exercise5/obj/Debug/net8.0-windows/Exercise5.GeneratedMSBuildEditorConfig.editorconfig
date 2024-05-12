@@ -14,10 +14,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Exercise5
-<<<<<<< HEAD
-build_property.ProjectDir = C:\LTMCB\GitHub\22521186-22521289-22521292\Lab03\Exercise5\Exercise5\
-=======
-build_property.ProjectDir = C:\Users\quanp\source\repos\22521186-22521289-22521292\Lab03\Exercise5\Exercise5\
->>>>>>> 22bf6e90c76c606f845f7d749234ebae717ce64d
+build_property.ProjectDir = E:\GitHub\UIT_VuBaTai\NT106.O21\22521186-22521289-22521292\Lab03\Exercise5\Exercise5\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
