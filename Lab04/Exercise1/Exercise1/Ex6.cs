@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json.Linq;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -7,14 +8,69 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+using System.Net.Http.Headers;
 
 namespace Lab04
 {
     public partial class Ex6 : Form
     {
+        public string Data { get; set; }
+        private static readonly HttpClient client = new HttpClient();
+
         public Ex6()
         {
             InitializeComponent();
+        }
+
+        private void Ex6_Load(object sender, EventArgs e)
+        {
+            string[] data = Data.Split(" ");
+            txtboxAccessToken.Text = data[0];
+            txtboxTokenType.Text = data[1];
+        }
+
+        private async void btnViewDetail_Click(object sender, EventArgs e)
+        {
+            // Replace this with the actual access token you obtained
+            string accessToken = txtboxAccessToken.Text.Trim();
+
+            // Set the authorization header
+            client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", accessToken);
+
+            try
+            {
+                // Send GET request
+                HttpResponseMessage response = await client.GetAsync("https://nt106.uitiot.vn/api/v1/user/me");
+
+                // Ensure the request was successful
+                response.EnsureSuccessStatusCode();
+
+                // Read response content as string
+                string responseBody = await response.Content.ReadAsStringAsync();
+
+                var json = JObject.Parse(responseBody);
+
+                id.Text = json["id"].ToString();
+                username.Text = json["username"].ToString();
+                email.Text = json["email"].ToString();
+                first_name.Text = json["first_name"].ToString();
+                last_name.Text = json["last_name"].ToString();
+                sex.Text = json["sex"].ToString();
+                birthday.Text = json["birthday"].ToString();
+                language.Text = json["language"].ToString();
+                phone.Text = json["phone"].ToString();
+            }
+            catch (HttpRequestException httpRequestException)
+            {
+                // Handle exception
+                MessageBox.Show($"Error: {httpRequestException.Message}");
+            }
+            catch (Exception ex)
+            {
+                // Handle other exceptions
+                MessageBox.Show($"Error: {ex.Message}");
+            }
         }
     }
 }

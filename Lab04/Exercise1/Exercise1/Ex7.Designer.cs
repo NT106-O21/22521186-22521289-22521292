@@ -36,14 +36,15 @@
             label3 = new Label();
             btnLogIn = new Button();
             textBox1 = new TextBox();
+            label4 = new Label();
             SuspendLayout();
             // 
             // btnSignUp
             // 
             btnSignUp.BackColor = SystemColors.ActiveCaption;
-            btnSignUp.Location = new Point(316, 207);
+            btnSignUp.Location = new Point(429, 127);
             btnSignUp.Name = "btnSignUp";
-            btnSignUp.Size = new Size(94, 29);
+            btnSignUp.Size = new Size(102, 41);
             btnSignUp.TabIndex = 9;
             btnSignUp.Text = "Sign Up";
             btnSignUp.UseVisualStyleBackColor = false;
@@ -51,14 +52,14 @@
             // 
             // pass
             // 
-            pass.Location = new Point(163, 151);
+            pass.Location = new Point(167, 87);
             pass.Name = "pass";
             pass.Size = new Size(247, 27);
             pass.TabIndex = 8;
             // 
             // name
             // 
-            name.Location = new Point(163, 104);
+            name.Location = new Point(167, 40);
             name.Name = "name";
             name.Size = new Size(247, 27);
             name.TabIndex = 7;
@@ -66,7 +67,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(76, 154);
+            label2.Location = new Point(80, 90);
             label2.Name = "label2";
             label2.Size = new Size(70, 20);
             label2.TabIndex = 6;
@@ -75,7 +76,7 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(76, 107);
+            label1.Location = new Point(80, 43);
             label1.Name = "label1";
             label1.Size = new Size(75, 20);
             label1.TabIndex = 5;
@@ -85,7 +86,7 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label3.Location = new Point(240, 37);
+            label3.Location = new Point(251, 9);
             label3.Name = "label3";
             label3.Size = new Size(66, 28);
             label3.TabIndex = 10;
@@ -94,9 +95,9 @@
             // btnLogIn
             // 
             btnLogIn.BackColor = SystemColors.ActiveCaption;
-            btnLogIn.Location = new Point(163, 207);
+            btnLogIn.Location = new Point(429, 43);
             btnLogIn.Name = "btnLogIn";
-            btnLogIn.Size = new Size(94, 29);
+            btnLogIn.Size = new Size(102, 67);
             btnLogIn.TabIndex = 11;
             btnLogIn.Text = "Log In";
             btnLogIn.UseVisualStyleBackColor = false;
@@ -104,11 +105,21 @@
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(12, 252);
+            textBox1.Location = new Point(12, 174);
             textBox1.Multiline = true;
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(592, 310);
+            textBox1.Size = new Size(592, 388);
             textBox1.TabIndex = 12;
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label4.Location = new Point(167, 130);
+            label4.Name = "label4";
+            label4.Size = new Size(253, 28);
+            label4.TabIndex = 13;
+            label4.Text = "Don't have an account yet ?";
             // 
             // Ex7
             // 
@@ -117,6 +128,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ButtonShadow;
             ClientSize = new Size(616, 574);
+            Controls.Add(label4);
             Controls.Add(textBox1);
             Controls.Add(btnLogIn);
             Controls.Add(label3);
@@ -141,5 +153,6 @@
         private Label label3;
         private Button btnLogIn;
         private TextBox textBox1;
+        private Label label4;
     }
 }

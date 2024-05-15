@@ -20,6 +20,8 @@ namespace Lab04
         public _7_FormDangKy()
         {
             InitializeComponent();
+
+
         }
 
         public class postData
@@ -36,7 +38,6 @@ namespace Lab04
                 username = name.Text,
                 password = pass.Text
             };
-
         }
 
     }
