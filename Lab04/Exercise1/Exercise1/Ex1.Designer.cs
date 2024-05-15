@@ -28,12 +28,54 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Ex1";
+            rtbOutput = new RichTextBox();
+            btnBrowse = new Button();
+            txtUrl = new TextBox();
+            SuspendLayout();
+            // 
+            // rtbOutput
+            // 
+            rtbOutput.Location = new Point(12, 46);
+            rtbOutput.Name = "rtbOutput";
+            rtbOutput.Size = new Size(776, 393);
+            rtbOutput.TabIndex = 5;
+            rtbOutput.Text = "";
+            // 
+            // btnBrowse
+            // 
+            btnBrowse.Location = new Point(675, 11);
+            btnBrowse.Name = "btnBrowse";
+            btnBrowse.Size = new Size(113, 29);
+            btnBrowse.TabIndex = 4;
+            btnBrowse.Text = "Browse";
+            btnBrowse.UseVisualStyleBackColor = true;
+            btnBrowse.Click += btnBrowse_Click;
+            // 
+            // txtUrl
+            // 
+            txtUrl.Location = new Point(12, 13);
+            txtUrl.Name = "txtUrl";
+            txtUrl.Size = new Size(657, 27);
+            txtUrl.TabIndex = 3;
+            // 
+            // Ex1
+            // 
+            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(800, 450);
+            Controls.Add(rtbOutput);
+            Controls.Add(btnBrowse);
+            Controls.Add(txtUrl);
+            Name = "Ex1";
+            Text = "Ex1";
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
+
+        private RichTextBox rtbOutput;
+        private Button btnBrowse;
+        private TextBox txtUrl;
     }
 }
