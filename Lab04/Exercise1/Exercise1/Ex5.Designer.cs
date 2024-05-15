@@ -43,11 +43,12 @@
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label4.Location = new Point(167, 132);
+            label4.ForeColor = Color.Black;
+            label4.Location = new Point(223, 132);
             label4.Name = "label4";
-            label4.Size = new Size(253, 28);
+            label4.Size = new Size(191, 28);
             label4.TabIndex = 22;
-            label4.Text = "Don't have an account yet ?";
+            label4.Text = "Chưa tạo tài khoản ?";
             // 
             // txtboxData
             // 
@@ -64,7 +65,7 @@
             btnLogIn.Name = "btnLogIn";
             btnLogIn.Size = new Size(102, 67);
             btnLogIn.TabIndex = 20;
-            btnLogIn.Text = "Log In";
+            btnLogIn.Text = "Đăng nhập";
             btnLogIn.UseVisualStyleBackColor = false;
             btnLogIn.Click += btnLogIn_Click;
             // 
@@ -74,9 +75,9 @@
             label3.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label3.Location = new Point(251, 11);
             label3.Name = "label3";
-            label3.Size = new Size(66, 28);
+            label3.Size = new Size(126, 28);
             label3.TabIndex = 19;
-            label3.Text = "Log In";
+            label3.Text = "ĐĂNG NHẬP";
             // 
             // btnSignUp
             // 
@@ -85,7 +86,7 @@
             btnSignUp.Name = "btnSignUp";
             btnSignUp.Size = new Size(102, 41);
             btnSignUp.TabIndex = 18;
-            btnSignUp.Text = "Sign Up";
+            btnSignUp.Text = "Đăng ký";
             btnSignUp.UseVisualStyleBackColor = false;
             btnSignUp.Click += btnSignUp_Click;
             // 

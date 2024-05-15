@@ -35,8 +35,8 @@
             label1 = new Label();
             label3 = new Label();
             btnLogIn = new Button();
-            textBox1 = new TextBox();
             label4 = new Label();
+            textBox1 = new TextBox();
             SuspendLayout();
             // 
             // btnSignUp
@@ -103,14 +103,6 @@
             btnLogIn.UseVisualStyleBackColor = false;
             btnLogIn.Click += btnLogIn_Click;
             // 
-            // textBox1
-            // 
-            textBox1.Location = new Point(12, 174);
-            textBox1.Multiline = true;
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(592, 388);
-            textBox1.TabIndex = 12;
-            // 
             // label4
             // 
             label4.AutoSize = true;
@@ -120,6 +112,14 @@
             label4.Size = new Size(253, 28);
             label4.TabIndex = 13;
             label4.Text = "Don't have an account yet ?";
+            // 
+            // textBox1
+            // 
+            textBox1.Location = new Point(12, 174);
+            textBox1.Multiline = true;
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(592, 388);
+            textBox1.TabIndex = 12;
             // 
             // Ex7
             // 
@@ -152,7 +152,7 @@
         private Label label1;
         private Label label3;
         private Button btnLogIn;
-        private TextBox textBox1;
         private Label label4;
+        private TextBox textBox1;
     }
 }

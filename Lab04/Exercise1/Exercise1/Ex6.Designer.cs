@@ -60,7 +60,7 @@
             txtboxAccessToken.Location = new Point(12, 41);
             txtboxAccessToken.Multiline = true;
             txtboxAccessToken.Name = "txtboxAccessToken";
-            txtboxAccessToken.Size = new Size(466, 93);
+            txtboxAccessToken.Size = new Size(481, 93);
             txtboxAccessToken.TabIndex = 0;
             // 
             // txtboxTokenType
@@ -69,7 +69,7 @@
             txtboxTokenType.Location = new Point(12, 165);
             txtboxTokenType.Multiline = true;
             txtboxTokenType.Name = "txtboxTokenType";
-            txtboxTokenType.Size = new Size(466, 34);
+            txtboxTokenType.Size = new Size(481, 34);
             txtboxTokenType.TabIndex = 1;
             // 
             // label1
@@ -96,11 +96,11 @@
             // 
             btnViewDetail.BackColor = SystemColors.ActiveCaption;
             btnViewDetail.Font = new Font("Segoe UI", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnViewDetail.Location = new Point(484, 42);
+            btnViewDetail.Location = new Point(499, 42);
             btnViewDetail.Name = "btnViewDetail";
-            btnViewDetail.Size = new Size(112, 157);
+            btnViewDetail.Size = new Size(97, 157);
             btnViewDetail.TabIndex = 4;
-            btnViewDetail.Text = "Show User's Information";
+            btnViewDetail.Text = "Xem thông tin người dùng";
             btnViewDetail.UseVisualStyleBackColor = false;
             btnViewDetail.Click += btnViewDetail_Click;
             // 
@@ -231,9 +231,9 @@
             label7.Font = new Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label7.Location = new Point(10, 359);
             label7.Name = "label7";
-            label7.Size = new Size(94, 25);
+            label7.Size = new Size(36, 25);
             label7.TabIndex = 18;
-            label7.Text = "First name";
+            label7.Text = "Họ";
             // 
             // label8
             // 
@@ -241,9 +241,9 @@
             label8.Font = new Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label8.Location = new Point(10, 519);
             label8.Name = "label8";
-            label8.Size = new Size(89, 25);
+            label8.Size = new Size(94, 25);
             label8.TabIndex = 22;
-            label8.Text = "Language";
+            label8.Text = "Ngôn ngữ";
             // 
             // label9
             // 
@@ -251,9 +251,9 @@
             label9.Font = new Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label9.Location = new Point(10, 479);
             label9.Name = "label9";
-            label9.Size = new Size(77, 25);
+            label9.Size = new Size(91, 25);
             label9.TabIndex = 21;
-            label9.Text = "Birthday";
+            label9.Text = "Ngày sinh";
             // 
             // label10
             // 
@@ -261,9 +261,9 @@
             label10.Font = new Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label10.Location = new Point(10, 439);
             label10.Name = "label10";
-            label10.Size = new Size(69, 25);
+            label10.Size = new Size(78, 25);
             label10.TabIndex = 20;
-            label10.Text = "Gender";
+            label10.Text = "Giới tính";
             // 
             // label11
             // 
@@ -271,9 +271,9 @@
             label11.Font = new Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label11.Location = new Point(10, 399);
             label11.Name = "label11";
-            label11.Size = new Size(92, 25);
+            label11.Size = new Size(38, 25);
             label11.TabIndex = 19;
-            label11.Text = "Last name";
+            label11.Text = "Tên";
             // 
             // label12
             // 
@@ -281,9 +281,9 @@
             label12.Font = new Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label12.Location = new Point(10, 559);
             label12.Name = "label12";
-            label12.Size = new Size(62, 25);
+            label12.Size = new Size(93, 25);
             label12.TabIndex = 23;
-            label12.Text = "Phone";
+            label12.Text = "Điện thoại";
             // 
             // Ex6
             // 

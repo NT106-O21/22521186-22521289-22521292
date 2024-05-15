@@ -32,21 +32,16 @@ namespace Lab04
 
         private async void btnViewDetail_Click(object sender, EventArgs e)
         {
-            // Replace this with the actual access token you obtained
             string accessToken = txtboxAccessToken.Text.Trim();
 
-            // Set the authorization header
             client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", accessToken);
 
             try
             {
-                // Send GET request
                 HttpResponseMessage response = await client.GetAsync("https://nt106.uitiot.vn/api/v1/user/me");
 
-                // Ensure the request was successful
                 response.EnsureSuccessStatusCode();
 
-                // Read response content as string
                 string responseBody = await response.Content.ReadAsStringAsync();
 
                 var json = JObject.Parse(responseBody);
@@ -63,12 +58,10 @@ namespace Lab04
             }
             catch (HttpRequestException httpRequestException)
             {
-                // Handle exception
                 MessageBox.Show($"Error: {httpRequestException.Message}");
             }
             catch (Exception ex)
             {
-                // Handle other exceptions
                 MessageBox.Show($"Error: {ex.Message}");
             }
         }

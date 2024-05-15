@@ -42,13 +42,10 @@ namespace Lab04
             HttpClient client = new HttpClient();
             try
             {
-                // Send POST request
                 HttpResponseMessage response = await client.PostAsync("https://nt106.uitiot.vn/auth/token", formContent);
 
-                // Ensure the request was successful
                 response.EnsureSuccessStatusCode();
 
-                // Read response content as string
                 string responseBody = await response.Content.ReadAsStringAsync();
 
                 // Parse the JSON response
@@ -56,12 +53,10 @@ namespace Lab04
                 string accessToken = json["access_token"].ToString();
                 string tokenType = json["token_type"].ToString();
 
-                // Print the access_token and token_type to TextBox1
                 textBox1.Text = "AccessToken = " + accessToken + Environment.NewLine + "TokenType = " + tokenType;
             }
             catch (HttpRequestException httpRequestException)
             {
-                // Handle exception
                 textBox1.Text = $"Error: {httpRequestException.Message}";
             }
         }
