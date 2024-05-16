@@ -345,11 +345,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\LTMCB\\GitHub\\22521186-22521289-22521292\\Lab04\\Exercise1\\Exercise1\\Lab04.csproj",
+      "projectUniqueName": "C:\\LTMCB\\22521186-22521289-22521292\\Lab04\\Exercise1\\Exercise1\\Lab04.csproj",
       "projectName": "Lab04",
-      "projectPath": "C:\\LTMCB\\GitHub\\22521186-22521289-22521292\\Lab04\\Exercise1\\Exercise1\\Lab04.csproj",
+      "projectPath": "C:\\LTMCB\\22521186-22521289-22521292\\Lab04\\Exercise1\\Exercise1\\Lab04.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\LTMCB\\GitHub\\22521186-22521289-22521292\\Lab04\\Exercise1\\Exercise1\\obj\\",
+      "outputPath": "C:\\LTMCB\\22521186-22521289-22521292\\Lab04\\Exercise1\\Exercise1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
