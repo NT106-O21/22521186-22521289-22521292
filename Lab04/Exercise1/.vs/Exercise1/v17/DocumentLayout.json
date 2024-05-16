@@ -3,28 +3,8 @@
   "WorkspaceRootPath": "E:\\GitHub\\UIT_VuBaTai\\NT106.O21\\22521186-22521289-22521292\\Lab04\\Exercise1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8535C22B-903F-41D3-AA95-825C36D38488}|Exercise1\\Lab04.csproj|E:\\GitHub\\UIT_VuBaTai\\NT106.O21\\22521186-22521289-22521292\\Lab04\\Exercise1\\exercise1\\ex1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8535C22B-903F-41D3-AA95-825C36D38488}|Exercise1\\Lab04.csproj|solutionrelative:exercise1\\ex1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8535C22B-903F-41D3-AA95-825C36D38488}|Exercise1\\Lab04.csproj|e:\\github\\uit_vubatai\\nt106.o21\\22521186-22521289-22521292\\lab04\\exercise1\\exercise1\\ex3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8535C22B-903F-41D3-AA95-825C36D38488}|Exercise1\\Lab04.csproj|solutionrelative:exercise1\\ex3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8535C22B-903F-41D3-AA95-825C36D38488}|Exercise1\\Lab04.csproj|E:\\GitHub\\UIT_VuBaTai\\NT106.O21\\22521186-22521289-22521292\\Lab04\\Exercise1\\exercise1\\ex3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{8535C22B-903F-41D3-AA95-825C36D38488}|Exercise1\\Lab04.csproj|e:\\github\\uit_vubatai\\nt106.o21\\22521186-22521289-22521292\\lab04\\exercise1\\exercise1\\ex3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{8535C22B-903F-41D3-AA95-825C36D38488}|Exercise1\\Lab04.csproj|solutionrelative:exercise1\\ex3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8535C22B-903F-41D3-AA95-825C36D38488}|Exercise1\\Lab04.csproj|E:\\GitHub\\UIT_VuBaTai\\NT106.O21\\22521186-22521289-22521292\\Lab04\\Exercise1\\exercise1\\ex4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8535C22B-903F-41D3-AA95-825C36D38488}|Exercise1\\Lab04.csproj|solutionrelative:exercise1\\ex4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8535C22B-903F-41D3-AA95-825C36D38488}|Exercise1\\Lab04.csproj|E:\\GitHub\\UIT_VuBaTai\\NT106.O21\\22521186-22521289-22521292\\Lab04\\Exercise1\\exercise1\\ex2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8535C22B-903F-41D3-AA95-825C36D38488}|Exercise1\\Lab04.csproj|solutionrelative:exercise1\\ex2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8535C22B-903F-41D3-AA95-825C36D38488}|Exercise1\\Lab04.csproj|E:\\GitHub\\UIT_VuBaTai\\NT106.O21\\22521186-22521289-22521292\\Lab04\\Exercise1\\exercise1\\ex2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8535C22B-903F-41D3-AA95-825C36D38488}|Exercise1\\Lab04.csproj|solutionrelative:exercise1\\ex2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -49,78 +29,16 @@
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Ex3.cs",
-              "DocumentMoniker": "E:\\GitHub\\UIT_VuBaTai\\NT106.O21\\22521186-22521289-22521292\\Lab04\\Exercise1\\Exercise1\\Ex3.cs",
-              "RelativeDocumentMoniker": "Exercise1\\Ex3.cs",
-              "ToolTip": "E:\\GitHub\\UIT_VuBaTai\\NT106.O21\\22521186-22521289-22521292\\Lab04\\Exercise1\\Exercise1\\Ex3.cs",
-              "RelativeToolTip": "Exercise1\\Ex3.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T03:15:40.207Z",
-              "EditorCaption": ""
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Ex1.cs [Design]",
-              "DocumentMoniker": "E:\\GitHub\\UIT_VuBaTai\\NT106.O21\\22521186-22521289-22521292\\Lab04\\Exercise1\\Exercise1\\Ex1.cs",
-              "RelativeDocumentMoniker": "Exercise1\\Ex1.cs",
-              "ToolTip": "E:\\GitHub\\UIT_VuBaTai\\NT106.O21\\22521186-22521289-22521292\\Lab04\\Exercise1\\Exercise1\\Ex1.cs [Design]",
-              "RelativeToolTip": "Exercise1\\Ex1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T03:15:36.374Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Ex4.cs [Design]",
-              "DocumentMoniker": "E:\\GitHub\\UIT_VuBaTai\\NT106.O21\\22521186-22521289-22521292\\Lab04\\Exercise1\\Exercise1\\Ex4.cs",
-              "RelativeDocumentMoniker": "Exercise1\\Ex4.cs",
-              "ToolTip": "E:\\GitHub\\UIT_VuBaTai\\NT106.O21\\22521186-22521289-22521292\\Lab04\\Exercise1\\Exercise1\\Ex4.cs [Design]",
-              "RelativeToolTip": "Exercise1\\Ex4.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T03:15:32.907Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Ex2.cs",
-              "DocumentMoniker": "E:\\GitHub\\UIT_VuBaTai\\NT106.O21\\22521186-22521289-22521292\\Lab04\\Exercise1\\Exercise1\\Ex2.cs",
-              "RelativeDocumentMoniker": "Exercise1\\Ex2.cs",
-              "ToolTip": "E:\\GitHub\\UIT_VuBaTai\\NT106.O21\\22521186-22521289-22521292\\Lab04\\Exercise1\\Exercise1\\Ex2.cs",
-              "RelativeToolTip": "Exercise1\\Ex2.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAAwBYAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T02:50:20.901Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Ex3.cs [Design]",
               "DocumentMoniker": "E:\\GitHub\\UIT_VuBaTai\\NT106.O21\\22521186-22521289-22521292\\Lab04\\Exercise1\\Exercise1\\Ex3.cs",
               "RelativeDocumentMoniker": "Exercise1\\Ex3.cs",
               "ToolTip": "E:\\GitHub\\UIT_VuBaTai\\NT106.O21\\22521186-22521289-22521292\\Lab04\\Exercise1\\Exercise1\\Ex3.cs [Design]",
               "RelativeToolTip": "Exercise1\\Ex3.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T02:31:23.827Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Ex2.cs [Design]",
-              "DocumentMoniker": "E:\\GitHub\\UIT_VuBaTai\\NT106.O21\\22521186-22521289-22521292\\Lab04\\Exercise1\\Exercise1\\Ex2.cs",
-              "RelativeDocumentMoniker": "Exercise1\\Ex2.cs",
-              "ToolTip": "E:\\GitHub\\UIT_VuBaTai\\NT106.O21\\22521186-22521289-22521292\\Lab04\\Exercise1\\Exercise1\\Ex2.cs [Design]",
-              "RelativeToolTip": "Exercise1\\Ex2.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T02:25:00.173Z"
+              "WhenOpened": "2024-05-16T09:12:00.36Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }
