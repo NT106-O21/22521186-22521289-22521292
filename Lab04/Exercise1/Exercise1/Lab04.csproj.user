@@ -1,7 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
+    <Compile Update="7_ChosenFood.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="7_FormAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="7_FormDangKy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="7_FormDangNhap.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Ex1.cs">
@@ -24,6 +33,9 @@
     </Compile>
     <Compile Update="Ex7.cs">
       <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FoodView.cs">
+      <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="Menu.cs">
       <SubType>Form</SubType>

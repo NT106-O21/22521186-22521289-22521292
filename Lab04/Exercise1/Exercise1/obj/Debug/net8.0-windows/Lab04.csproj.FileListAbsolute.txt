@@ -70,3 +70,7 @@ E:\GitHub\UIT_VuBaTai\NT106.O21\22521186-22521289-22521292\Lab04\Exercise1\Exerc
 E:\GitHub\UIT_VuBaTai\NT106.O21\22521186-22521289-22521292\Lab04\Exercise1\Exercise1\obj\Debug\net8.0-windows\Lab04.pdb
 E:\GitHub\UIT_VuBaTai\NT106.O21\22521186-22521289-22521292\Lab04\Exercise1\Exercise1\obj\Debug\net8.0-windows\Lab04.genruntimeconfig.cache
 E:\GitHub\UIT_VuBaTai\NT106.O21\22521186-22521289-22521292\Lab04\Exercise1\Exercise1\obj\Debug\net8.0-windows\ref\Lab04.dll
+C:\LTMCB\GitHub\22521186-22521289-22521292\Lab04\Exercise1\Exercise1\obj\Debug\net8.0-windows\Lab04._7_FormAdd.resources
+C:\LTMCB\GitHub\22521186-22521289-22521292\Lab04\Exercise1\Exercise1\obj\Debug\net8.0-windows\Lab04._7_FormDangNhap.resources
+C:\LTMCB\GitHub\22521186-22521289-22521292\Lab04\Exercise1\Exercise1\obj\Debug\net8.0-windows\Lab04.FoodView.resources
+C:\LTMCB\GitHub\22521186-22521289-22521292\Lab04\Exercise1\Exercise1\obj\Debug\net8.0-windows\Lab04._7_ChosenFood.resources
