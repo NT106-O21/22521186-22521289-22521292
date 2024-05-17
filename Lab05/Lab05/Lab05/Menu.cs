@@ -9,8 +9,8 @@ namespace Lab05
 
         private void btnEx1_Click(object sender, EventArgs e)
         {
-            Lab05.Ex1 ex1 = new Lab05.Ex1();
-            ex1.ShowDialog();
+            Ex1_LoginForm ex1_LoginForm = new Ex1_LoginForm();
+            ex1_LoginForm.ShowDialog();
         }
 
         private void btnEx2_Click(object sender, EventArgs e)
