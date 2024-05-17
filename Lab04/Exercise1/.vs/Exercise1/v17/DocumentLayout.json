@@ -1,78 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\LTMCB\\22521186-22521289-22521292\\Lab04\\Exercise1\\",
+  "WorkspaceRootPath": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Lab04\\Exercise1\\",
   "Documents": [
     {
-<<<<<<< HEAD
-      "AbsoluteMoniker": "D:0:0:{8535C22B-903F-41D3-AA95-825C36D38488}|Exercise1\\Lab04.csproj|c:\\ltmcb\\github\\22521186-22521289-22521292\\lab04\\exercise1\\exercise1\\ex3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8535C22B-903F-41D3-AA95-825C36D38488}|Exercise1\\Lab04.csproj|solutionrelative:exercise1\\ex3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8535C22B-903F-41D3-AA95-825C36D38488}|Exercise1\\Lab04.csproj|c:\\users\\quanp\\source\\repos\\22521186-22521289-22521292\\lab04\\exercise1\\exercise1\\7_formdangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8535C22B-903F-41D3-AA95-825C36D38488}|Exercise1\\Lab04.csproj|solutionrelative:exercise1\\7_formdangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8535C22B-903F-41D3-AA95-825C36D38488}|Exercise1\\Lab04.csproj|c:\\ltmcb\\github\\22521186-22521289-22521292\\lab04\\exercise1\\exercise1\\ex3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8535C22B-903F-41D3-AA95-825C36D38488}|Exercise1\\Lab04.csproj|solutionrelative:exercise1\\ex3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{8535C22B-903F-41D3-AA95-825C36D38488}|Exercise1\\Lab04.csproj|c:\\users\\quanp\\source\\repos\\22521186-22521289-22521292\\lab04\\exercise1\\exercise1\\7_formdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8535C22B-903F-41D3-AA95-825C36D38488}|Exercise1\\Lab04.csproj|solutionrelative:exercise1\\7_formdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8535C22B-903F-41D3-AA95-825C36D38488}|Exercise1\\Lab04.csproj|c:\\ltmcb\\github\\22521186-22521289-22521292\\lab04\\exercise1\\exercise1\\ex7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-=======
-      "AbsoluteMoniker": "D:0:0:{8535C22B-903F-41D3-AA95-825C36D38488}|Exercise1\\Lab04.csproj|c:\\ltmcb\\22521186-22521289-22521292\\lab04\\exercise1\\exercise1\\ex3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8535C22B-903F-41D3-AA95-825C36D38488}|Exercise1\\Lab04.csproj|solutionrelative:exercise1\\ex3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{8535C22B-903F-41D3-AA95-825C36D38488}|Exercise1\\Lab04.csproj|C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Lab04\\Exercise1\\exercise1\\7_formadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8535C22B-903F-41D3-AA95-825C36D38488}|Exercise1\\Lab04.csproj|solutionrelative:exercise1\\7_formadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8535C22B-903F-41D3-AA95-825C36D38488}|Exercise1\\Lab04.csproj|c:\\ltmcb\\22521186-22521289-22521292\\lab04\\exercise1\\exercise1\\ex7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
->>>>>>> d86b58d9a177bb93e037089e40d9b570f8dec528
+      "AbsoluteMoniker": "D:0:0:{8535C22B-903F-41D3-AA95-825C36D38488}|Exercise1\\Lab04.csproj|C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Lab04\\Exercise1\\exercise1\\7_chosenfood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8535C22B-903F-41D3-AA95-825C36D38488}|Exercise1\\Lab04.csproj|solutionrelative:exercise1\\7_chosenfood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8535C22B-903F-41D3-AA95-825C36D38488}|Exercise1\\Lab04.csproj|C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Lab04\\Exercise1\\exercise1\\ex7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8535C22B-903F-41D3-AA95-825C36D38488}|Exercise1\\Lab04.csproj|solutionrelative:exercise1\\ex7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8535C22B-903F-41D3-AA95-825C36D38488}|Exercise1\\Lab04.csproj|C:\\LTMCB\\22521186-22521289-22521292\\Lab04\\Exercise1\\exercise1\\ex7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{8535C22B-903F-41D3-AA95-825C36D38488}|Exercise1\\Lab04.csproj|C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Lab04\\Exercise1\\exercise1\\ex7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{8535C22B-903F-41D3-AA95-825C36D38488}|Exercise1\\Lab04.csproj|solutionrelative:exercise1\\ex7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-<<<<<<< HEAD
-      "AbsoluteMoniker": "D:0:0:{8535C22B-903F-41D3-AA95-825C36D38488}|Exercise1\\Lab04.csproj|C:\\LTMCB\\GitHub\\22521186-22521289-22521292\\Lab04\\Exercise1\\exercise1\\7_chosenfood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8535C22B-903F-41D3-AA95-825C36D38488}|Exercise1\\Lab04.csproj|solutionrelative:exercise1\\7_chosenfood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8535C22B-903F-41D3-AA95-825C36D38488}|Exercise1\\Lab04.csproj|C:\\LTMCB\\GitHub\\22521186-22521289-22521292\\Lab04\\Exercise1\\exercise1\\7_chosenfood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8535C22B-903F-41D3-AA95-825C36D38488}|Exercise1\\Lab04.csproj|solutionrelative:exercise1\\7_chosenfood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8535C22B-903F-41D3-AA95-825C36D38488}|Exercise1\\Lab04.csproj|C:\\LTMCB\\GitHub\\22521186-22521289-22521292\\Lab04\\Exercise1\\exercise1\\foodview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8535C22B-903F-41D3-AA95-825C36D38488}|Exercise1\\Lab04.csproj|solutionrelative:exercise1\\foodview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8535C22B-903F-41D3-AA95-825C36D38488}|Exercise1\\Lab04.csproj|C:\\LTMCB\\GitHub\\22521186-22521289-22521292\\Lab04\\Exercise1\\exercise1\\fooditem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8535C22B-903F-41D3-AA95-825C36D38488}|Exercise1\\Lab04.csproj|solutionrelative:exercise1\\fooditem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8535C22B-903F-41D3-AA95-825C36D38488}|Exercise1\\Lab04.csproj|C:\\LTMCB\\GitHub\\22521186-22521289-22521292\\Lab04\\Exercise1\\exercise1\\7_formadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8535C22B-903F-41D3-AA95-825C36D38488}|Exercise1\\Lab04.csproj|solutionrelative:exercise1\\7_formadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8535C22B-903F-41D3-AA95-825C36D38488}|Exercise1\\Lab04.csproj|C:\\LTMCB\\GitHub\\22521186-22521289-22521292\\Lab04\\Exercise1\\exercise1\\ex6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-=======
-      "AbsoluteMoniker": "D:0:0:{8535C22B-903F-41D3-AA95-825C36D38488}|Exercise1\\Lab04.csproj|C:\\LTMCB\\22521186-22521289-22521292\\Lab04\\Exercise1\\exercise1\\7_chosenfood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8535C22B-903F-41D3-AA95-825C36D38488}|Exercise1\\Lab04.csproj|solutionrelative:exercise1\\7_chosenfood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8535C22B-903F-41D3-AA95-825C36D38488}|Exercise1\\Lab04.csproj|C:\\LTMCB\\22521186-22521289-22521292\\Lab04\\Exercise1\\exercise1\\7_chosenfood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8535C22B-903F-41D3-AA95-825C36D38488}|Exercise1\\Lab04.csproj|solutionrelative:exercise1\\7_chosenfood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8535C22B-903F-41D3-AA95-825C36D38488}|Exercise1\\Lab04.csproj|C:\\LTMCB\\22521186-22521289-22521292\\Lab04\\Exercise1\\exercise1\\foodview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8535C22B-903F-41D3-AA95-825C36D38488}|Exercise1\\Lab04.csproj|solutionrelative:exercise1\\foodview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8535C22B-903F-41D3-AA95-825C36D38488}|Exercise1\\Lab04.csproj|C:\\LTMCB\\22521186-22521289-22521292\\Lab04\\Exercise1\\exercise1\\fooditem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8535C22B-903F-41D3-AA95-825C36D38488}|Exercise1\\Lab04.csproj|solutionrelative:exercise1\\fooditem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8535C22B-903F-41D3-AA95-825C36D38488}|Exercise1\\Lab04.csproj|C:\\LTMCB\\22521186-22521289-22521292\\Lab04\\Exercise1\\exercise1\\7_formadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8535C22B-903F-41D3-AA95-825C36D38488}|Exercise1\\Lab04.csproj|solutionrelative:exercise1\\7_formadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8535C22B-903F-41D3-AA95-825C36D38488}|Exercise1\\Lab04.csproj|C:\\LTMCB\\22521186-22521289-22521292\\Lab04\\Exercise1\\exercise1\\ex6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
->>>>>>> d86b58d9a177bb93e037089e40d9b570f8dec528
-      "RelativeMoniker": "D:0:0:{8535C22B-903F-41D3-AA95-825C36D38488}|Exercise1\\Lab04.csproj|solutionrelative:exercise1\\ex6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -82,15 +34,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Bookmark",
@@ -106,230 +66,84 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "7_FormDangNhap.cs",
+              "DocumentMoniker": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Lab04\\Exercise1\\Exercise1\\7_FormDangNhap.cs",
+              "RelativeDocumentMoniker": "Exercise1\\7_FormDangNhap.cs",
+              "ToolTip": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Lab04\\Exercise1\\Exercise1\\7_FormDangNhap.cs",
+              "RelativeToolTip": "Exercise1\\7_FormDangNhap.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T14:22:12.78Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-<<<<<<< HEAD
-              "Title": "Ex3.cs",
-              "DocumentMoniker": "C:\\LTMCB\\GitHub\\22521186-22521289-22521292\\Lab04\\Exercise1\\Exercise1\\Ex3.cs",
-              "RelativeDocumentMoniker": "Exercise1\\Ex3.cs",
-              "ToolTip": "C:\\LTMCB\\GitHub\\22521186-22521289-22521292\\Lab04\\Exercise1\\Exercise1\\Ex3.cs",
-              "RelativeToolTip": "Exercise1\\Ex3.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAACkAAAA+AAAA",
+              "Title": "7_FormDangKy.cs",
+              "DocumentMoniker": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Lab04\\Exercise1\\Exercise1\\7_FormDangKy.cs",
+              "RelativeDocumentMoniker": "Exercise1\\7_FormDangKy.cs",
+              "ToolTip": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Lab04\\Exercise1\\Exercise1\\7_FormDangKy.cs",
+              "RelativeToolTip": "Exercise1\\7_FormDangKy.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAgwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T13:08:23.653Z",
+              "WhenOpened": "2024-05-16T14:22:10.657Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Ex3.cs [Design]",
-              "DocumentMoniker": "C:\\LTMCB\\GitHub\\22521186-22521289-22521292\\Lab04\\Exercise1\\Exercise1\\Ex3.cs",
-              "RelativeDocumentMoniker": "Exercise1\\Ex3.cs",
-              "ToolTip": "C:\\LTMCB\\GitHub\\22521186-22521289-22521292\\Lab04\\Exercise1\\Exercise1\\Ex3.cs [Design]",
-              "RelativeToolTip": "Exercise1\\Ex3.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T13:08:20.768Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "7_FormAdd.cs",
-              "DocumentMoniker": "C:\\LTMCB\\GitHub\\22521186-22521289-22521292\\Lab04\\Exercise1\\Exercise1\\7_FormAdd.cs",
-              "RelativeDocumentMoniker": "Exercise1\\7_FormAdd.cs",
-              "ToolTip": "C:\\LTMCB\\GitHub\\22521186-22521289-22521292\\Lab04\\Exercise1\\Exercise1\\7_FormAdd.cs",
-              "RelativeToolTip": "Exercise1\\7_FormAdd.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
-              "WhenOpened": "2024-05-16T12:26:45.403Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Ex6.cs",
-              "DocumentMoniker": "C:\\LTMCB\\GitHub\\22521186-22521289-22521292\\Lab04\\Exercise1\\Exercise1\\Ex6.cs",
-              "RelativeDocumentMoniker": "Exercise1\\Ex6.cs",
-              "ToolTip": "C:\\LTMCB\\GitHub\\22521186-22521289-22521292\\Lab04\\Exercise1\\Exercise1\\Ex6.cs",
-              "RelativeToolTip": "Exercise1\\Ex6.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAAACYAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
-              "WhenOpened": "2024-05-16T12:18:39.365Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "FoodView.cs",
-              "DocumentMoniker": "C:\\LTMCB\\GitHub\\22521186-22521289-22521292\\Lab04\\Exercise1\\Exercise1\\FoodView.cs",
-              "RelativeDocumentMoniker": "Exercise1\\FoodView.cs",
-              "ToolTip": "C:\\LTMCB\\GitHub\\22521186-22521289-22521292\\Lab04\\Exercise1\\Exercise1\\FoodView.cs",
-              "RelativeToolTip": "Exercise1\\FoodView.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
-              "WhenOpened": "2024-05-16T12:14:54.76Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "FoodItem.cs",
-              "DocumentMoniker": "C:\\LTMCB\\GitHub\\22521186-22521289-22521292\\Lab04\\Exercise1\\Exercise1\\FoodItem.cs",
-              "RelativeDocumentMoniker": "Exercise1\\FoodItem.cs",
-              "ToolTip": "C:\\LTMCB\\GitHub\\22521186-22521289-22521292\\Lab04\\Exercise1\\Exercise1\\FoodItem.cs",
-              "RelativeToolTip": "Exercise1\\FoodItem.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T12:14:50.562Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "7_ChosenFood.cs",
-              "DocumentMoniker": "C:\\LTMCB\\GitHub\\22521186-22521289-22521292\\Lab04\\Exercise1\\Exercise1\\7_ChosenFood.cs",
-              "RelativeDocumentMoniker": "Exercise1\\7_ChosenFood.cs",
-              "ToolTip": "C:\\LTMCB\\GitHub\\22521186-22521289-22521292\\Lab04\\Exercise1\\Exercise1\\7_ChosenFood.cs",
-              "RelativeToolTip": "Exercise1\\7_ChosenFood.cs",
-              "ViewState": "AQIAACIAAAAAAAAAAAAAADIAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
-              "WhenOpened": "2024-05-16T07:39:09.71Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "7_ChosenFood.cs [Design]",
-              "DocumentMoniker": "C:\\LTMCB\\GitHub\\22521186-22521289-22521292\\Lab04\\Exercise1\\Exercise1\\7_ChosenFood.cs",
-              "RelativeDocumentMoniker": "Exercise1\\7_ChosenFood.cs",
-              "ToolTip": "C:\\LTMCB\\GitHub\\22521186-22521289-22521292\\Lab04\\Exercise1\\Exercise1\\7_ChosenFood.cs [Design]",
-              "RelativeToolTip": "Exercise1\\7_ChosenFood.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
-              "WhenOpened": "2024-05-16T07:37:38.572Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-=======
-              "Title": "Ex3.cs [Design]",
-              "DocumentMoniker": "C:\\LTMCB\\22521186-22521289-22521292\\Lab04\\Exercise1\\Exercise1\\Ex3.cs",
-              "RelativeDocumentMoniker": "Exercise1\\Ex3.cs",
-              "ToolTip": "C:\\LTMCB\\22521186-22521289-22521292\\Lab04\\Exercise1\\Exercise1\\Ex3.cs [Design]",
-              "RelativeToolTip": "Exercise1\\Ex3.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T13:07:45.148Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "7_FormAdd.cs",
-              "DocumentMoniker": "C:\\LTMCB\\22521186-22521289-22521292\\Lab04\\Exercise1\\Exercise1\\7_FormAdd.cs",
+              "DocumentMoniker": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Lab04\\Exercise1\\Exercise1\\7_FormAdd.cs",
               "RelativeDocumentMoniker": "Exercise1\\7_FormAdd.cs",
-              "ToolTip": "C:\\LTMCB\\22521186-22521289-22521292\\Lab04\\Exercise1\\Exercise1\\7_FormAdd.cs",
+              "ToolTip": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Lab04\\Exercise1\\Exercise1\\7_FormAdd.cs",
               "RelativeToolTip": "Exercise1\\7_FormAdd.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAADIAAAAAAAAAAAAQwEcAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T12:26:45.403Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Ex6.cs",
-              "DocumentMoniker": "C:\\LTMCB\\22521186-22521289-22521292\\Lab04\\Exercise1\\Exercise1\\Ex6.cs",
-              "RelativeDocumentMoniker": "Exercise1\\Ex6.cs",
-              "ToolTip": "C:\\LTMCB\\22521186-22521289-22521292\\Lab04\\Exercise1\\Exercise1\\Ex6.cs",
-              "RelativeToolTip": "Exercise1\\Ex6.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAAACYAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T12:18:39.365Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "FoodView.cs",
-              "DocumentMoniker": "C:\\LTMCB\\22521186-22521289-22521292\\Lab04\\Exercise1\\Exercise1\\FoodView.cs",
-              "RelativeDocumentMoniker": "Exercise1\\FoodView.cs",
-              "ToolTip": "C:\\LTMCB\\22521186-22521289-22521292\\Lab04\\Exercise1\\Exercise1\\FoodView.cs",
-              "RelativeToolTip": "Exercise1\\FoodView.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T12:14:54.76Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "FoodItem.cs",
-              "DocumentMoniker": "C:\\LTMCB\\22521186-22521289-22521292\\Lab04\\Exercise1\\Exercise1\\FoodItem.cs",
-              "RelativeDocumentMoniker": "Exercise1\\FoodItem.cs",
-              "ToolTip": "C:\\LTMCB\\22521186-22521289-22521292\\Lab04\\Exercise1\\Exercise1\\FoodItem.cs",
-              "RelativeToolTip": "Exercise1\\FoodItem.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T12:14:50.562Z"
+              "WhenOpened": "2024-05-16T13:21:30.451Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "7_ChosenFood.cs",
-              "DocumentMoniker": "C:\\LTMCB\\22521186-22521289-22521292\\Lab04\\Exercise1\\Exercise1\\7_ChosenFood.cs",
+              "DocumentMoniker": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Lab04\\Exercise1\\Exercise1\\7_ChosenFood.cs",
               "RelativeDocumentMoniker": "Exercise1\\7_ChosenFood.cs",
-              "ToolTip": "C:\\LTMCB\\22521186-22521289-22521292\\Lab04\\Exercise1\\Exercise1\\7_ChosenFood.cs",
+              "ToolTip": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Lab04\\Exercise1\\Exercise1\\7_ChosenFood.cs",
               "RelativeToolTip": "Exercise1\\7_ChosenFood.cs",
-              "ViewState": "AQIAACIAAAAAAAAAAAAAADIAAAAsAAAA",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAwDIAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T07:39:09.71Z"
+              "WhenOpened": "2024-05-16T13:21:30.457Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "7_ChosenFood.cs [Design]",
-              "DocumentMoniker": "C:\\LTMCB\\22521186-22521289-22521292\\Lab04\\Exercise1\\Exercise1\\7_ChosenFood.cs",
-              "RelativeDocumentMoniker": "Exercise1\\7_ChosenFood.cs",
-              "ToolTip": "C:\\LTMCB\\GitHub\\22521186-22521289-22521292\\Lab04\\Exercise1\\Exercise1\\7_ChosenFood.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\GitHub\\22521186-22521289-22521292\\Lab04\\Exercise1\\Exercise1\\7_ChosenFood.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T07:37:38.572Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
->>>>>>> d86b58d9a177bb93e037089e40d9b570f8dec528
               "Title": "Ex7.cs",
-              "DocumentMoniker": "C:\\LTMCB\\22521186-22521289-22521292\\Lab04\\Exercise1\\Exercise1\\Ex7.cs",
+              "DocumentMoniker": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Lab04\\Exercise1\\Exercise1\\Ex7.cs",
               "RelativeDocumentMoniker": "Exercise1\\Ex7.cs",
-              "ToolTip": "C:\\LTMCB\\22521186-22521289-22521292\\Lab04\\Exercise1\\Exercise1\\Ex7.cs",
+              "ToolTip": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Lab04\\Exercise1\\Exercise1\\Ex7.cs",
               "RelativeToolTip": "Exercise1\\Ex7.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAANAAAA",
+              "ViewState": "AQIAANUAAAAAAAAAAADwv/wAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T07:15:58.82Z",
+              "WhenOpened": "2024-05-16T13:21:30.459Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-<<<<<<< HEAD
-              "DocumentIndex": 3,
-=======
-              "DocumentIndex": 2,
->>>>>>> d86b58d9a177bb93e037089e40d9b570f8dec528
+              "DocumentIndex": 5,
               "Title": "Ex7.cs [Design]",
-              "DocumentMoniker": "C:\\LTMCB\\22521186-22521289-22521292\\Lab04\\Exercise1\\Exercise1\\Ex7.cs",
+              "DocumentMoniker": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Lab04\\Exercise1\\Exercise1\\Ex7.cs",
               "RelativeDocumentMoniker": "Exercise1\\Ex7.cs",
-              "ToolTip": "C:\\LTMCB\\GitHub\\22521186-22521289-22521292\\Lab04\\Exercise1\\Exercise1\\Ex7.cs [Design]",
-<<<<<<< HEAD
+              "ToolTip": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Lab04\\Exercise1\\Exercise1\\Ex7.cs [Design]",
               "RelativeToolTip": "Exercise1\\Ex7.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
-=======
-              "RelativeToolTip": "..\\..\\..\\GitHub\\22521186-22521289-22521292\\Lab04\\Exercise1\\Exercise1\\Ex7.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
->>>>>>> d86b58d9a177bb93e037089e40d9b570f8dec528
-              "WhenOpened": "2024-05-16T07:16:02.495Z"
+              "WhenOpened": "2024-05-16T13:21:30.46Z",
+              "EditorCaption": " [Design]"
             }
           ]
         },
