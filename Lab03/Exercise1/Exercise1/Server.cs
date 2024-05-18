@@ -29,7 +29,7 @@ namespace Exercise1
             try
             {
                 server = new UdpClient(int.Parse(txtPortBox.Text));
-                ipEndPoint = new IPEndPoint(IPAddress.Parse("127.0.0.1"), int.Parse(txtPortBox.Text) - 1000);
+                ipEndPoint = new IPEndPoint(IPAddress.Any, int.Parse(txtPortBox.Text) - 1000);
                 server.BeginReceive(new AsyncCallback(onReceive), server);
             }
             catch (Exception ex)

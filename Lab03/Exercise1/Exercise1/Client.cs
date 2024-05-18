@@ -28,7 +28,7 @@ namespace Exercise1
             try
             {
                 client = new UdpClient(int.Parse(txtPortBox.Text) - 1000);
-                ipEndPoint = new IPEndPoint(IPAddress.Parse("127.0.0.1"), int.Parse(txtPortBox.Text));
+                ipEndPoint = new IPEndPoint(IPAddress.Parse(txtIpRemote.Text), int.Parse(txtPortBox.Text));
                
             }
             catch (Exception ex)

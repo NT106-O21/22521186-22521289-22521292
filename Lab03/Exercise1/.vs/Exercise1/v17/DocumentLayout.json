@@ -1,21 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Lab03\\Exercise1\\",
+  "WorkspaceRootPath": "E:\\GitHub\\UIT_VuBaTai\\NT106.O21\\22521186-22521289-22521292\\Lab03\\Exercise1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{123CE59A-B80A-44E8-8D2B-41D6005142AC}|Exercise1\\Exercise1.csproj|c:\\users\\quanp\\source\\repos\\22521186-22521289-22521292\\lab03\\exercise1\\exercise1\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{123CE59A-B80A-44E8-8D2B-41D6005142AC}|Exercise1\\Exercise1.csproj|e:\\github\\uit_vubatai\\nt106.o21\\22521186-22521289-22521292\\lab03\\exercise1\\exercise1\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{123CE59A-B80A-44E8-8D2B-41D6005142AC}|Exercise1\\Exercise1.csproj|solutionrelative:exercise1\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{123CE59A-B80A-44E8-8D2B-41D6005142AC}|Exercise1\\Exercise1.csproj|C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Lab03\\Exercise1\\exercise1\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{123CE59A-B80A-44E8-8D2B-41D6005142AC}|Exercise1\\Exercise1.csproj|E:\\GitHub\\UIT_VuBaTai\\NT106.O21\\22521186-22521289-22521292\\Lab03\\Exercise1\\exercise1\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{123CE59A-B80A-44E8-8D2B-41D6005142AC}|Exercise1\\Exercise1.csproj|solutionrelative:exercise1\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{123CE59A-B80A-44E8-8D2B-41D6005142AC}|Exercise1\\Exercise1.csproj|C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Lab03\\Exercise1\\exercise1\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{123CE59A-B80A-44E8-8D2B-41D6005142AC}|Exercise1\\Exercise1.csproj|E:\\GitHub\\UIT_VuBaTai\\NT106.O21\\22521186-22521289-22521292\\Lab03\\Exercise1\\exercise1\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{123CE59A-B80A-44E8-8D2B-41D6005142AC}|Exercise1\\Exercise1.csproj|solutionrelative:exercise1\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{123CE59A-B80A-44E8-8D2B-41D6005142AC}|Exercise1\\Exercise1.csproj|C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Lab03\\Exercise1\\exercise1\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{123CE59A-B80A-44E8-8D2B-41D6005142AC}|Exercise1\\Exercise1.csproj|E:\\GitHub\\UIT_VuBaTai\\NT106.O21\\22521186-22521289-22521292\\Lab03\\Exercise1\\exercise1\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{123CE59A-B80A-44E8-8D2B-41D6005142AC}|Exercise1\\Exercise1.csproj|solutionrelative:exercise1\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -26,25 +26,29 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Server.cs",
-              "DocumentMoniker": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Lab03\\Exercise1\\Exercise1\\Server.cs",
+              "DocumentMoniker": "E:\\GitHub\\UIT_VuBaTai\\NT106.O21\\22521186-22521289-22521292\\Lab03\\Exercise1\\Exercise1\\Server.cs",
               "RelativeDocumentMoniker": "Exercise1\\Server.cs",
-              "ToolTip": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Lab03\\Exercise1\\Exercise1\\Server.cs",
+              "ToolTip": "E:\\GitHub\\UIT_VuBaTai\\NT106.O21\\22521186-22521289-22521292\\Lab03\\Exercise1\\Exercise1\\Server.cs",
               "RelativeToolTip": "Exercise1\\Server.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAgwDsAAAAAAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABgAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-18T13:39:08.896Z",
               "EditorCaption": ""
@@ -53,11 +57,11 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Client.cs",
-              "DocumentMoniker": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Lab03\\Exercise1\\Exercise1\\Client.cs",
+              "DocumentMoniker": "E:\\GitHub\\UIT_VuBaTai\\NT106.O21\\22521186-22521289-22521292\\Lab03\\Exercise1\\Exercise1\\Client.cs",
               "RelativeDocumentMoniker": "Exercise1\\Client.cs",
-              "ToolTip": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Lab03\\Exercise1\\Exercise1\\Client.cs",
+              "ToolTip": "E:\\GitHub\\UIT_VuBaTai\\NT106.O21\\22521186-22521289-22521292\\Lab03\\Exercise1\\Exercise1\\Client.cs",
               "RelativeToolTip": "Exercise1\\Client.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAkwDYAAAAAAAAA",
+              "ViewState": "AQIAABcAAAAAAAAAAAAkwB4AAABMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-18T13:29:20.139Z"
             },
@@ -65,10 +69,10 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Client.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Lab03\\Exercise1\\Exercise1\\Client.cs",
+              "DocumentMoniker": "E:\\GitHub\\UIT_VuBaTai\\NT106.O21\\22521186-22521289-22521292\\Lab03\\Exercise1\\Exercise1\\Client.cs",
               "RelativeDocumentMoniker": "Exercise1\\Client.cs",
-              "ToolTip": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Exercise1\\Exercise1\\Client.cs [Design]",
-              "RelativeToolTip": "..\\..\\Exercise1\\Exercise1\\Client.cs [Design]",
+              "ToolTip": "E:\\GitHub\\UIT_VuBaTai\\NT106.O21\\22521186-22521289-22521292\\Lab03\\Exercise1\\Exercise1\\Client.cs [Design]",
+              "RelativeToolTip": "Exercise1\\Client.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-18T13:18:34.431Z"
             },
@@ -76,10 +80,10 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Server.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Lab03\\Exercise1\\Exercise1\\Server.cs",
+              "DocumentMoniker": "E:\\GitHub\\UIT_VuBaTai\\NT106.O21\\22521186-22521289-22521292\\Lab03\\Exercise1\\Exercise1\\Server.cs",
               "RelativeDocumentMoniker": "Exercise1\\Server.cs",
-              "ToolTip": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Exercise1\\Exercise1\\Server.cs [Design]",
-              "RelativeToolTip": "..\\..\\Exercise1\\Exercise1\\Server.cs [Design]",
+              "ToolTip": "E:\\GitHub\\UIT_VuBaTai\\NT106.O21\\22521186-22521289-22521292\\Lab03\\Exercise1\\Exercise1\\Server.cs [Design]",
+              "RelativeToolTip": "Exercise1\\Server.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-18T13:18:24.843Z"
             }
