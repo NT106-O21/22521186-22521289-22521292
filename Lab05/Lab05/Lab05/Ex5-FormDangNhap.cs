@@ -12,11 +12,11 @@ using System.Windows.Forms;
 
 namespace Lab05
 {
-    public partial class _7_FormDangNhap : Form
+    public partial class Ex5_FormDangNhap : Form
     {
         private Ex5 mainForm;
 
-        public _7_FormDangNhap(Ex5 mainForm)
+        public Ex5_FormDangNhap(Ex5 mainForm)
         {
             InitializeComponent();
             this.mainForm = mainForm;
@@ -24,7 +24,7 @@ namespace Lab05
 
         private void labelSignUp_Click(object sender, EventArgs e)
         {
-            _7_FormDangKy dangky = new _7_FormDangKy();
+            Ex5_FormDangKy dangky = new Ex5_FormDangKy();
             dangky.ShowDialog();
         }
 

@@ -14,14 +14,14 @@ using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Lab05
 {
-    public partial class _7_ChosenFood : Form
+    public partial class Ex5_ChosenFood : Form
     {
         private Ex5 mainForm;
 
         private string accessToken;
         private int chosenid;
 
-        public _7_ChosenFood(Ex5 mainForm, string accessToken, int chosenID)
+        public Ex5_ChosenFood(Ex5 mainForm, string accessToken, int chosenID)
         {
             InitializeComponent();
             this.mainForm = mainForm;
@@ -58,6 +58,22 @@ namespace Lab05
             {
                 MessageBox.Show($"Error: {ex.Message}");
             }
+        }
+
+        private bool isconfig = false;
+
+        private void btnInvite_Click(object sender, EventArgs e)
+        {
+            if (isconfig == false)
+            {
+                Ex5_EmailConfigForm form = new Ex5_EmailConfigForm(this);
+                form.ShowDialog();
+            }
+        }
+
+        public void SetConfigStatus(bool status)
+        {
+            isconfig = status;
         }
     }
 }

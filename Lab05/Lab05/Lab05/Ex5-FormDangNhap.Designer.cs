@@ -1,6 +1,6 @@
 ﻿namespace Lab05
 {
-    partial class _7_FormDangNhap
+    partial class Ex5_FormDangNhap
     {
         /// <summary>
         /// Required designer variable.

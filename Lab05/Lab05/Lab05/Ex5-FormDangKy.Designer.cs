@@ -1,6 +1,6 @@
 ﻿namespace Lab05
 {
-    partial class _7_FormDangKy
+    partial class Ex5_FormDangKy
     {
         /// <summary>
         /// Required designer variable.

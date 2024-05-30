@@ -1,6 +1,6 @@
 ﻿namespace Lab05
 {
-    partial class _7_ChosenFood
+    partial class Ex5_ChosenFood
     {
         /// <summary>
         /// Required designer variable.
@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             foodView1 = new FoodView();
+            btnInvite = new Button();
             SuspendLayout();
             // 
             // foodView1
@@ -38,13 +39,26 @@
             foodView1.Size = new Size(600, 156);
             foodView1.TabIndex = 0;
             // 
-            // _7_ChoosenFood
+            // btnInvite
+            // 
+            btnInvite.BackColor = SystemColors.ActiveCaption;
+            btnInvite.Location = new Point(505, 184);
+            btnInvite.Name = "btnInvite";
+            btnInvite.Size = new Size(111, 29);
+            btnInvite.TabIndex = 1;
+            btnInvite.Text = "Mời bạn bè...";
+            btnInvite.UseVisualStyleBackColor = false;
+            btnInvite.Click += btnInvite_Click;
+            // 
+            // _7_ChosenFood
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(632, 172);
+            BackColor = SystemColors.Info;
+            ClientSize = new Size(628, 225);
+            Controls.Add(btnInvite);
             Controls.Add(foodView1);
-            Name = "_7_ChoosenFood";
+            Name = "_7_ChosenFood";
             Text = "_7_ChoosenFood";
             ResumeLayout(false);
         }
@@ -52,5 +66,6 @@
         #endregion
 
         private FoodView foodView1;
+        private Button btnInvite;
     }
 }

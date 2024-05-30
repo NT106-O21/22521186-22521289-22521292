@@ -13,13 +13,13 @@ using static System.Windows.Forms.DataFormats;
 
 namespace Lab05
 {
-    public partial class _7_FormAdd : Form
+    public partial class Ex5_FormAdd : Form
     {
         private Ex5 mainForm;
 
         private string accessToken;
 
-        public _7_FormAdd(Ex5 mainForm, string access_token)
+        public Ex5_FormAdd(Ex5 mainForm, string access_token)
         {
             InitializeComponent();
             this.mainForm = mainForm;

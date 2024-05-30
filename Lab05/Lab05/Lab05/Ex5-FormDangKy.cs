@@ -18,9 +18,9 @@ using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace Lab05
 {
-    public partial class _7_FormDangKy : Form
+    public partial class Ex5_FormDangKy : Form
     {
-        public _7_FormDangKy()
+        public Ex5_FormDangKy()
         {
             InitializeComponent();
 

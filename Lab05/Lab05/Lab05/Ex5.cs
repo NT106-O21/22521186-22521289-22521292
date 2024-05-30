@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Text.Json;
 using System.Net;
-using static Lab05._7_FormDangKy;
+using static Lab05.Ex5_FormDangKy;
 using System.Security.Policy;
 using System.Net.Http.Headers;
 using Newtonsoft.Json.Linq;
@@ -37,7 +37,7 @@ namespace Lab05
 
         private async void Ex5_Load(object sender, EventArgs e)
         {
-            _7_FormDangNhap loginForm = new _7_FormDangNhap(this);
+            Ex5_FormDangNhap loginForm = new Ex5_FormDangNhap(this);
             loginForm.ShowDialog();
 
             if (string.IsNullOrEmpty(accessToken))
@@ -64,7 +64,7 @@ namespace Lab05
 
         private void btnAddFood_Click(object sender, EventArgs e)
         {
-            _7_FormAdd addFoodForm = new _7_FormAdd(this, accessToken);
+            Ex5_FormAdd addFoodForm = new Ex5_FormAdd(this, accessToken);
             addFoodForm.ShowDialog();
 
             pagesizeList.SelectedIndex = 0;
@@ -239,7 +239,7 @@ namespace Lab05
                 int rdSerialNumber = rd.Next(communityfoodList.Count);
                 int chosenID = communityfoodList.ElementAt(rdSerialNumber).id;
 
-                _7_ChosenFood chooseFood = new _7_ChosenFood(this, accessToken, chosenID);
+                Ex5_ChosenFood chooseFood = new Ex5_ChosenFood(this, accessToken, chosenID);
                 chooseFood.ShowDialog();
             }
             else
@@ -247,7 +247,7 @@ namespace Lab05
                 int rdSerialNumber = rd.Next(personalfoodList.Count);
                 int chosenID = personalfoodList.ElementAt(rdSerialNumber).id;
 
-                _7_ChosenFood chooseFood = new _7_ChosenFood(this, accessToken, chosenID);
+                Ex5_ChosenFood chooseFood = new Ex5_ChosenFood(this, accessToken, chosenID);
                 chooseFood.ShowDialog();
             }
         }

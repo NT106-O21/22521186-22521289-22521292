@@ -1,6 +1,6 @@
 ﻿namespace Lab05
 {
-    partial class _7_FormAdd
+    partial class Ex5_FormAdd
     {
         /// <summary>
         /// Required designer variable.
