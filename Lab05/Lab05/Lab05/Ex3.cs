@@ -86,5 +86,7 @@ namespace Lab05
                 txtPassword.PasswordChar = '*';
             }
         }
+
+        
     }
 }

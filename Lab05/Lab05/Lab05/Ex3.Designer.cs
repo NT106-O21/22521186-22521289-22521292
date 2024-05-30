@@ -88,6 +88,7 @@
             txtEmail.Name = "txtEmail";
             txtEmail.Size = new Size(319, 32);
             txtEmail.TabIndex = 4;
+            txtEmail.Text = "wibitoichoi@gmail.com";
             // 
             // txtPassword
             // 
@@ -98,6 +99,7 @@
             txtPassword.PasswordChar = '*';
             txtPassword.Size = new Size(319, 32);
             txtPassword.TabIndex = 5;
+            txtPassword.Text = "jhyncclcmqriubui";
             // 
             // dataGridView1
             // 
@@ -129,6 +131,7 @@
             btnLogin.TabIndex = 12;
             btnLogin.Text = "Login";
             btnLogin.UseVisualStyleBackColor = true;
+            btnLogin.Click += btnLogin_Click;
             // 
             // Ex3
             // 
