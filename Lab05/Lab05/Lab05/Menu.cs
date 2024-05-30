@@ -36,6 +36,12 @@ namespace Lab05
             Lab05.Ex5 ex5 = new Lab05.Ex5();
             ex5.ShowDialog();
         }
+
+        private void btnEx6_Click(object sender, EventArgs e)
+        {
+            Lab05.Ex6 ex6 = new Lab05.Ex6();
+            ex6.ShowDialog();
+        }
     }
 
 

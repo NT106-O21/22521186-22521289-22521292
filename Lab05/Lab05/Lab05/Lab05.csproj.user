@@ -31,6 +31,15 @@
     <Compile Update="Ex5.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Ex6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Ex6_MailDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Ex6_SendMail.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="FoodView.cs">
       <SubType>UserControl</SubType>
     </Compile>
