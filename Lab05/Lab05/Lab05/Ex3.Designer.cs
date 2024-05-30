@@ -32,8 +32,8 @@
             lbPassword = new Label();
             lbTotal = new Label();
             lbRecent = new Label();
-            tbEmail = new TextBox();
-            tbPassword = new TextBox();
+            txtEmail = new TextBox();
+            txtPassword = new TextBox();
             dataGridView1 = new DataGridView();
             cbShowPass = new CheckBox();
             btnLogin = new Button();
@@ -80,24 +80,24 @@
             lbRecent.TabIndex = 3;
             lbRecent.Text = "Recent";
             // 
-            // tbEmail
+            // txtEmail
             // 
-            tbEmail.Location = new Point(117, 25);
-            tbEmail.Margin = new Padding(4, 5, 4, 5);
-            tbEmail.Multiline = true;
-            tbEmail.Name = "tbEmail";
-            tbEmail.Size = new Size(319, 32);
-            tbEmail.TabIndex = 4;
+            txtEmail.Location = new Point(117, 25);
+            txtEmail.Margin = new Padding(4, 5, 4, 5);
+            txtEmail.Multiline = true;
+            txtEmail.Name = "txtEmail";
+            txtEmail.Size = new Size(319, 32);
+            txtEmail.TabIndex = 4;
             // 
-            // tbPassword
+            // txtPassword
             // 
-            tbPassword.Location = new Point(117, 80);
-            tbPassword.Margin = new Padding(4, 5, 4, 5);
-            tbPassword.Multiline = true;
-            tbPassword.Name = "tbPassword";
-            tbPassword.PasswordChar = '*';
-            tbPassword.Size = new Size(319, 32);
-            tbPassword.TabIndex = 5;
+            txtPassword.Location = new Point(117, 80);
+            txtPassword.Margin = new Padding(4, 5, 4, 5);
+            txtPassword.Multiline = true;
+            txtPassword.Name = "txtPassword";
+            txtPassword.PasswordChar = '*';
+            txtPassword.Size = new Size(319, 32);
+            txtPassword.TabIndex = 5;
             // 
             // dataGridView1
             // 
@@ -138,8 +138,8 @@
             Controls.Add(btnLogin);
             Controls.Add(cbShowPass);
             Controls.Add(dataGridView1);
-            Controls.Add(tbPassword);
-            Controls.Add(tbEmail);
+            Controls.Add(txtPassword);
+            Controls.Add(txtEmail);
             Controls.Add(lbRecent);
             Controls.Add(lbTotal);
             Controls.Add(lbPassword);
@@ -158,8 +158,8 @@
         private System.Windows.Forms.Label lbPassword;
         private System.Windows.Forms.Label lbTotal;
         private System.Windows.Forms.Label lbRecent;
-        private System.Windows.Forms.TextBox tbEmail;
-        private System.Windows.Forms.TextBox tbPassword;
+        private System.Windows.Forms.TextBox txtEmail;
+        private System.Windows.Forms.TextBox txtPassword;
         private System.Windows.Forms.DataGridView dataGridView1;
         private CheckBox cbShowPass;
         private Button btnLogin;

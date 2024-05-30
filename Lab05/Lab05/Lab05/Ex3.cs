@@ -30,8 +30,8 @@ namespace Lab05
 
             string server = "pop.gmail.com";
             int port = 995;
-            string username = tbEmail.Text;
-            string password = tbPassword.Text;
+            string username = txtEmail.Text;
+            string password = txtPassword.Text;
             int limit = 5;
 
             pop3Client = new Pop3Client();

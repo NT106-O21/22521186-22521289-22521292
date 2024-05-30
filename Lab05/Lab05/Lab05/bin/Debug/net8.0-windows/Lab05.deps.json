@@ -8,9 +8,12 @@
     ".NETCoreApp,Version=v8.0": {
       "Lab05/1.0.0": {
         "dependencies": {
+          "ICSharpCode.SharpZipLib.Patched": "1.2.0.9",
+          "ICSharpCode.SharpZipLib.dll": "0.85.4.369",
           "MailKit": "4.6.0",
           "MimeKit": "4.6.0",
-          "Newtonsoft.Json": "13.0.3"
+          "Newtonsoft.Json": "13.0.3",
+          "OpenPop": "2.0.6.2"
         },
         "runtime": {
           "Lab05.dll": {}
@@ -21,6 +24,15 @@
           "lib/net6.0/BouncyCastle.Cryptography.dll": {
             "assemblyVersion": "2.0.0.0",
             "fileVersion": "2.3.1.17862"
+          }
+        }
+      },
+      "ICSharpCode.SharpZipLib.dll/0.85.4.369": {},
+      "ICSharpCode.SharpZipLib.Patched/1.2.0.9": {
+        "runtime": {
+          "lib/netstandard2.0/ICSharpCode.SharpZipLib.dll": {
+            "assemblyVersion": "1.2.0.7",
+            "fileVersion": "1.2.0.7"
           }
         }
       },
@@ -55,6 +67,14 @@
           }
         }
       },
+      "OpenPop/2.0.6.2": {
+        "runtime": {
+          "lib/net20/OpenPop.dll": {
+            "assemblyVersion": "2.0.6.2",
+            "fileVersion": "2.0.6.2"
+          }
+        }
+      },
       "System.Formats.Asn1/8.0.0": {},
       "System.Security.Cryptography.Pkcs/8.0.0": {
         "dependencies": {
@@ -76,6 +96,20 @@
       "path": "bouncycastle.cryptography/2.3.1",
       "hashPath": "bouncycastle.cryptography.2.3.1.nupkg.sha512"
     },
+    "ICSharpCode.SharpZipLib.dll/0.85.4.369": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HrJHR5IQoTXXQZgoGZZiu2oYw7V4FdjhwVLwWhV4G+9Xe9wo4MB+n7OaG96efyEJ2PFm4KhCbWNr54HWFdyt2A==",
+      "path": "icsharpcode.sharpziplib.dll/0.85.4.369",
+      "hashPath": "icsharpcode.sharpziplib.dll.0.85.4.369.nupkg.sha512"
+    },
+    "ICSharpCode.SharpZipLib.Patched/1.2.0.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JRp8z5klRmzZ0wXDC2JApxTigFrjXzN6zOus8KiCj8XzoztOZWgh5Gl1Fl3OXelRn7pDoCwx/6Ai/eU6AohFKA==",
+      "path": "icsharpcode.sharpziplib.patched/1.2.0.9",
+      "hashPath": "icsharpcode.sharpziplib.patched.1.2.0.9.nupkg.sha512"
+    },
     "MailKit/4.6.0": {
       "type": "package",
       "serviceable": true,
@@ -96,6 +130,13 @@
       "sha512": "sha512-HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
       "path": "newtonsoft.json/13.0.3",
       "hashPath": "newtonsoft.json.13.0.3.nupkg.sha512"
+    },
+    "OpenPop/2.0.6.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yttOvuqcVV8JQf6RxJ8yB3mQgCP5zlhT7941VK4EsdhtvD6xjfsUKsIkozkAI5o4VdHmtTGVFfeK2rC8aMVFmw==",
+      "path": "openpop/2.0.6.2",
+      "hashPath": "openpop.2.0.6.2.nupkg.sha512"
     },
     "System.Formats.Asn1/8.0.0": {
       "type": "package",

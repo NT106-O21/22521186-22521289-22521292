@@ -63,10 +63,6 @@ C:\Users\quanp\source\repos\22521186-22521289-22521292\Lab05\Lab05\Lab05\obj\Deb
 C:\Users\quanp\source\repos\22521186-22521289-22521292\Lab05\Lab05\Lab05\obj\Debug\net8.0-windows\Lab05.Ex2.resources
 C:\Users\quanp\source\repos\22521186-22521289-22521292\Lab05\Lab05\Lab05\obj\Debug\net8.0-windows\Lab05.Ex3.resources
 C:\Users\quanp\source\repos\22521186-22521289-22521292\Lab05\Lab05\Lab05\obj\Debug\net8.0-windows\Lab05.Ex4.resources
-C:\Users\quanp\source\repos\22521186-22521289-22521292\Lab05\Lab05\Lab05\obj\Debug\net8.0-windows\Lab05._7_ChosenFood.resources
-C:\Users\quanp\source\repos\22521186-22521289-22521292\Lab05\Lab05\Lab05\obj\Debug\net8.0-windows\Lab05._7_FormAdd.resources
-C:\Users\quanp\source\repos\22521186-22521289-22521292\Lab05\Lab05\Lab05\obj\Debug\net8.0-windows\Lab05._7_FormDangKy.resources
-C:\Users\quanp\source\repos\22521186-22521289-22521292\Lab05\Lab05\Lab05\obj\Debug\net8.0-windows\Lab05._7_FormDangNhap.resources
 C:\Users\quanp\source\repos\22521186-22521289-22521292\Lab05\Lab05\Lab05\obj\Debug\net8.0-windows\Lab05.Ex5.resources
 C:\Users\quanp\source\repos\22521186-22521289-22521292\Lab05\Lab05\Lab05\obj\Debug\net8.0-windows\Lab05.Ex6.resources
 C:\Users\quanp\source\repos\22521186-22521289-22521292\Lab05\Lab05\Lab05\obj\Debug\net8.0-windows\Lab05.Ex6_MailDetail.resources
@@ -97,3 +93,11 @@ C:\LTMCB\GitHub\22521186-22521289-22521292\Lab05\Lab05\Lab05\obj\Debug\net8.0-wi
 C:\LTMCB\GitHub\22521186-22521289-22521292\Lab05\Lab05\Lab05\obj\Debug\net8.0-windows\Lab05.Ex6_MailDetail.resources
 C:\LTMCB\GitHub\22521186-22521289-22521292\Lab05\Lab05\Lab05\obj\Debug\net8.0-windows\Lab05.Ex6_SendMail.resources
 C:\LTMCB\GitHub\22521186-22521289-22521292\Lab05\Lab05\Lab05\obj\Debug\net8.0-windows\Lab05.Ex5_InviteForm.resources
+C:\Users\quanp\source\repos\22521186-22521289-22521292\Lab05\Lab05\Lab05\obj\Debug\net8.0-windows\Lab05.Ex5_ChosenFood.resources
+C:\Users\quanp\source\repos\22521186-22521289-22521292\Lab05\Lab05\Lab05\obj\Debug\net8.0-windows\Lab05.Ex5_EmailConfigForm.resources
+C:\Users\quanp\source\repos\22521186-22521289-22521292\Lab05\Lab05\Lab05\obj\Debug\net8.0-windows\Lab05.Ex5_FormAdd.resources
+C:\Users\quanp\source\repos\22521186-22521289-22521292\Lab05\Lab05\Lab05\obj\Debug\net8.0-windows\Lab05.Ex5_FormDangKy.resources
+C:\Users\quanp\source\repos\22521186-22521289-22521292\Lab05\Lab05\Lab05\obj\Debug\net8.0-windows\Lab05.Ex5_FormDangNhap.resources
+C:\Users\quanp\source\repos\22521186-22521289-22521292\Lab05\Lab05\Lab05\obj\Debug\net8.0-windows\Lab05.Ex5_InviteForm.resources
+C:\Users\quanp\source\repos\22521186-22521289-22521292\Lab05\Lab05\Lab05\bin\Debug\net8.0-windows\ICSharpCode.SharpZipLib.dll
+C:\Users\quanp\source\repos\22521186-22521289-22521292\Lab05\Lab05\Lab05\bin\Debug\net8.0-windows\OpenPop.dll
