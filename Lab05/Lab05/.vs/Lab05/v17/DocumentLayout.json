@@ -1,33 +1,57 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\LTMCB\\GitHub\\22521186-22521289-22521292\\Lab05\\Lab05\\",
+  "WorkspaceRootPath": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Lab05\\Lab05\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C3A86E15-7DE3-4024-8E27-F2B353CE19A0}|Lab05\\Lab05.csproj|c:\\ltmcb\\github\\22521186-22521289-22521292\\lab05\\lab05\\lab05\\ex5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C3A86E15-7DE3-4024-8E27-F2B353CE19A0}|Lab05\\Lab05.csproj|c:\\users\\quanp\\source\\repos\\22521186-22521289-22521292\\lab05\\lab05\\lab05\\ex4_display.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3A86E15-7DE3-4024-8E27-F2B353CE19A0}|Lab05\\Lab05.csproj|solutionrelative:lab05\\ex4_display.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3A86E15-7DE3-4024-8E27-F2B353CE19A0}|Lab05\\Lab05.csproj|c:\\users\\quanp\\source\\repos\\22521186-22521289-22521292\\lab05\\lab05\\lab05\\ex4_display.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3A86E15-7DE3-4024-8E27-F2B353CE19A0}|Lab05\\Lab05.csproj|solutionrelative:lab05\\ex4_display.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3A86E15-7DE3-4024-8E27-F2B353CE19A0}|Lab05\\Lab05.csproj|c:\\users\\quanp\\source\\repos\\22521186-22521289-22521292\\lab05\\lab05\\lab05\\ex4_detail.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3A86E15-7DE3-4024-8E27-F2B353CE19A0}|Lab05\\Lab05.csproj|solutionrelative:lab05\\ex4_detail.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3A86E15-7DE3-4024-8E27-F2B353CE19A0}|Lab05\\Lab05.csproj|c:\\users\\quanp\\source\\repos\\22521186-22521289-22521292\\lab05\\lab05\\lab05\\ex4_detail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3A86E15-7DE3-4024-8E27-F2B353CE19A0}|Lab05\\Lab05.csproj|solutionrelative:lab05\\ex4_detail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3A86E15-7DE3-4024-8E27-F2B353CE19A0}|Lab05\\Lab05.csproj|c:\\users\\quanp\\source\\repos\\22521186-22521289-22521292\\lab05\\lab05\\lab05\\ex4.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3A86E15-7DE3-4024-8E27-F2B353CE19A0}|Lab05\\Lab05.csproj|solutionrelative:lab05\\ex4.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3A86E15-7DE3-4024-8E27-F2B353CE19A0}|Lab05\\Lab05.csproj|c:\\users\\quanp\\source\\repos\\22521186-22521289-22521292\\lab05\\lab05\\lab05\\ex4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3A86E15-7DE3-4024-8E27-F2B353CE19A0}|Lab05\\Lab05.csproj|solutionrelative:lab05\\ex4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3A86E15-7DE3-4024-8E27-F2B353CE19A0}|Lab05\\Lab05.csproj|c:\\users\\quanp\\source\\repos\\22521186-22521289-22521292\\lab05\\lab05\\lab05\\ex5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C3A86E15-7DE3-4024-8E27-F2B353CE19A0}|Lab05\\Lab05.csproj|solutionrelative:lab05\\ex5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3A86E15-7DE3-4024-8E27-F2B353CE19A0}|Lab05\\Lab05.csproj|C:\\LTMCB\\GitHub\\22521186-22521289-22521292\\Lab05\\Lab05\\lab05\\foodview.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C3A86E15-7DE3-4024-8E27-F2B353CE19A0}|Lab05\\Lab05.csproj|c:\\users\\quanp\\source\\repos\\22521186-22521289-22521292\\lab05\\lab05\\lab05\\foodview.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C3A86E15-7DE3-4024-8E27-F2B353CE19A0}|Lab05\\Lab05.csproj|solutionrelative:lab05\\foodview.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3A86E15-7DE3-4024-8E27-F2B353CE19A0}|Lab05\\Lab05.csproj|C:\\LTMCB\\GitHub\\22521186-22521289-22521292\\Lab05\\Lab05\\lab05\\foodview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C3A86E15-7DE3-4024-8E27-F2B353CE19A0}|Lab05\\Lab05.csproj|c:\\users\\quanp\\source\\repos\\22521186-22521289-22521292\\lab05\\lab05\\lab05\\foodview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C3A86E15-7DE3-4024-8E27-F2B353CE19A0}|Lab05\\Lab05.csproj|solutionrelative:lab05\\foodview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3A86E15-7DE3-4024-8E27-F2B353CE19A0}|Lab05\\Lab05.csproj|C:\\LTMCB\\GitHub\\22521186-22521289-22521292\\Lab05\\Lab05\\lab05\\fooditem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C3A86E15-7DE3-4024-8E27-F2B353CE19A0}|Lab05\\Lab05.csproj|c:\\users\\quanp\\source\\repos\\22521186-22521289-22521292\\lab05\\lab05\\lab05\\fooditem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C3A86E15-7DE3-4024-8E27-F2B353CE19A0}|Lab05\\Lab05.csproj|solutionrelative:lab05\\fooditem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3A86E15-7DE3-4024-8E27-F2B353CE19A0}|Lab05\\Lab05.csproj|C:\\LTMCB\\GitHub\\22521186-22521289-22521292\\Lab05\\Lab05\\lab05\\ex5-formdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C3A86E15-7DE3-4024-8E27-F2B353CE19A0}|Lab05\\Lab05.csproj|c:\\users\\quanp\\source\\repos\\22521186-22521289-22521292\\lab05\\lab05\\lab05\\ex5-formdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C3A86E15-7DE3-4024-8E27-F2B353CE19A0}|Lab05\\Lab05.csproj|solutionrelative:lab05\\ex5-formdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3A86E15-7DE3-4024-8E27-F2B353CE19A0}|Lab05\\Lab05.csproj|C:\\LTMCB\\GitHub\\22521186-22521289-22521292\\Lab05\\Lab05\\lab05\\ex5-formdangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C3A86E15-7DE3-4024-8E27-F2B353CE19A0}|Lab05\\Lab05.csproj|c:\\users\\quanp\\source\\repos\\22521186-22521289-22521292\\lab05\\lab05\\lab05\\ex5-formdangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C3A86E15-7DE3-4024-8E27-F2B353CE19A0}|Lab05\\Lab05.csproj|solutionrelative:lab05\\ex5-formdangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3A86E15-7DE3-4024-8E27-F2B353CE19A0}|Lab05\\Lab05.csproj|C:\\LTMCB\\GitHub\\22521186-22521289-22521292\\Lab05\\Lab05\\lab05\\ex5-formdangky.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C3A86E15-7DE3-4024-8E27-F2B353CE19A0}|Lab05\\Lab05.csproj|c:\\users\\quanp\\source\\repos\\22521186-22521289-22521292\\lab05\\lab05\\lab05\\ex5-formdangky.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C3A86E15-7DE3-4024-8E27-F2B353CE19A0}|Lab05\\Lab05.csproj|solutionrelative:lab05\\ex5-formdangky.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -38,15 +62,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Bookmark",
@@ -62,40 +94,100 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Ex5.cs",
-              "DocumentMoniker": "C:\\LTMCB\\GitHub\\22521186-22521289-22521292\\Lab05\\Lab05\\Lab05\\Ex5.cs",
-              "RelativeDocumentMoniker": "Lab05\\Ex5.cs",
-              "ToolTip": "C:\\LTMCB\\GitHub\\22521186-22521289-22521292\\Lab05\\Lab05\\Lab05\\Ex5.cs",
-              "RelativeToolTip": "Lab05\\Ex5.cs",
-              "ViewState": "AQIAAL0AAAAAAAAAAAAAAM0AAAAiAAAA",
+              "Title": "Ex4_Display.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Lab05\\Lab05\\Lab05\\Ex4_Display.Designer.cs",
+              "RelativeDocumentMoniker": "Lab05\\Ex4_Display.Designer.cs",
+              "ToolTip": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Lab05\\Lab05\\Lab05\\Ex4_Display.Designer.cs",
+              "RelativeToolTip": "Lab05\\Ex4_Display.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-29T14:38:22.218Z",
+              "WhenOpened": "2024-05-30T02:42:34.356Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Ex4_Display.cs",
+              "DocumentMoniker": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Lab05\\Lab05\\Lab05\\Ex4_Display.cs",
+              "RelativeDocumentMoniker": "Lab05\\Ex4_Display.cs",
+              "ToolTip": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Lab05\\Lab05\\Lab05\\Ex4_Display.cs",
+              "RelativeToolTip": "Lab05\\Ex4_Display.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T02:42:26.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Ex4_Detail.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Lab05\\Lab05\\Lab05\\Ex4_Detail.Designer.cs",
+              "RelativeDocumentMoniker": "Lab05\\Ex4_Detail.Designer.cs",
+              "ToolTip": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Lab05\\Lab05\\Lab05\\Ex4_Detail.Designer.cs",
+              "RelativeToolTip": "Lab05\\Ex4_Detail.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T02:42:13.079Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Ex4_Detail.cs",
+              "DocumentMoniker": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Lab05\\Lab05\\Lab05\\Ex4_Detail.cs",
+              "RelativeDocumentMoniker": "Lab05\\Ex4_Detail.cs",
+              "ToolTip": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Lab05\\Lab05\\Lab05\\Ex4_Detail.cs",
+              "RelativeToolTip": "Lab05\\Ex4_Detail.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T02:42:06.702Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Ex4.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Lab05\\Lab05\\Lab05\\Ex4.Designer.cs",
+              "RelativeDocumentMoniker": "Lab05\\Ex4.Designer.cs",
+              "ToolTip": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Lab05\\Lab05\\Lab05\\Ex4.Designer.cs",
+              "RelativeToolTip": "Lab05\\Ex4.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T02:41:58.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Ex4.cs",
+              "DocumentMoniker": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Lab05\\Lab05\\Lab05\\Ex4.cs",
+              "RelativeDocumentMoniker": "Lab05\\Ex4.cs",
+              "ToolTip": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Lab05\\Lab05\\Lab05\\Ex4.cs",
+              "RelativeToolTip": "Lab05\\Ex4.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T02:41:03.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Ex5.cs",
+              "DocumentMoniker": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Lab05\\Lab05\\Lab05\\Ex5.cs",
+              "RelativeDocumentMoniker": "Lab05\\Ex5.cs",
+              "ToolTip": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Lab05\\Lab05\\Lab05\\Ex5.cs",
+              "RelativeToolTip": "Lab05\\Ex5.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAMQAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T14:38:22.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "FoodView.Designer.cs",
-              "DocumentMoniker": "C:\\LTMCB\\GitHub\\22521186-22521289-22521292\\Lab05\\Lab05\\Lab05\\FoodView.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Lab05\\Lab05\\Lab05\\FoodView.Designer.cs",
               "RelativeDocumentMoniker": "Lab05\\FoodView.Designer.cs",
-              "ToolTip": "C:\\LTMCB\\GitHub\\22521186-22521289-22521292\\Lab05\\Lab05\\Lab05\\FoodView.Designer.cs",
+              "ToolTip": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Lab05\\Lab05\\Lab05\\FoodView.Designer.cs",
               "RelativeToolTip": "Lab05\\FoodView.Designer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -103,11 +195,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "FoodView.cs",
-              "DocumentMoniker": "C:\\LTMCB\\GitHub\\22521186-22521289-22521292\\Lab05\\Lab05\\Lab05\\FoodView.cs",
+              "DocumentMoniker": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Lab05\\Lab05\\Lab05\\FoodView.cs",
               "RelativeDocumentMoniker": "Lab05\\FoodView.cs",
-              "ToolTip": "C:\\LTMCB\\GitHub\\22521186-22521289-22521292\\Lab05\\Lab05\\Lab05\\FoodView.cs",
+              "ToolTip": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Lab05\\Lab05\\Lab05\\FoodView.cs",
               "RelativeToolTip": "Lab05\\FoodView.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -115,11 +207,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "FoodItem.cs",
-              "DocumentMoniker": "C:\\LTMCB\\GitHub\\22521186-22521289-22521292\\Lab05\\Lab05\\Lab05\\FoodItem.cs",
+              "DocumentMoniker": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Lab05\\Lab05\\Lab05\\FoodItem.cs",
               "RelativeDocumentMoniker": "Lab05\\FoodItem.cs",
-              "ToolTip": "C:\\LTMCB\\GitHub\\22521186-22521289-22521292\\Lab05\\Lab05\\Lab05\\FoodItem.cs",
+              "ToolTip": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Lab05\\Lab05\\Lab05\\FoodItem.cs",
               "RelativeToolTip": "Lab05\\FoodItem.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -127,11 +219,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "Ex5-FormDangNhap.cs",
-              "DocumentMoniker": "C:\\LTMCB\\GitHub\\22521186-22521289-22521292\\Lab05\\Lab05\\Lab05\\Ex5-FormDangNhap.cs",
+              "DocumentMoniker": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Lab05\\Lab05\\Lab05\\Ex5-FormDangNhap.cs",
               "RelativeDocumentMoniker": "Lab05\\Ex5-FormDangNhap.cs",
-              "ToolTip": "C:\\LTMCB\\GitHub\\22521186-22521289-22521292\\Lab05\\Lab05\\Lab05\\Ex5-FormDangNhap.cs",
+              "ToolTip": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Lab05\\Lab05\\Lab05\\Ex5-FormDangNhap.cs",
               "RelativeToolTip": "Lab05\\Ex5-FormDangNhap.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -139,11 +231,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "Ex5-FormDangKy.cs",
-              "DocumentMoniker": "C:\\LTMCB\\GitHub\\22521186-22521289-22521292\\Lab05\\Lab05\\Lab05\\Ex5-FormDangKy.cs",
+              "DocumentMoniker": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Lab05\\Lab05\\Lab05\\Ex5-FormDangKy.cs",
               "RelativeDocumentMoniker": "Lab05\\Ex5-FormDangKy.cs",
-              "ToolTip": "C:\\LTMCB\\GitHub\\22521186-22521289-22521292\\Lab05\\Lab05\\Lab05\\Ex5-FormDangKy.cs",
+              "ToolTip": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Lab05\\Lab05\\Lab05\\Ex5-FormDangKy.cs",
               "RelativeToolTip": "Lab05\\Ex5-FormDangKy.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -151,11 +243,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "Ex5-FormDangKy.Designer.cs",
-              "DocumentMoniker": "C:\\LTMCB\\GitHub\\22521186-22521289-22521292\\Lab05\\Lab05\\Lab05\\Ex5-FormDangKy.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Lab05\\Lab05\\Lab05\\Ex5-FormDangKy.Designer.cs",
               "RelativeDocumentMoniker": "Lab05\\Ex5-FormDangKy.Designer.cs",
-              "ToolTip": "C:\\LTMCB\\GitHub\\22521186-22521289-22521292\\Lab05\\Lab05\\Lab05\\Ex5-FormDangKy.Designer.cs",
+              "ToolTip": "C:\\Users\\quanp\\source\\repos\\22521186-22521289-22521292\\Lab05\\Lab05\\Lab05\\Ex5-FormDangKy.Designer.cs",
               "RelativeToolTip": "Lab05\\Ex5-FormDangKy.Designer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

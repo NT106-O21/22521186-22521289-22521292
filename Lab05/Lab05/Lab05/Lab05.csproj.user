@@ -34,6 +34,12 @@
     <Compile Update="FoodView.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="Ex4_Detail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Ex4_Display.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="Menu.cs">
       <SubType>Form</SubType>
     </Compile>
