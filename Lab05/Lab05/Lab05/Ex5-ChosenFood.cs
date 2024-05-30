@@ -20,6 +20,9 @@ namespace Lab05
 
         private string accessToken;
         private int chosenid;
+        private string email;
+        private string password;
+        private FoodItem food;
 
         public Ex5_ChosenFood(Ex5 mainForm, string accessToken, int chosenID)
         {
@@ -48,7 +51,9 @@ namespace Lab05
                 var json = JObject.Parse(responseBody);
 
                 FoodItem food = JsonConvert.DeserializeObject<FoodItem>(responseBody);
+                this.food = food;
                 foodView1.SetFoodItem(food);
+                this.Text = "Ăn " + food.ten_mon_an + " đi!!!";
             }
             catch (HttpRequestException httpRequestException)
             {
@@ -66,14 +71,30 @@ namespace Lab05
         {
             if (isconfig == false)
             {
+                MessageBox.Show("Bạn cần cài đặt Email Server để sử dụng tính năng này", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 Ex5_EmailConfigForm form = new Ex5_EmailConfigForm(this);
                 form.ShowDialog();
+            }
+            else
+            {
+                Ex5_InviteForm invite = new Ex5_InviteForm(this, email, password, food);
+                invite.ShowDialog();
             }
         }
 
         public void SetConfigStatus(bool status)
         {
             isconfig = status;
+        }
+
+        public void SetEmail(string email)
+        {
+            this.email = email;
+        }
+
+        public void SetPassword(string password)
+        {
+            this.password = password;
         }
     }
 }

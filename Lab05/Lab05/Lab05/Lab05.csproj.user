@@ -4,6 +4,9 @@
     <Compile Update="Ex5-ChosenFood.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Ex5-EmailConfigForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Ex5-FormAdd.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -26,6 +29,9 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Ex4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Ex5-InviteForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Ex5.cs">

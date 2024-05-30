@@ -41,6 +41,8 @@ namespace Lab05
                 }
 
                 mainform.SetConfigStatus(true);
+                mainform.SetEmail(username);
+                mainform.SetPassword(password);
 
                 MessageBox.Show("Kết nối tới Email Server thành công!", "Thành công", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }

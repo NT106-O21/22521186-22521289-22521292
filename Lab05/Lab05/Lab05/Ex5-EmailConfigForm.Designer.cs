@@ -43,7 +43,7 @@
             groupBox2 = new GroupBox();
             txtPassword = new TextBox();
             txtUsername = new TextBox();
-            textBox5 = new TextBox();
+            txtNickname = new TextBox();
             label8 = new Label();
             label7 = new Label();
             label6 = new Label();
@@ -125,7 +125,7 @@
             txtSmtpServer.ReadOnly = true;
             txtSmtpServer.Size = new Size(192, 27);
             txtSmtpServer.TabIndex = 6;
-            txtSmtpServer.Text = "smtp@gmail.com";
+            txtSmtpServer.Text = "smtp.gmail.com";
             // 
             // txtImapPort
             // 
@@ -143,7 +143,7 @@
             txtImapServer.ReadOnly = true;
             txtImapServer.Size = new Size(192, 27);
             txtImapServer.TabIndex = 4;
-            txtImapServer.Text = "imap@gmail.com";
+            txtImapServer.Text = "imap.gmail.com";
             // 
             // label5
             // 
@@ -185,7 +185,7 @@
             // 
             groupBox2.Controls.Add(txtPassword);
             groupBox2.Controls.Add(txtUsername);
-            groupBox2.Controls.Add(textBox5);
+            groupBox2.Controls.Add(txtNickname);
             groupBox2.Controls.Add(label8);
             groupBox2.Controls.Add(label7);
             groupBox2.Controls.Add(label6);
@@ -212,13 +212,13 @@
             txtUsername.TabIndex = 9;
             txtUsername.Text = "wibitoichoi@gmail.com";
             // 
-            // textBox5
+            // txtNickname
             // 
-            textBox5.Location = new Point(94, 36);
-            textBox5.Name = "textBox5";
-            textBox5.ReadOnly = true;
-            textBox5.Size = new Size(316, 27);
-            textBox5.TabIndex = 8;
+            txtNickname.Location = new Point(94, 36);
+            txtNickname.Name = "txtNickname";
+            txtNickname.ReadOnly = true;
+            txtNickname.Size = new Size(316, 27);
+            txtNickname.TabIndex = 8;
             // 
             // label8
             // 
@@ -268,6 +268,7 @@
             btnTestConnection.TabIndex = 9;
             btnTestConnection.Text = "Test connection";
             btnTestConnection.UseVisualStyleBackColor = false;
+            btnTestConnection.Click += btnTestConnection_Click;
             // 
             // Ex5_EmailConfigForm
             // 
@@ -282,7 +283,7 @@
             Controls.Add(groupBox1);
             Controls.Add(label1);
             Name = "Ex5_EmailConfigForm";
-            Text = "Ex5_EmailConfigForm";
+            Text = "Email Setting";
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
             groupBox2.ResumeLayout(false);
@@ -308,7 +309,7 @@
         private Button btnTestConnection;
         private TextBox txtPassword;
         private TextBox txtUsername;
-        private TextBox textBox5;
+        private TextBox txtNickname;
         private Label label8;
         private Label label7;
         private Label label6;

@@ -32,7 +32,6 @@ namespace Lab05
         public Ex5()
         {
             InitializeComponent();
-
         }
 
         private async void Ex5_Load(object sender, EventArgs e)

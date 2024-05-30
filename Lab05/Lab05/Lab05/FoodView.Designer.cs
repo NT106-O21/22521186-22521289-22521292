@@ -123,6 +123,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = SystemColors.ButtonFace;
             Controls.Add(labelContributor);
             Controls.Add(labelAddress);
             Controls.Add(labelPrice);
