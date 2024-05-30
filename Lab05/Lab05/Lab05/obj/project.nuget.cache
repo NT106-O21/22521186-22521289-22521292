@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "mJeIMEoniju56gAAPT9KCH6YCxXFj4IgoBRAY7j8RbBEera9exIKJDlJdDb9fqjfuQkZXttwC5L4w0Y/7Et28g==",
+  "dgSpecHash": "IBrTZM6ZwlV1V50FyKaz4WfpbHbbTYLBhGBTjGn8OeHeV8UQVc+Jyf5B2j3inBfTO5+OIOixN2EsHbDqoOg0oA==",
   "success": true,
-  "projectFilePath": "E:\\GitHub\\UIT_VuBaTai\\NT106.O21\\22521186-22521289-22521292\\Lab05\\Lab05\\Lab05\\Lab05.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\LTMCB\\GitHub\\22521186-22521289-22521292\\Lab05\\Lab05\\Lab05\\Lab05.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
