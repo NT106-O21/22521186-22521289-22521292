@@ -30,14 +30,14 @@
         {
             lb_mail = new Label();
             lb_pass = new Label();
-            txt_password = new TextBox();
-            txt_email = new TextBox();
-            btn_login = new Button();
+            txtPassword = new TextBox();
+            txtEmail = new TextBox();
+            btnLogin = new Button();
             lb_total = new Label();
             lb_recent = new Label();
             lb_show_total = new Label();
             lb_show_recent = new Label();
-            cb_show_pass = new CheckBox();
+            cbShowPass = new CheckBox();
             dataGridView1 = new DataGridView();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
@@ -60,32 +60,32 @@
             lb_pass.TabIndex = 1;
             lb_pass.Text = "Password:";
             // 
-            // txt_password
+            // txtPassword
             // 
-            txt_password.Location = new Point(115, 73);
-            txt_password.Name = "txt_password";
-            txt_password.PasswordChar = '*';
-            txt_password.Size = new Size(297, 31);
-            txt_password.TabIndex = 2;
-            txt_password.Text = "jhyncclcmqriubui";
+            txtPassword.Location = new Point(115, 73);
+            txtPassword.Name = "txtPassword";
+            txtPassword.PasswordChar = '*';
+            txtPassword.Size = new Size(297, 31);
+            txtPassword.TabIndex = 2;
+            txtPassword.Text = "jhyncclcmqriubui";
             // 
-            // txt_email
+            // txtEmail
             // 
-            txt_email.Location = new Point(115, 21);
-            txt_email.Name = "txt_email";
-            txt_email.Size = new Size(297, 31);
-            txt_email.TabIndex = 3;
-            txt_email.Text = "wibitoichoi@gmail.com";
+            txtEmail.Location = new Point(115, 21);
+            txtEmail.Name = "txtEmail";
+            txtEmail.Size = new Size(297, 31);
+            txtEmail.TabIndex = 3;
+            txtEmail.Text = "wibitoichoi@gmail.com";
             // 
-            // btn_login
+            // btnLogin
             // 
-            btn_login.Location = new Point(560, 30);
-            btn_login.Name = "btn_login";
-            btn_login.Size = new Size(147, 45);
-            btn_login.TabIndex = 4;
-            btn_login.Text = "Login";
-            btn_login.UseVisualStyleBackColor = true;
-            btn_login.Click += btn_login_Click;
+            btnLogin.Location = new Point(560, 30);
+            btnLogin.Name = "btnLogin";
+            btnLogin.Size = new Size(147, 45);
+            btnLogin.TabIndex = 4;
+            btnLogin.Text = "Login";
+            btnLogin.UseVisualStyleBackColor = true;
+            btnLogin.Click += btnLogin_Click;
             // 
             // lb_total
             // 
@@ -121,21 +121,21 @@
             lb_show_recent.Size = new Size(0, 25);
             lb_show_recent.TabIndex = 9;
             // 
-            // cb_show_pass
+            // cbShowPass
             // 
-            cb_show_pass.AutoSize = true;
-            cb_show_pass.Location = new Point(115, 110);
-            cb_show_pass.Name = "cb_show_pass";
-            cb_show_pass.Size = new Size(164, 29);
-            cb_show_pass.TabIndex = 10;
-            cb_show_pass.Text = "Show password";
-            cb_show_pass.UseVisualStyleBackColor = true;
-            cb_show_pass.CheckedChanged += cb_show_pass_CheckedChanged;
+            cbShowPass.AutoSize = true;
+            cbShowPass.Location = new Point(115, 110);
+            cbShowPass.Name = "cbShowPass";
+            cbShowPass.Size = new Size(164, 29);
+            cbShowPass.TabIndex = 10;
+            cbShowPass.Text = "Show password";
+            cbShowPass.UseVisualStyleBackColor = true;
+            cbShowPass.CheckedChanged += cbShowPass_CheckedChanged;
             // 
             // dataGridView1
             // 
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(22, 202);
+            dataGridView1.Location = new Point(12, 196);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 62;
             dataGridView1.Size = new Size(753, 225);
@@ -145,21 +145,20 @@
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(786, 450);
             Controls.Add(dataGridView1);
-            Controls.Add(cb_show_pass);
+            Controls.Add(cbShowPass);
             Controls.Add(lb_show_recent);
             Controls.Add(lb_show_total);
             Controls.Add(lb_recent);
             Controls.Add(lb_total);
-            Controls.Add(btn_login);
-            Controls.Add(txt_email);
-            Controls.Add(txt_password);
+            Controls.Add(btnLogin);
+            Controls.Add(txtEmail);
+            Controls.Add(txtPassword);
             Controls.Add(lb_pass);
             Controls.Add(lb_mail);
             Name = "Ex2";
-            Text = "Form1";
-            Load += Form1_Load;
+            Text = "Ex2";
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
             PerformLayout();
@@ -169,14 +168,14 @@
 
         private Label lb_mail;
         private Label lb_pass;
-        private TextBox txt_password;
-        private TextBox txt_email;
-        private Button btn_login;
+        private TextBox txtPassword;
+        private TextBox txtEmail;
+        private Button btnLogin;
         private Label lb_total;
         private Label lb_recent;
         private Label lb_show_total;
         private Label lb_show_recent;
-        private CheckBox cb_show_pass;
+        private CheckBox cbShowPass;
         private DataGridView dataGridView1;
     }
 }

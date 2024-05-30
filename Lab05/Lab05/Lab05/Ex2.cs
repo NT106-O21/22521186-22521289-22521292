@@ -24,35 +24,26 @@ namespace Lab05
         {
             InitializeComponent();
         }
-        //string server = "imap.gmail.com";
-        //int port = 993;
-        //string gmail = "lukeeucliffeccg@gmail.com";
-        //string password = "ajkohmqcdlgknxle";
-        //int limit = 10;
-        private void Form1_Load(object sender, EventArgs e)
-        {
 
-        }
-
-        private void cb_show_pass_CheckedChanged(object sender, EventArgs e)
+        private void cbShowPass_CheckedChanged(object sender, EventArgs e)
         {
-            if (cb_show_pass.Checked)
+            if (cbShowPass.Checked)
             {
-                txt_password.PasswordChar = '\0';
+                txtPassword.PasswordChar = '\0';
             }
             else
             {
-                txt_password.PasswordChar = '*';
+                txtPassword.PasswordChar = '*';
             }
         }
 
-        private void btn_login_Click(object sender, EventArgs e)
+        private void btnLogin_Click(object sender, EventArgs e)
         {
             dataGridView1.Rows.Clear();
             dataGridView1.Columns.Clear();
             var client = new ImapClient();
             client.Connect("imap.gmail.com", 993, true);
-            client.Authenticate(txt_email.Text, txt_password.Text);
+            client.Authenticate(txtEmail.Text, txtPassword.Text);
             dataGridView1.Columns.Add("Subject", "Subject");
             dataGridView1.Columns.Add("From", "From");
             dataGridView1.Columns.Add("Date", "Date");
