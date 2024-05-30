@@ -28,256 +28,262 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.lb_Tai_Khoan = new System.Windows.Forms.Label();
-            this.lb_Mat_Khau = new System.Windows.Forms.Label();
-            this.txt_Tai_Khoan = new System.Windows.Forms.TextBox();
-            this.txt_Mat_Khau = new System.Windows.Forms.TextBox();
-            this.txt_Port_IMAP = new System.Windows.Forms.TextBox();
-            this.txt_IMAP = new System.Windows.Forms.TextBox();
-            this.lb_Port_IMAP = new System.Windows.Forms.Label();
-            this.lb_IMAP = new System.Windows.Forms.Label();
-            this.txt_Port_SMTP = new System.Windows.Forms.TextBox();
-            this.txt_SMTP = new System.Windows.Forms.TextBox();
-            this.lb_Port_SMTP = new System.Windows.Forms.Label();
-            this.lb_SMTP = new System.Windows.Forms.Label();
-            this.btn_Login = new System.Windows.Forms.Button();
-            this.btn_Logout = new System.Windows.Forms.Button();
-            this.btn_Send = new System.Windows.Forms.Button();
-            this.btn_Refresh = new System.Windows.Forms.Button();
-            this.lv_mails = new System.Windows.Forms.ListView();
-            this.No_of_mail = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.Source = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.Title = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.Time = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.SuspendLayout();
+            lb_Tai_Khoan = new Label();
+            lb_Mat_Khau = new Label();
+            txt_Tai_Khoan = new TextBox();
+            txt_Mat_Khau = new TextBox();
+            txt_Port_IMAP = new TextBox();
+            txt_IMAP = new TextBox();
+            lb_Port_IMAP = new Label();
+            lb_IMAP = new Label();
+            txt_Port_SMTP = new TextBox();
+            txt_SMTP = new TextBox();
+            lb_Port_SMTP = new Label();
+            lb_SMTP = new Label();
+            btn_Login = new Button();
+            btn_Logout = new Button();
+            btn_Send = new Button();
+            btn_Refresh = new Button();
+            lv_mails = new ListView();
+            No_of_mail = new ColumnHeader();
+            Source = new ColumnHeader();
+            Title = new ColumnHeader();
+            Time = new ColumnHeader();
+            SuspendLayout();
             // 
             // lb_Tai_Khoan
             // 
-            this.lb_Tai_Khoan.AutoSize = true;
-            this.lb_Tai_Khoan.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_Tai_Khoan.Location = new System.Drawing.Point(12, 20);
-            this.lb_Tai_Khoan.Name = "lb_Tai_Khoan";
-            this.lb_Tai_Khoan.Size = new System.Drawing.Size(164, 37);
-            this.lb_Tai_Khoan.TabIndex = 0;
-            this.lb_Tai_Khoan.Text = "Tài Khoản";
+            lb_Tai_Khoan.AutoSize = true;
+            lb_Tai_Khoan.Font = new Font("Microsoft Sans Serif", 16F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lb_Tai_Khoan.Location = new Point(13, 25);
+            lb_Tai_Khoan.Name = "lb_Tai_Khoan";
+            lb_Tai_Khoan.Size = new Size(164, 37);
+            lb_Tai_Khoan.TabIndex = 0;
+            lb_Tai_Khoan.Text = "Tài Khoản";
             // 
             // lb_Mat_Khau
             // 
-            this.lb_Mat_Khau.AutoSize = true;
-            this.lb_Mat_Khau.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_Mat_Khau.Location = new System.Drawing.Point(17, 73);
-            this.lb_Mat_Khau.Name = "lb_Mat_Khau";
-            this.lb_Mat_Khau.Size = new System.Drawing.Size(149, 37);
-            this.lb_Mat_Khau.TabIndex = 1;
-            this.lb_Mat_Khau.Text = "Mật khẩu";
+            lb_Mat_Khau.AutoSize = true;
+            lb_Mat_Khau.Font = new Font("Microsoft Sans Serif", 16F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lb_Mat_Khau.Location = new Point(19, 91);
+            lb_Mat_Khau.Name = "lb_Mat_Khau";
+            lb_Mat_Khau.Size = new Size(149, 37);
+            lb_Mat_Khau.TabIndex = 1;
+            lb_Mat_Khau.Text = "Mật khẩu";
             // 
             // txt_Tai_Khoan
             // 
-            this.txt_Tai_Khoan.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_Tai_Khoan.Location = new System.Drawing.Point(174, 18);
-            this.txt_Tai_Khoan.Name = "txt_Tai_Khoan";
-            this.txt_Tai_Khoan.Size = new System.Drawing.Size(555, 44);
-            this.txt_Tai_Khoan.TabIndex = 2;
-            this.txt_Tai_Khoan.Text = "wibitoichoi@gmail.com";
+            txt_Tai_Khoan.Font = new Font("Microsoft Sans Serif", 16F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            txt_Tai_Khoan.Location = new Point(193, 22);
+            txt_Tai_Khoan.Margin = new Padding(3, 4, 3, 4);
+            txt_Tai_Khoan.Name = "txt_Tai_Khoan";
+            txt_Tai_Khoan.Size = new Size(616, 44);
+            txt_Tai_Khoan.TabIndex = 2;
+            txt_Tai_Khoan.Text = "wibitoichoi@gmail.com";
             // 
             // txt_Mat_Khau
             // 
-            this.txt_Mat_Khau.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_Mat_Khau.Location = new System.Drawing.Point(174, 74);
-            this.txt_Mat_Khau.Name = "txt_Mat_Khau";
-            this.txt_Mat_Khau.PasswordChar = '*';
-            this.txt_Mat_Khau.Size = new System.Drawing.Size(555, 44);
-            this.txt_Mat_Khau.TabIndex = 3;
-            this.txt_Mat_Khau.Text = "jhyncclcmqriubui";
+            txt_Mat_Khau.Font = new Font("Microsoft Sans Serif", 16F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            txt_Mat_Khau.Location = new Point(193, 92);
+            txt_Mat_Khau.Margin = new Padding(3, 4, 3, 4);
+            txt_Mat_Khau.Name = "txt_Mat_Khau";
+            txt_Mat_Khau.PasswordChar = '*';
+            txt_Mat_Khau.Size = new Size(616, 44);
+            txt_Mat_Khau.TabIndex = 3;
+            txt_Mat_Khau.Text = "jhyncclcmqriubui";
             // 
             // txt_Port_IMAP
             // 
-            this.txt_Port_IMAP.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_Port_IMAP.Location = new System.Drawing.Point(927, 74);
-            this.txt_Port_IMAP.Name = "txt_Port_IMAP";
-            this.txt_Port_IMAP.Size = new System.Drawing.Size(332, 44);
-            this.txt_Port_IMAP.TabIndex = 7;
-            this.txt_Port_IMAP.Text = "993";
+            txt_Port_IMAP.Font = new Font("Microsoft Sans Serif", 16F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            txt_Port_IMAP.Location = new Point(1030, 92);
+            txt_Port_IMAP.Margin = new Padding(3, 4, 3, 4);
+            txt_Port_IMAP.Name = "txt_Port_IMAP";
+            txt_Port_IMAP.Size = new Size(368, 44);
+            txt_Port_IMAP.TabIndex = 7;
+            txt_Port_IMAP.Text = "993";
             // 
             // txt_IMAP
             // 
-            this.txt_IMAP.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_IMAP.Location = new System.Drawing.Point(927, 18);
-            this.txt_IMAP.Name = "txt_IMAP";
-            this.txt_IMAP.Size = new System.Drawing.Size(332, 44);
-            this.txt_IMAP.TabIndex = 6;
-            this.txt_IMAP.Text = "imap.gmail.com";
+            txt_IMAP.Font = new Font("Microsoft Sans Serif", 16F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            txt_IMAP.Location = new Point(1030, 22);
+            txt_IMAP.Margin = new Padding(3, 4, 3, 4);
+            txt_IMAP.Name = "txt_IMAP";
+            txt_IMAP.Size = new Size(368, 44);
+            txt_IMAP.TabIndex = 6;
+            txt_IMAP.Text = "imap.gmail.com";
             // 
             // lb_Port_IMAP
             // 
-            this.lb_Port_IMAP.AutoSize = true;
-            this.lb_Port_IMAP.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_Port_IMAP.Location = new System.Drawing.Point(824, 76);
-            this.lb_Port_IMAP.Name = "lb_Port_IMAP";
-            this.lb_Port_IMAP.Size = new System.Drawing.Size(76, 37);
-            this.lb_Port_IMAP.TabIndex = 5;
-            this.lb_Port_IMAP.Text = "Port";
+            lb_Port_IMAP.AutoSize = true;
+            lb_Port_IMAP.Font = new Font("Microsoft Sans Serif", 16F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lb_Port_IMAP.Location = new Point(916, 95);
+            lb_Port_IMAP.Name = "lb_Port_IMAP";
+            lb_Port_IMAP.Size = new Size(76, 37);
+            lb_Port_IMAP.TabIndex = 5;
+            lb_Port_IMAP.Text = "Port";
             // 
             // lb_IMAP
             // 
-            this.lb_IMAP.AutoSize = true;
-            this.lb_IMAP.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_IMAP.Location = new System.Drawing.Point(824, 23);
-            this.lb_IMAP.Name = "lb_IMAP";
-            this.lb_IMAP.Size = new System.Drawing.Size(94, 37);
-            this.lb_IMAP.TabIndex = 4;
-            this.lb_IMAP.Text = "IMAP";
+            lb_IMAP.AutoSize = true;
+            lb_IMAP.Font = new Font("Microsoft Sans Serif", 16F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lb_IMAP.Location = new Point(916, 29);
+            lb_IMAP.Name = "lb_IMAP";
+            lb_IMAP.Size = new Size(94, 37);
+            lb_IMAP.TabIndex = 4;
+            lb_IMAP.Text = "IMAP";
             // 
             // txt_Port_SMTP
             // 
-            this.txt_Port_SMTP.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_Port_SMTP.Location = new System.Drawing.Point(1446, 76);
-            this.txt_Port_SMTP.Name = "txt_Port_SMTP";
-            this.txt_Port_SMTP.Size = new System.Drawing.Size(332, 44);
-            this.txt_Port_SMTP.TabIndex = 11;
-            this.txt_Port_SMTP.Text = "587";
+            txt_Port_SMTP.Font = new Font("Microsoft Sans Serif", 16F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            txt_Port_SMTP.Location = new Point(1607, 95);
+            txt_Port_SMTP.Margin = new Padding(3, 4, 3, 4);
+            txt_Port_SMTP.Name = "txt_Port_SMTP";
+            txt_Port_SMTP.Size = new Size(368, 44);
+            txt_Port_SMTP.TabIndex = 11;
+            txt_Port_SMTP.Text = "587";
             // 
             // txt_SMTP
             // 
-            this.txt_SMTP.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_SMTP.Location = new System.Drawing.Point(1446, 20);
-            this.txt_SMTP.Name = "txt_SMTP";
-            this.txt_SMTP.Size = new System.Drawing.Size(332, 44);
-            this.txt_SMTP.TabIndex = 10;
-            this.txt_SMTP.Text = "smtp.gmail.com";
+            txt_SMTP.Font = new Font("Microsoft Sans Serif", 16F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            txt_SMTP.Location = new Point(1607, 25);
+            txt_SMTP.Margin = new Padding(3, 4, 3, 4);
+            txt_SMTP.Name = "txt_SMTP";
+            txt_SMTP.Size = new Size(368, 44);
+            txt_SMTP.TabIndex = 10;
+            txt_SMTP.Text = "smtp.gmail.com";
             // 
             // lb_Port_SMTP
             // 
-            this.lb_Port_SMTP.AutoSize = true;
-            this.lb_Port_SMTP.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_Port_SMTP.Location = new System.Drawing.Point(1335, 73);
-            this.lb_Port_SMTP.Name = "lb_Port_SMTP";
-            this.lb_Port_SMTP.Size = new System.Drawing.Size(76, 37);
-            this.lb_Port_SMTP.TabIndex = 9;
-            this.lb_Port_SMTP.Text = "Port";
+            lb_Port_SMTP.AutoSize = true;
+            lb_Port_SMTP.Font = new Font("Microsoft Sans Serif", 16F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lb_Port_SMTP.Location = new Point(1483, 91);
+            lb_Port_SMTP.Name = "lb_Port_SMTP";
+            lb_Port_SMTP.Size = new Size(76, 37);
+            lb_Port_SMTP.TabIndex = 9;
+            lb_Port_SMTP.Text = "Port";
             // 
             // lb_SMTP
             // 
-            this.lb_SMTP.AutoSize = true;
-            this.lb_SMTP.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_SMTP.Location = new System.Drawing.Point(1330, 20);
-            this.lb_SMTP.Name = "lb_SMTP";
-            this.lb_SMTP.Size = new System.Drawing.Size(105, 37);
-            this.lb_SMTP.TabIndex = 8;
-            this.lb_SMTP.Text = "SMTP";
+            lb_SMTP.AutoSize = true;
+            lb_SMTP.Font = new Font("Microsoft Sans Serif", 16F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lb_SMTP.Location = new Point(1478, 25);
+            lb_SMTP.Name = "lb_SMTP";
+            lb_SMTP.Size = new Size(105, 37);
+            lb_SMTP.TabIndex = 8;
+            lb_SMTP.Text = "SMTP";
             // 
             // btn_Login
             // 
-            this.btn_Login.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Login.Location = new System.Drawing.Point(12, 126);
-            this.btn_Login.Name = "btn_Login";
-            this.btn_Login.Size = new System.Drawing.Size(329, 66);
-            this.btn_Login.TabIndex = 12;
-            this.btn_Login.Text = "Login";
-            this.btn_Login.UseVisualStyleBackColor = true;
-            this.btn_Login.Click += new System.EventHandler(this.btn_Login_Click);
+            btn_Login.Font = new Font("Microsoft Sans Serif", 16F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btn_Login.Location = new Point(13, 158);
+            btn_Login.Margin = new Padding(3, 4, 3, 4);
+            btn_Login.Name = "btn_Login";
+            btn_Login.Size = new Size(366, 82);
+            btn_Login.TabIndex = 12;
+            btn_Login.Text = "Login";
+            btn_Login.UseVisualStyleBackColor = true;
+            btn_Login.Click += btn_Login_Click;
             // 
             // btn_Logout
             // 
-            this.btn_Logout.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Logout.Location = new System.Drawing.Point(496, 126);
-            this.btn_Logout.Name = "btn_Logout";
-            this.btn_Logout.Size = new System.Drawing.Size(329, 66);
-            this.btn_Logout.TabIndex = 13;
-            this.btn_Logout.Text = "Logout";
-            this.btn_Logout.UseVisualStyleBackColor = true;
-            this.btn_Logout.Visible = false;
-            this.btn_Logout.Click += new System.EventHandler(this.btn_Logout_Click);
+            btn_Logout.Font = new Font("Microsoft Sans Serif", 16F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btn_Logout.Location = new Point(551, 158);
+            btn_Logout.Margin = new Padding(3, 4, 3, 4);
+            btn_Logout.Name = "btn_Logout";
+            btn_Logout.Size = new Size(366, 82);
+            btn_Logout.TabIndex = 13;
+            btn_Logout.Text = "Logout";
+            btn_Logout.UseVisualStyleBackColor = true;
+            btn_Logout.Visible = false;
+            btn_Logout.Click += btn_Logout_Click;
             // 
             // btn_Send
             // 
-            this.btn_Send.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Send.Location = new System.Drawing.Point(968, 126);
-            this.btn_Send.Name = "btn_Send";
-            this.btn_Send.Size = new System.Drawing.Size(329, 66);
-            this.btn_Send.TabIndex = 14;
-            this.btn_Send.Text = "Send";
-            this.btn_Send.UseVisualStyleBackColor = true;
-            this.btn_Send.Visible = false;
-            this.btn_Send.Click += new System.EventHandler(this.btn_Send_Click);
+            btn_Send.Font = new Font("Microsoft Sans Serif", 16F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btn_Send.Location = new Point(1076, 158);
+            btn_Send.Margin = new Padding(3, 4, 3, 4);
+            btn_Send.Name = "btn_Send";
+            btn_Send.Size = new Size(366, 82);
+            btn_Send.TabIndex = 14;
+            btn_Send.Text = "Send";
+            btn_Send.UseVisualStyleBackColor = true;
+            btn_Send.Visible = false;
+            btn_Send.Click += btn_Send_Click;
             // 
             // btn_Refresh
             // 
-            this.btn_Refresh.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Refresh.Location = new System.Drawing.Point(1446, 126);
-            this.btn_Refresh.Name = "btn_Refresh";
-            this.btn_Refresh.Size = new System.Drawing.Size(332, 66);
-            this.btn_Refresh.TabIndex = 15;
-            this.btn_Refresh.Text = "Refresh";
-            this.btn_Refresh.UseVisualStyleBackColor = true;
-            this.btn_Refresh.Visible = false;
-            this.btn_Refresh.Click += new System.EventHandler(this.btn_Refresh_Click);
+            btn_Refresh.Font = new Font("Microsoft Sans Serif", 16F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btn_Refresh.Location = new Point(1607, 158);
+            btn_Refresh.Margin = new Padding(3, 4, 3, 4);
+            btn_Refresh.Name = "btn_Refresh";
+            btn_Refresh.Size = new Size(369, 82);
+            btn_Refresh.TabIndex = 15;
+            btn_Refresh.Text = "Refresh";
+            btn_Refresh.UseVisualStyleBackColor = true;
+            btn_Refresh.Visible = false;
+            btn_Refresh.Click += btn_Refresh_Click;
             // 
             // lv_mails
             // 
-            this.lv_mails.Alignment = System.Windows.Forms.ListViewAlignment.SnapToGrid;
-            this.lv_mails.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.No_of_mail,
-            this.Source,
-            this.Title,
-            this.Time});
-            this.lv_mails.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lv_mails.FullRowSelect = true;
-            this.lv_mails.HideSelection = false;
-            this.lv_mails.Location = new System.Drawing.Point(12, 215);
-            this.lv_mails.Name = "lv_mails";
-            this.lv_mails.Size = new System.Drawing.Size(1766, 765);
-            this.lv_mails.TabIndex = 16;
-            this.lv_mails.UseCompatibleStateImageBehavior = false;
-            this.lv_mails.View = System.Windows.Forms.View.Details;
-            this.lv_mails.Click += new System.EventHandler(this.lv_mails_Click);
+            lv_mails.Alignment = ListViewAlignment.SnapToGrid;
+            lv_mails.Columns.AddRange(new ColumnHeader[] { No_of_mail, Source, Title, Time });
+            lv_mails.Font = new Font("Microsoft Sans Serif", 16F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lv_mails.FullRowSelect = true;
+            lv_mails.Location = new Point(13, 269);
+            lv_mails.Margin = new Padding(3, 4, 3, 4);
+            lv_mails.Name = "lv_mails";
+            lv_mails.Size = new Size(1962, 955);
+            lv_mails.TabIndex = 16;
+            lv_mails.UseCompatibleStateImageBehavior = false;
+            lv_mails.View = View.Details;
+            lv_mails.Click += lv_mails_Click;
             // 
             // No_of_mail
             // 
-            this.No_of_mail.Text = "#";
+            No_of_mail.Text = "#";
             // 
             // Source
             // 
-            this.Source.Text = "From";
-            this.Source.Width = 432;
+            Source.Text = "From";
+            Source.Width = 432;
             // 
             // Title
             // 
-            this.Title.Text = "Subject";
-            this.Title.Width = 372;
+            Title.Text = "Subject";
+            Title.Width = 372;
             // 
             // Time
             // 
-            this.Time.Text = "Datetime";
-            this.Time.Width = 293;
+            Time.Text = "Datetime";
+            Time.Width = 293;
             // 
-            // Bai4
+            // Ex6
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1790, 992);
-            this.Controls.Add(this.lv_mails);
-            this.Controls.Add(this.btn_Refresh);
-            this.Controls.Add(this.btn_Send);
-            this.Controls.Add(this.btn_Logout);
-            this.Controls.Add(this.btn_Login);
-            this.Controls.Add(this.txt_Port_SMTP);
-            this.Controls.Add(this.txt_SMTP);
-            this.Controls.Add(this.lb_Port_SMTP);
-            this.Controls.Add(this.lb_SMTP);
-            this.Controls.Add(this.txt_Port_IMAP);
-            this.Controls.Add(this.txt_IMAP);
-            this.Controls.Add(this.lb_Port_IMAP);
-            this.Controls.Add(this.lb_IMAP);
-            this.Controls.Add(this.txt_Mat_Khau);
-            this.Controls.Add(this.txt_Tai_Khoan);
-            this.Controls.Add(this.lb_Mat_Khau);
-            this.Controls.Add(this.lb_Tai_Khoan);
-            this.Name = "Bai4";
-            this.Text = "Bai4";
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(1924, 1170);
+            Controls.Add(lv_mails);
+            Controls.Add(btn_Refresh);
+            Controls.Add(btn_Send);
+            Controls.Add(btn_Logout);
+            Controls.Add(btn_Login);
+            Controls.Add(txt_Port_SMTP);
+            Controls.Add(txt_SMTP);
+            Controls.Add(lb_Port_SMTP);
+            Controls.Add(lb_SMTP);
+            Controls.Add(txt_Port_IMAP);
+            Controls.Add(txt_IMAP);
+            Controls.Add(lb_Port_IMAP);
+            Controls.Add(lb_IMAP);
+            Controls.Add(txt_Mat_Khau);
+            Controls.Add(txt_Tai_Khoan);
+            Controls.Add(lb_Mat_Khau);
+            Controls.Add(lb_Tai_Khoan);
+            Margin = new Padding(3, 4, 3, 4);
+            Name = "Ex6";
+            Text = "Ex6";
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion

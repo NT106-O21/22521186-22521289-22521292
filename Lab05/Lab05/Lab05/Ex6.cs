@@ -32,11 +32,11 @@ namespace Lab05
             int port = Convert.ToInt32(txt_Port_IMAP.Text);
             string username = txt_Tai_Khoan.Text;
             string password = txt_Mat_Khau.Text;
-            client.Connect(server, port, true); // imap host, port, use ssl.
-            client.Authenticate(username, password); // gmail accout, app password.
+            client.Connect(server, port, true); 
+            client.Authenticate(username, password); 
             IMailFolder inbox = client.Inbox;
             inbox.Open(FolderAccess.ReadOnly);
-            for (int i = 0; i < Math.Min(15, inbox.Count); i++) //inbox.Count
+            for (int i = 0; i < Math.Min(15, inbox.Count); i++) 
             {
                 MimeMessage message = inbox.GetMessage(i);
                 ListViewItem mail = new ListViewItem();
@@ -78,7 +78,7 @@ namespace Lab05
             lv_mails.Items.Clear();
             IMailFolder inbox = client.Inbox;
             inbox.Open(FolderAccess.ReadOnly);
-            for (int i = 0; i < Math.Min(20, inbox.Count); i++) //inbox.Count
+            for (int i = 0; i < Math.Min(20, inbox.Count); i++) 
             {
                 MimeMessage message = inbox.GetMessage(i);
                 ListViewItem mail = new ListViewItem();

@@ -149,7 +149,7 @@
             Controls.Add(lbEmail);
             Margin = new Padding(4, 5, 4, 5);
             Name = "Ex3";
-            Text = "Form1";
+            Text = "Ex3";
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
             PerformLayout();
