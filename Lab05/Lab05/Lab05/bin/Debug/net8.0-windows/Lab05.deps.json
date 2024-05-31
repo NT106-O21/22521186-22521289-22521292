@@ -8,9 +8,11 @@
     ".NETCoreApp,Version=v8.0": {
       "Lab05/1.0.0": {
         "dependencies": {
+          "HtmlAgilityPack": "1.11.61",
           "ICSharpCode.SharpZipLib.Patched": "1.2.0.9",
           "ICSharpCode.SharpZipLib.dll": "0.85.4.369",
           "MailKit": "4.6.0",
+          "Microsoft.Web.WebView2": "1.0.2535.41",
           "MimeKit": "4.6.0",
           "Newtonsoft.Json": "13.0.3",
           "OpenPop": "2.0.6.2"
@@ -24,6 +26,14 @@
           "lib/net6.0/BouncyCastle.Cryptography.dll": {
             "assemblyVersion": "2.0.0.0",
             "fileVersion": "2.3.1.17862"
+          }
+        }
+      },
+      "HtmlAgilityPack/1.11.61": {
+        "runtime": {
+          "lib/netstandard2.0/HtmlAgilityPack.dll": {
+            "assemblyVersion": "1.11.61.0",
+            "fileVersion": "1.11.61.0"
           }
         }
       },
@@ -44,6 +54,39 @@
           "lib/net8.0/MailKit.dll": {
             "assemblyVersion": "4.6.0.0",
             "fileVersion": "4.6.0.0"
+          }
+        }
+      },
+      "Microsoft.Web.WebView2/1.0.2535.41": {
+        "runtime": {
+          "lib/netcoreapp3.0/Microsoft.Web.WebView2.Core.dll": {
+            "assemblyVersion": "1.0.2535.41",
+            "fileVersion": "1.0.2535.41"
+          },
+          "lib/netcoreapp3.0/Microsoft.Web.WebView2.WinForms.dll": {
+            "assemblyVersion": "1.0.2535.41",
+            "fileVersion": "1.0.2535.41"
+          },
+          "lib/netcoreapp3.0/Microsoft.Web.WebView2.Wpf.dll": {
+            "assemblyVersion": "1.0.2535.41",
+            "fileVersion": "1.0.2535.41"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win-arm64/native/WebView2Loader.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "1.0.2535.41"
+          },
+          "runtimes/win-x64/native/WebView2Loader.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "1.0.2535.41"
+          },
+          "runtimes/win-x86/native/WebView2Loader.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "1.0.2535.41"
           }
         }
       },
@@ -96,6 +139,13 @@
       "path": "bouncycastle.cryptography/2.3.1",
       "hashPath": "bouncycastle.cryptography.2.3.1.nupkg.sha512"
     },
+    "HtmlAgilityPack/1.11.61": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hqZASeEFHS9quHvfZSwaULoAJLWkOYVPiQjc3P9J4pQS8vSYzrP3bxe04Vm7vYYuxwbQhq9hCSVvZVLTyRaNaQ==",
+      "path": "htmlagilitypack/1.11.61",
+      "hashPath": "htmlagilitypack.1.11.61.nupkg.sha512"
+    },
     "ICSharpCode.SharpZipLib.dll/0.85.4.369": {
       "type": "package",
       "serviceable": true,
@@ -116,6 +166,13 @@
       "sha512": "sha512-EJ1L2AtoO9nGZz2AKl2WGGw4pLIpkgEwzpczmZWBLqX0m33ueVA+CJYd9hg52XOvvEj+w5PVzB7yy26E0WHzKQ==",
       "path": "mailkit/4.6.0",
       "hashPath": "mailkit.4.6.0.nupkg.sha512"
+    },
+    "Microsoft.Web.WebView2/1.0.2535.41": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-E3rAxpp2GVtg99wlRBjIM5YeCXFvhPQuHGn/rfxjAJLNbKfiflliljtY/aJBkMmCzf/KmDhTTmU1hoOsEtuW+Q==",
+      "path": "microsoft.web.webview2/1.0.2535.41",
+      "hashPath": "microsoft.web.webview2.1.0.2535.41.nupkg.sha512"
     },
     "MimeKit/4.6.0": {
       "type": "package",
