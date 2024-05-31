@@ -18,5 +18,11 @@ namespace Exercise4
             Server server = new Server();
             server.Show();
         }
+
+        private void btnSuperUser_Click(object sender, EventArgs e)
+        {
+            SuperUser superUser = new SuperUser();
+            superUser.Show();
+        }
     }
 }

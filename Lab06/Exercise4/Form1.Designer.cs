@@ -30,6 +30,7 @@
         {
             btnReceiption1 = new Button();
             btnServer = new Button();
+            btnSuperUser = new Button();
             SuspendLayout();
             // 
             // btnReceiption1
@@ -54,11 +55,23 @@
             btnServer.UseVisualStyleBackColor = true;
             btnServer.Click += btnServer_Click;
             // 
+            // btnSuperUser
+            // 
+            btnSuperUser.Font = new Font("Segoe UI", 13.2000008F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnSuperUser.Location = new Point(356, 12);
+            btnSuperUser.Name = "btnSuperUser";
+            btnSuperUser.Size = new Size(235, 40);
+            btnSuperUser.TabIndex = 4;
+            btnSuperUser.Text = "Server But Weaker";
+            btnSuperUser.UseVisualStyleBackColor = true;
+            btnSuperUser.Click += btnSuperUser_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(484, 76);
+            ClientSize = new Size(602, 76);
+            Controls.Add(btnSuperUser);
             Controls.Add(btnServer);
             Controls.Add(btnReceiption1);
             Name = "Form1";
@@ -70,5 +83,6 @@
 
         private Button btnReceiption1;
         private Button btnServer;
+        private Button btnSuperUser;
     }
 }

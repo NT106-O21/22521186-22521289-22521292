@@ -24,6 +24,7 @@ namespace Exercise4
         double ticketprice = 0;
         IPEndPoint iPEndPoint = new IPEndPoint(IPAddress.Parse("127.0.0.1"), 1024);
         List<Movie> movielist = new List<Movie>();
+        List<Socket> clientlist = new List<Socket>();
         private void Connect()
         {
             socket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
@@ -31,6 +32,7 @@ namespace Exercise4
             try
             {
                 socket.Connect(iPEndPoint);
+                SendAuthenticate();
             }
             catch (Exception e)
             {
@@ -62,6 +64,10 @@ namespace Exercise4
                 MessageBox.Show(e.Message, "Send");
             }
         }
+        private void SendAuthenticate()
+        {
+            socket.Send(Serialize("superuser"));
+        }
         private void Receive()
         {
             try
@@ -82,7 +88,6 @@ namespace Exercise4
             }
             catch (Exception e)
             {
-                /*Close();*/
                 MessageBox.Show(e.Message, "Receive");
             }
         }
@@ -487,6 +492,14 @@ namespace Exercise4
         {
             if (cbbFilmName.Text == "") return;
             ShowSeats(cbbFilmName.Text, cbbRoom.Text);
+        }
+
+        private void btnLock_Click(object sender, EventArgs e)
+        {
+            foreach(var item in clbListUser.Items)
+            {
+                
+            }
         }
     }
 }

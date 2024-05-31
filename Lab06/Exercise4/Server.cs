@@ -17,10 +17,6 @@ namespace Exercise4
 {
     public partial class Server : Form
     {
-        List<Socket> clientlist;
-        List<Movie> movielist = new List<Movie>();
-        string data;
-        double ticketprice = 0;
         public Server()
         {
             CheckForIllegalCrossThreadCalls = false;
@@ -28,9 +24,12 @@ namespace Exercise4
             ReadFileInput();
             AnalyzeData();
         }
-
-        Socket server;
+        Socket server, superuser;
         IPEndPoint IP;
+        List<Socket> clientlist;
+        List<Movie> movielist = new List<Movie>();
+        string data;
+        double ticketprice = 0;
         private void Listen()
         {
             try
@@ -40,7 +39,6 @@ namespace Exercise4
                 server = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
 
                 server.Bind(IP);
-
 
                 Thread listen = new Thread(() =>
                 {
@@ -98,8 +96,13 @@ namespace Exercise4
         {
             foreach(Socket s in clientlist) 
             {
-                    Send(s);
+                Send(s);
             }
+            Send(superuser);
+        }
+        private void SendSocketList()
+        {
+            superuser.Send(Serialize(clientlist.Count));
         }
         private void Reply(Socket client, bool iftrue)
         {
@@ -131,6 +134,14 @@ namespace Exercise4
 
                     string message = (string)Deserialize(receive);
                     message = message.Trim('\0');
+                    if (message.Contains("superuser"))
+                    {
+                        superuser = clientlist[clientlist.Count - 1];
+                        clientlist.Remove(superuser);
+                        rtbLog.Text += date.ToString() + ": Super User Has Connected!" + "\n";
+                        SendSocketList();
+                        continue;
+                    }
 
                     foreach (Socket s in clientlist)
                     {

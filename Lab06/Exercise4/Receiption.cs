@@ -489,5 +489,13 @@ namespace Exercise4
             if (cbbFilmName.Text == "") return;
             ShowSeats(cbbFilmName.Text, cbbRoom.Text);
         }
+        public void btnBuy_SetLock()
+        {
+            this.btnBuy.Visible = false;
+        }
+        public void btnBuy_SetUnlock()
+        {
+            this.btnBuy.Visible = true;
+        }
     }
 }

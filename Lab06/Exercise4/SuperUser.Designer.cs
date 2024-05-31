@@ -167,6 +167,7 @@
             btnLock.TabIndex = 26;
             btnLock.Text = "Lock";
             btnLock.UseVisualStyleBackColor = true;
+            btnLock.Click += btnLock_Click;
             // 
             // btnUnlock
             // 
