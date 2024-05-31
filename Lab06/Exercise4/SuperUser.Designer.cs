@@ -42,6 +42,7 @@
             clbListUser = new CheckedListBox();
             btnLock = new Button();
             btnUnlock = new Button();
+            label6 = new Label();
             SuspendLayout();
             // 
             // label5
@@ -100,6 +101,7 @@
             btnBuy.TabIndex = 19;
             btnBuy.Text = "Đặt mua";
             btnBuy.UseVisualStyleBackColor = true;
+            btnBuy.Click += btnBuy_Click;
             // 
             // txtCheckedBox
             // 
@@ -177,12 +179,24 @@
             btnUnlock.TabIndex = 27;
             btnUnlock.Text = "Unlock";
             btnUnlock.UseVisualStyleBackColor = true;
+            btnUnlock.Click += btnUnlock_Click;
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Font = new Font("Segoe UI", 13F);
+            label6.Location = new Point(351, 338);
+            label6.Name = "label6";
+            label6.Size = new Size(199, 30);
+            label6.TabIndex = 28;
+            label6.Text = "Pleaseee!! Just One";
             // 
             // SuperUser
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(839, 380);
+            Controls.Add(label6);
             Controls.Add(btnUnlock);
             Controls.Add(btnLock);
             Controls.Add(clbListUser);
@@ -200,6 +214,7 @@
             Name = "SuperUser";
             Text = "SuperUser";
             FormClosing += Receiption1_FormClosing;
+            Load += Rct_Load;
             ResumeLayout(false);
             PerformLayout();
         }
@@ -220,5 +235,6 @@
         private CheckedListBox clbListUser;
         private Button btnLock;
         private Button btnUnlock;
+        private Label label6;
     }
 }

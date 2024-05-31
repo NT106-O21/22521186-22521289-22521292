@@ -20,11 +20,11 @@ namespace Exercise4
             Connect();
         }
         string data;
+        int numOfSocket = -1;
         Socket socket;
         double ticketprice = 0;
-        IPEndPoint iPEndPoint = new IPEndPoint(IPAddress.Parse("127.0.0.1"), 1024);
+        IPEndPoint iPEndPoint = new IPEndPoint(IPAddress.Parse("172.20.10.2"), 1024);
         List<Movie> movielist = new List<Movie>();
-        List<Socket> clientlist = new List<Socket>();
         private void Connect()
         {
             socket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
@@ -80,10 +80,19 @@ namespace Exercise4
                     string message = (string)Deserialize(receive);
                     message = message.Trim('\0');
 
-                    data = message;
-                    AnalyzeData();
+                    if (message.Length < 3)
+                    {
+                        numOfSocket = Int32.Parse(message);
+                        ShowReplyFromServer();
+                        continue;
+                    }
+                    else
+                    {
+                        data = message;
+                        AnalyzeData();
 
-                    ShowReplyFromServer();
+                        ShowReplyFromServer();
+                    }
                 }
             }
             catch (Exception e)
@@ -117,6 +126,14 @@ namespace Exercise4
                 {
                     MessageBox.Show("Failed");
                     data.Replace("Failed", "");
+                }
+                if (numOfSocket > 0)
+                {
+                    clbListUser.Items.Clear();
+                    for (int i = 0; i < numOfSocket; i++)
+                    {
+                        clbListUser.Items.Add("Quầy " + (i + 1));
+                    }
                 }
                 ShowData();
             }
@@ -273,25 +290,6 @@ namespace Exercise4
         }
         private int[] AnalyzeRoomData(string room)
         {
-            /*//danh sách từng phòng
-            string[] rooms = room.Split(";");
-            int[] result = new int[rooms.Length];
-            for (int i = 0; i < rooms.Length; i++)
-            {
-                try
-                {
-                    string[] roomName = rooms[i].Split(":");
-                    if (roomName[0] == "" || roomName[0] == "\n" || roomName[0] == " ") continue;
-                    if (roomName[0] == " ") result[i] = 0;
-                    result[i] = int.Parse(roomName[0]);
-                }
-                catch (Exception e)
-                {
-                    MessageBox.Show(e.Message, "RoomData");
-                }
-            }
-            return result;*/
-
             string[] rooms = room.Split(";");
             string[] lastroomsindex = rooms[rooms.Length - 1].Split(':');
             if (lastroomsindex[0] == "") lastroomsindex = rooms[rooms.Length - 2].Split(':');
@@ -496,10 +494,22 @@ namespace Exercise4
 
         private void btnLock_Click(object sender, EventArgs e)
         {
-            foreach(var item in clbListUser.Items)
+            string cked = "";
+            foreach (var item in clbListUser.CheckedItems)
             {
-                
+                cked += item.ToString().Replace("Quầy ", "");
             }
+            socket.Send(Serialize("lock:" + cked));
+        }
+
+        private void btnUnlock_Click(object sender, EventArgs e)
+        {
+            string cked = "";
+            foreach (var item in clbListUser.CheckedItems)
+            {
+                cked += item.ToString().Replace("Quầy ", "");
+            }
+            socket.Send(Serialize("unlock:" + cked));
         }
     }
 }

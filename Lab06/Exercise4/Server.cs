@@ -12,6 +12,7 @@ using System.Windows.Forms;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 using System.Text.RegularExpressions;
 using System.Collections;
+using System.Numerics;
 
 namespace Exercise4
 {
@@ -56,6 +57,7 @@ namespace Exercise4
                             rtbLog.Text += "Quầy " + (clientlist.Count).ToString() + " has connected" + "\n";
 
                             Send(client);
+                            SendSocketList();
 
                             Thread receive = new Thread(() =>
                             {
@@ -69,7 +71,7 @@ namespace Exercise4
                     {
                         IP = new IPEndPoint(IPAddress.Any, 9999);
                         server = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
-                        MessageBox.Show(e.Message);
+                        MessageBox.Show(e.Message, "Listen");
                     }
                 });
                 listen.IsBackground = true;
@@ -102,7 +104,8 @@ namespace Exercise4
         }
         private void SendSocketList()
         {
-            superuser.Send(Serialize(clientlist.Count));
+            if (superuser != null) superuser.Send(Serialize(clientlist.Count.ToString()));
+            else return;
         }
         private void Reply(Socket client, bool iftrue)
         {
@@ -134,42 +137,55 @@ namespace Exercise4
 
                     string message = (string)Deserialize(receive);
                     message = message.Trim('\0');
+
                     if (message.Contains("superuser"))
                     {
                         superuser = clientlist[clientlist.Count - 1];
                         clientlist.Remove(superuser);
                         rtbLog.Text += date.ToString() + ": Super User Has Connected!" + "\n";
                         SendSocketList();
+                        Send(superuser);
                         continue;
                     }
 
-                    foreach (Socket s in clientlist)
+                    else if (message.StartsWith("lock"))
                     {
-                        if (s.RemoteEndPoint == client.RemoteEndPoint)
+                        RLock(message);
+                    }
+                    else if (message.StartsWith("unlock"))
+                    {
+                        RUnLock(message);
+                    }
+                    else
+                    {
+                        foreach (Socket s in clientlist)
                         {
-                            clientname = "Quầy " + i;
-                            break;
+                            if (s.RemoteEndPoint == client.RemoteEndPoint)
+                            {
+                                clientname = "Quầy " + i;
+                                break;
+                            }
+                            i++;
                         }
-                        i++;
-                    }
 
-                    if (message[0] == '\0') continue;
-                    rtbLog.Text += date.ToString();
-                    rtbLog.Text += ": " + clientname;
-                    rtbLog.Text += " : ";
-                    rtbLog.Text += message;
-                    rtbLog.Text += "\n";
+                        if (message[0] == '\0') continue;
+                        rtbLog.Text += date.ToString();
+                        rtbLog.Text += ": " + clientname;
+                        rtbLog.Text += " : ";
+                        rtbLog.Text += message;
+                        rtbLog.Text += "\n";
 
-                    Reply(client, Search(message));
+                        Reply(client, Search(message));
 
-                    if(Search(message) == true)
-                    {
-                        UpdateData(message);
-                    }
-                    ShowDataToInput();
-                    if (Search(message) == false)
-                    {
-                        SendAll();
+                        if (Search(message) == true)
+                        {
+                            UpdateData(message);
+                        }
+                        ShowDataToInput();
+                        if (Search(message) == false)
+                        {
+                            SendAll();
+                        }
                     }
                 }
             }
@@ -178,6 +194,16 @@ namespace Exercise4
                 MessageBox.Show(ex.Message,"Receive");
                 return;
             }
+        }
+        private void RLock(string message)
+        {
+            string item = message.Split(":")[1];
+            clientlist[Int32.Parse(item) - 1].Send(Serialize("lock"));
+        }
+        private void RUnLock(string message)
+        {
+            string item = message.Split(":")[1];
+            clientlist[Int32.Parse(item) - 1].Send(Serialize("unlock"));
         }
         private bool Search(string query)
         {

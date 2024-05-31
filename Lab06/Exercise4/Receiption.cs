@@ -23,7 +23,7 @@ namespace Exercise4
         string data;
         Socket socket;
         double ticketprice = 0;
-        IPEndPoint iPEndPoint = new IPEndPoint(IPAddress.Parse("127.0.0.1"), 1024);
+        IPEndPoint iPEndPoint = new IPEndPoint(IPAddress.Parse("172.20.10.2"), 1024);
         List<Movie> movielist = new List<Movie>();
         private void Connect()
         {
@@ -79,12 +79,26 @@ namespace Exercise4
                     AnalyzeData();
 
                     ShowReplyFromServer();
+                    ReceiveLock(message);
                 }
             }
             catch (Exception e)
             {
                 /*Close();*/
                 MessageBox.Show(e.Message, "Receive");
+            }
+        }
+        private void ReceiveLock(string message)
+        {
+            if (message.StartsWith("lock"))
+            {
+                this.btnBuy.Visible = false;
+                MessageBox.Show("Đã bị khóa!", "Thông báo");
+            }
+            else if (message.StartsWith("unlock"))
+            {
+                this.btnBuy.Visible = true;
+                MessageBox.Show("Đã được mở khóa!", "Thông báo");
             }
         }
         private void ShowReplyFromServer()
