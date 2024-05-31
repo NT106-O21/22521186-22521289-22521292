@@ -58,7 +58,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(325, 76);
+            ClientSize = new Size(484, 76);
             Controls.Add(btnServer);
             Controls.Add(btnReceiption1);
             Name = "Form1";
