@@ -100,7 +100,7 @@ namespace Exercise4
             {
                 Send(s);
             }
-            Send(superuser);
+            if(superuser != null) Send(superuser);
         }
         private void SendSocketList()
         {
@@ -138,7 +138,7 @@ namespace Exercise4
                     string message = (string)Deserialize(receive);
                     message = message.Trim('\0');
 
-                    if (message.Contains("superuser"))
+                    if (message.StartsWith("superuser"))
                     {
                         superuser = clientlist[clientlist.Count - 1];
                         clientlist.Remove(superuser);
