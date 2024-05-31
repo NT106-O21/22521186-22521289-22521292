@@ -22,6 +22,7 @@ namespace Exercise4
         private void btnSuperUser_Click(object sender, EventArgs e)
         {
             SuperUser superUser = new SuperUser();
+            btnSuperUser.Visible = false;
             superUser.Show();
         }
     }
